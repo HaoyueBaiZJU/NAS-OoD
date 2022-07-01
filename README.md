@@ -29,3 +29,17 @@ Python3.6. and the following packages are required to run the scripts:
 
 bash main_search_onestage.sh
 
+
+### References
+If you find this work or code useful, please cite:
+
+```
+@inproceedings{bai2021ood,
+  title={Nas-ood: Neural architecture search for out-of-distribution generalization},
+  author={Bai, Haoyue and Zhou, Fengwei and Hong, Lanqing and Ye, Nanyang and Chan, S-H Gary and Li, Zhenguo},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2021}
+}
+```
+
+
