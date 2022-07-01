@@ -1,0 +1,2505 @@
+2021-02-28 09:46:53,078 {'dataset': 'finger', 'backbone_class': 'ConvNet', 'max_epoch': 100, 'lr': 0.01, 'init_weights': None, 'batch_size': 64, 'image_size': 84, 'prefetch': 16, 'model_type': 'classConcept', 'epsilon': 1e-08, 'pretrain': False, 'targetdomain': 'photo', 'fptargetdomain': 'domain_6', 'gpu': '0', 'root_path': None, 'save_dir': None, 'data_cloud_path': None, 'cloud_save_dir': None, 'concept_path': './saves', 'init_path': './saves/initialization/resnet18.pth', 'save_path': './exp_log/finger-classConcept-ConvNet-pretrain-None/0.01_64_100_2021-02-28 09:46:53', 'save_path1': './finger-classConcept-ConvNet-pretrain-None'}
+2021-02-28 09:46:58,236 epoch 1. train 1/469, loss=0.6908, acc concept=46.8750
+2021-02-28 09:46:58,236 Batch time: 0.806s, current epoch time: 1.882s
+2021-02-28 09:47:02,780 epoch 1. train 51/469, loss=0.0687, acc concept=96.8750
+2021-02-28 09:47:02,780 Batch time: 0.090s, current epoch time: 6.426s
+2021-02-28 09:47:07,290 epoch 1. train 101/469, loss=0.0253, acc concept=98.4375
+2021-02-28 09:47:07,290 Batch time: 0.089s, current epoch time: 10.936s
+2021-02-28 09:47:11,826 epoch 1. train 151/469, loss=0.0426, acc concept=98.4375
+2021-02-28 09:47:11,827 Batch time: 0.096s, current epoch time: 15.472s
+2021-02-28 09:47:16,363 epoch 1. train 201/469, loss=0.0370, acc concept=98.4375
+2021-02-28 09:47:16,364 Batch time: 0.090s, current epoch time: 20.009s
+2021-02-28 09:47:20,867 epoch 1. train 251/469, loss=0.0045, acc concept=100.0000
+2021-02-28 09:47:20,868 Batch time: 0.090s, current epoch time: 24.513s
+2021-02-28 09:47:25,380 epoch 1. train 301/469, loss=0.0014, acc concept=100.0000
+2021-02-28 09:47:25,380 Batch time: 0.090s, current epoch time: 29.026s
+2021-02-28 09:47:29,877 epoch 1. train 351/469, loss=0.0088, acc concept=100.0000
+2021-02-28 09:47:29,878 Batch time: 0.089s, current epoch time: 33.523s
+2021-02-28 09:47:34,377 epoch 1. train 401/469, loss=0.0212, acc concept=100.0000
+2021-02-28 09:47:34,377 Batch time: 0.089s, current epoch time: 38.023s
+2021-02-28 09:47:38,845 epoch 1. train 451/469, loss=0.0169, acc concept=100.0000
+2021-02-28 09:47:38,845 Batch time: 0.085s, current epoch time: 42.491s
+2021-02-28 09:47:40,827 Epoch time: 44.472s
+2021-02-28 09:47:40,827 epoch 1, loss=0.0445, category acc=98.613333
+2021-02-28 09:47:55,833 epoch 1, val acc concept=99.65333333333334
+2021-02-28 09:47:55,837 best epoch 1, best val acc concept=99.6533, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:47:55,837 ETA:59s/1.7h
+2021-02-28 09:47:56,919 epoch 2. train 1/469, loss=0.0008, acc concept=100.0000
+2021-02-28 09:47:56,919 Batch time: 0.092s, current epoch time: 1.082s
+2021-02-28 09:48:01,447 epoch 2. train 51/469, loss=0.0024, acc concept=100.0000
+2021-02-28 09:48:01,447 Batch time: 0.090s, current epoch time: 5.610s
+2021-02-28 09:48:05,951 epoch 2. train 101/469, loss=0.0005, acc concept=100.0000
+2021-02-28 09:48:05,951 Batch time: 0.089s, current epoch time: 10.114s
+2021-02-28 09:48:10,459 epoch 2. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:48:10,459 Batch time: 0.090s, current epoch time: 14.622s
+2021-02-28 09:48:14,958 epoch 2. train 201/469, loss=0.0015, acc concept=100.0000
+2021-02-28 09:48:14,958 Batch time: 0.090s, current epoch time: 19.121s
+2021-02-28 09:48:19,470 epoch 2. train 251/469, loss=0.0022, acc concept=100.0000
+2021-02-28 09:48:19,471 Batch time: 0.089s, current epoch time: 23.633s
+2021-02-28 09:48:23,971 epoch 2. train 301/469, loss=0.0018, acc concept=100.0000
+2021-02-28 09:48:23,971 Batch time: 0.090s, current epoch time: 28.134s
+2021-02-28 09:48:28,464 epoch 2. train 351/469, loss=0.0184, acc concept=98.4375
+2021-02-28 09:48:28,465 Batch time: 0.090s, current epoch time: 32.628s
+2021-02-28 09:48:32,950 epoch 2. train 401/469, loss=0.0027, acc concept=100.0000
+2021-02-28 09:48:32,951 Batch time: 0.089s, current epoch time: 37.114s
+2021-02-28 09:48:37,429 epoch 2. train 451/469, loss=0.0013, acc concept=100.0000
+2021-02-28 09:48:37,430 Batch time: 0.089s, current epoch time: 41.593s
+2021-02-28 09:48:39,044 Epoch time: 43.207s
+2021-02-28 09:48:39,044 epoch 2, loss=0.0072, category acc=99.746667
+2021-02-28 09:48:53,593 epoch 2, val acc concept=98.13333333333334
+2021-02-28 09:48:53,593 best epoch 1, best val acc concept=99.6533, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:48:53,594 ETA:2m/1.6h
+2021-02-28 09:48:54,529 epoch 3. train 1/469, loss=0.0050, acc concept=100.0000
+2021-02-28 09:48:54,529 Batch time: 0.093s, current epoch time: 0.936s
+2021-02-28 09:48:59,175 epoch 3. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:48:59,176 Batch time: 0.090s, current epoch time: 5.582s
+2021-02-28 09:49:03,731 epoch 3. train 101/469, loss=0.0134, acc concept=100.0000
+2021-02-28 09:49:03,731 Batch time: 0.091s, current epoch time: 10.138s
+2021-02-28 09:49:08,301 epoch 3. train 151/469, loss=0.0017, acc concept=100.0000
+2021-02-28 09:49:08,302 Batch time: 0.092s, current epoch time: 14.709s
+2021-02-28 09:49:12,873 epoch 3. train 201/469, loss=0.0025, acc concept=100.0000
+2021-02-28 09:49:12,873 Batch time: 0.093s, current epoch time: 19.280s
+2021-02-28 09:49:17,440 epoch 3. train 251/469, loss=0.0011, acc concept=100.0000
+2021-02-28 09:49:17,441 Batch time: 0.090s, current epoch time: 23.847s
+2021-02-28 09:49:22,001 epoch 3. train 301/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:49:22,001 Batch time: 0.089s, current epoch time: 28.408s
+2021-02-28 09:49:26,562 epoch 3. train 351/469, loss=0.0008, acc concept=100.0000
+2021-02-28 09:49:26,563 Batch time: 0.090s, current epoch time: 32.969s
+2021-02-28 09:49:31,116 epoch 3. train 401/469, loss=0.0008, acc concept=100.0000
+2021-02-28 09:49:31,116 Batch time: 0.091s, current epoch time: 37.522s
+2021-02-28 09:49:35,654 epoch 3. train 451/469, loss=0.0004, acc concept=100.0000
+2021-02-28 09:49:35,655 Batch time: 0.090s, current epoch time: 42.061s
+2021-02-28 09:49:37,283 Epoch time: 43.689s
+2021-02-28 09:49:37,283 epoch 3, loss=0.0028, category acc=99.923333
+2021-02-28 09:49:51,581 epoch 3, val acc concept=99.99333333333334
+2021-02-28 09:49:51,585 best epoch 3, best val acc concept=99.9933, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:49:51,585 ETA:3m/1.6h
+2021-02-28 09:49:52,462 epoch 4. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:49:52,463 Batch time: 0.091s, current epoch time: 0.878s
+2021-02-28 09:49:57,158 epoch 4. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:49:57,158 Batch time: 0.090s, current epoch time: 5.573s
+2021-02-28 09:50:01,657 epoch 4. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:01,657 Batch time: 0.089s, current epoch time: 10.072s
+2021-02-28 09:50:06,152 epoch 4. train 151/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:50:06,152 Batch time: 0.090s, current epoch time: 14.567s
+2021-02-28 09:50:10,652 epoch 4. train 201/469, loss=0.0030, acc concept=100.0000
+2021-02-28 09:50:10,653 Batch time: 0.090s, current epoch time: 19.068s
+2021-02-28 09:50:15,140 epoch 4. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:15,141 Batch time: 0.090s, current epoch time: 23.556s
+2021-02-28 09:50:19,627 epoch 4. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:19,627 Batch time: 0.090s, current epoch time: 28.042s
+2021-02-28 09:50:24,117 epoch 4. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:24,117 Batch time: 0.089s, current epoch time: 32.532s
+2021-02-28 09:50:28,608 epoch 4. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:28,609 Batch time: 0.089s, current epoch time: 37.024s
+2021-02-28 09:50:33,084 epoch 4. train 451/469, loss=0.0004, acc concept=100.0000
+2021-02-28 09:50:33,084 Batch time: 0.089s, current epoch time: 41.499s
+2021-02-28 09:50:34,692 Epoch time: 43.107s
+2021-02-28 09:50:34,692 epoch 4, loss=0.0024, category acc=99.930000
+2021-02-28 09:50:49,615 epoch 4, val acc concept=99.76666666666667
+2021-02-28 09:50:49,616 best epoch 3, best val acc concept=99.9933, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:50:49,616 ETA:4m/1.6h
+2021-02-28 09:50:50,642 epoch 5. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:50,643 Batch time: 0.092s, current epoch time: 1.026s
+2021-02-28 09:50:55,369 epoch 5. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:50:55,370 Batch time: 0.091s, current epoch time: 5.754s
+2021-02-28 09:50:59,944 epoch 5. train 101/469, loss=0.0005, acc concept=100.0000
+2021-02-28 09:50:59,944 Batch time: 0.091s, current epoch time: 10.328s
+2021-02-28 09:51:04,509 epoch 5. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:51:04,509 Batch time: 0.091s, current epoch time: 14.893s
+2021-02-28 09:51:09,059 epoch 5. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:51:09,059 Batch time: 0.091s, current epoch time: 19.443s
+2021-02-28 09:51:13,611 epoch 5. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:51:13,612 Batch time: 0.090s, current epoch time: 23.996s
+2021-02-28 09:51:18,142 epoch 5. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:51:18,143 Batch time: 0.090s, current epoch time: 28.526s
+2021-02-28 09:51:22,702 epoch 5. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:51:22,702 Batch time: 0.091s, current epoch time: 33.086s
+2021-02-28 09:51:27,247 epoch 5. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:51:27,247 Batch time: 0.091s, current epoch time: 37.631s
+2021-02-28 09:51:31,780 epoch 5. train 451/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:51:31,781 Batch time: 0.090s, current epoch time: 42.165s
+2021-02-28 09:51:33,385 Epoch time: 43.768s
+2021-02-28 09:51:33,385 epoch 5, loss=0.0005, category acc=99.996667
+2021-02-28 09:51:48,420 epoch 5, val acc concept=100.0
+2021-02-28 09:51:48,424 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:51:48,424 ETA:5m/1.6h
+2021-02-28 09:51:49,577 epoch 6. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:51:49,578 Batch time: 0.090s, current epoch time: 1.154s
+2021-02-28 09:51:54,128 epoch 6. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:51:54,128 Batch time: 0.091s, current epoch time: 5.704s
+2021-02-28 09:51:58,679 epoch 6. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:51:58,679 Batch time: 0.091s, current epoch time: 10.255s
+2021-02-28 09:52:03,220 epoch 6. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:52:03,221 Batch time: 0.090s, current epoch time: 14.797s
+2021-02-28 09:52:07,763 epoch 6. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:52:07,764 Batch time: 0.090s, current epoch time: 19.340s
+2021-02-28 09:52:12,325 epoch 6. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:12,326 Batch time: 0.091s, current epoch time: 23.902s
+2021-02-28 09:52:16,878 epoch 6. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:16,879 Batch time: 0.094s, current epoch time: 28.455s
+2021-02-28 09:52:21,438 epoch 6. train 351/469, loss=0.0010, acc concept=100.0000
+2021-02-28 09:52:21,439 Batch time: 0.091s, current epoch time: 33.015s
+2021-02-28 09:52:25,995 epoch 6. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:25,995 Batch time: 0.090s, current epoch time: 37.571s
+2021-02-28 09:52:30,519 epoch 6. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:30,519 Batch time: 0.089s, current epoch time: 42.095s
+2021-02-28 09:52:32,129 Epoch time: 43.705s
+2021-02-28 09:52:32,129 epoch 6, loss=0.0003, category acc=100.000000
+2021-02-28 09:52:47,120 epoch 6, val acc concept=100.0
+2021-02-28 09:52:47,121 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:52:47,121 ETA:6m/1.6h
+2021-02-28 09:52:48,311 epoch 7. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:48,312 Batch time: 0.090s, current epoch time: 1.191s
+2021-02-28 09:52:52,847 epoch 7. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:52,847 Batch time: 0.092s, current epoch time: 5.726s
+2021-02-28 09:52:57,412 epoch 7. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:52:57,413 Batch time: 0.091s, current epoch time: 10.292s
+2021-02-28 09:53:01,961 epoch 7. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:01,962 Batch time: 0.091s, current epoch time: 14.840s
+2021-02-28 09:53:06,508 epoch 7. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:06,508 Batch time: 0.089s, current epoch time: 19.387s
+2021-02-28 09:53:11,045 epoch 7. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:11,046 Batch time: 0.091s, current epoch time: 23.925s
+2021-02-28 09:53:15,580 epoch 7. train 301/469, loss=0.0010, acc concept=100.0000
+2021-02-28 09:53:15,581 Batch time: 0.090s, current epoch time: 28.459s
+2021-02-28 09:53:20,121 epoch 7. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:53:20,121 Batch time: 0.090s, current epoch time: 33.000s
+2021-02-28 09:53:24,654 epoch 7. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:53:24,654 Batch time: 0.090s, current epoch time: 37.533s
+2021-02-28 09:53:29,171 epoch 7. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:29,171 Batch time: 0.090s, current epoch time: 42.050s
+2021-02-28 09:53:30,793 Epoch time: 43.672s
+2021-02-28 09:53:30,794 epoch 7, loss=0.0003, category acc=99.996667
+2021-02-28 09:53:45,660 epoch 7, val acc concept=100.0
+2021-02-28 09:53:45,661 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:53:45,661 ETA:7m/1.6h
+2021-02-28 09:53:46,428 epoch 8. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:53:46,429 Batch time: 0.092s, current epoch time: 0.768s
+2021-02-28 09:53:51,367 epoch 8. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:51,367 Batch time: 0.090s, current epoch time: 5.706s
+2021-02-28 09:53:55,917 epoch 8. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:53:55,918 Batch time: 0.090s, current epoch time: 10.256s
+2021-02-28 09:54:00,490 epoch 8. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:54:00,490 Batch time: 0.091s, current epoch time: 14.829s
+2021-02-28 09:54:05,058 epoch 8. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:54:05,059 Batch time: 0.091s, current epoch time: 19.397s
+2021-02-28 09:54:09,615 epoch 8. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:54:09,616 Batch time: 0.092s, current epoch time: 23.955s
+2021-02-28 09:54:14,162 epoch 8. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:54:14,163 Batch time: 0.091s, current epoch time: 28.502s
+2021-02-28 09:54:18,706 epoch 8. train 351/469, loss=0.0026, acc concept=100.0000
+2021-02-28 09:54:18,707 Batch time: 0.091s, current epoch time: 33.046s
+2021-02-28 09:54:23,248 epoch 8. train 401/469, loss=0.0005, acc concept=100.0000
+2021-02-28 09:54:23,249 Batch time: 0.089s, current epoch time: 37.587s
+2021-02-28 09:54:27,782 epoch 8. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:54:27,782 Batch time: 0.090s, current epoch time: 42.121s
+2021-02-28 09:54:29,392 Epoch time: 43.731s
+2021-02-28 09:54:29,392 epoch 8, loss=0.0001, category acc=100.000000
+2021-02-28 09:54:44,377 epoch 8, val acc concept=99.99666666666667
+2021-02-28 09:54:44,378 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:54:44,378 ETA:8m/1.6h
+2021-02-28 09:54:45,500 epoch 9. train 1/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:54:45,501 Batch time: 0.091s, current epoch time: 1.123s
+2021-02-28 09:54:50,086 epoch 9. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:54:50,087 Batch time: 0.092s, current epoch time: 5.709s
+2021-02-28 09:54:54,613 epoch 9. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:54:54,613 Batch time: 0.091s, current epoch time: 10.235s
+2021-02-28 09:54:59,142 epoch 9. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:54:59,143 Batch time: 0.091s, current epoch time: 14.765s
+2021-02-28 09:55:03,670 epoch 9. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:55:03,670 Batch time: 0.090s, current epoch time: 19.293s
+2021-02-28 09:55:08,207 epoch 9. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:55:08,207 Batch time: 0.091s, current epoch time: 23.829s
+2021-02-28 09:55:12,761 epoch 9. train 301/469, loss=0.0006, acc concept=100.0000
+2021-02-28 09:55:12,762 Batch time: 0.090s, current epoch time: 28.384s
+2021-02-28 09:55:17,316 epoch 9. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:55:17,317 Batch time: 0.091s, current epoch time: 32.939s
+2021-02-28 09:55:21,848 epoch 9. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:55:21,849 Batch time: 0.089s, current epoch time: 37.472s
+2021-02-28 09:55:26,372 epoch 9. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:55:26,373 Batch time: 0.090s, current epoch time: 41.995s
+2021-02-28 09:55:27,984 Epoch time: 43.607s
+2021-02-28 09:55:27,985 epoch 9, loss=0.0001, category acc=100.000000
+2021-02-28 09:55:43,114 epoch 9, val acc concept=100.0
+2021-02-28 09:55:43,115 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:55:43,115 ETA:9m/1.6h
+2021-02-28 09:55:44,174 epoch 10. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:55:44,175 Batch time: 0.090s, current epoch time: 1.059s
+2021-02-28 09:55:48,850 epoch 10. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:55:48,850 Batch time: 0.091s, current epoch time: 5.735s
+2021-02-28 09:55:53,383 epoch 10. train 101/469, loss=0.0010, acc concept=100.0000
+2021-02-28 09:55:53,384 Batch time: 0.091s, current epoch time: 10.269s
+2021-02-28 09:55:57,951 epoch 10. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:55:57,952 Batch time: 0.091s, current epoch time: 14.837s
+2021-02-28 09:56:02,495 epoch 10. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:56:02,496 Batch time: 0.092s, current epoch time: 19.381s
+2021-02-28 09:56:07,030 epoch 10. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:56:07,030 Batch time: 0.090s, current epoch time: 23.915s
+2021-02-28 09:56:11,574 epoch 10. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:56:11,575 Batch time: 0.091s, current epoch time: 28.459s
+2021-02-28 09:56:16,122 epoch 10. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:56:16,122 Batch time: 0.090s, current epoch time: 33.007s
+2021-02-28 09:56:20,648 epoch 10. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:56:20,648 Batch time: 0.089s, current epoch time: 37.533s
+2021-02-28 09:56:25,182 epoch 10. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:56:25,183 Batch time: 0.090s, current epoch time: 42.068s
+2021-02-28 09:56:26,791 Epoch time: 43.676s
+2021-02-28 09:56:26,791 epoch 10, loss=0.0001, category acc=100.000000
+2021-02-28 09:56:42,050 epoch 10, val acc concept=100.0
+2021-02-28 09:56:42,051 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:56:42,051 ETA:10m/1.6h
+2021-02-28 09:56:42,876 epoch 11. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:56:42,876 Batch time: 0.095s, current epoch time: 0.825s
+2021-02-28 09:56:47,595 epoch 11. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:56:47,596 Batch time: 0.091s, current epoch time: 5.545s
+2021-02-28 09:56:52,164 epoch 11. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:56:52,164 Batch time: 0.095s, current epoch time: 10.114s
+2021-02-28 09:56:56,703 epoch 11. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:56:56,704 Batch time: 0.091s, current epoch time: 14.653s
+2021-02-28 09:57:01,235 epoch 11. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:57:01,235 Batch time: 0.091s, current epoch time: 19.185s
+2021-02-28 09:57:05,761 epoch 11. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:57:05,761 Batch time: 0.090s, current epoch time: 23.711s
+2021-02-28 09:57:10,304 epoch 11. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:57:10,304 Batch time: 0.091s, current epoch time: 28.253s
+2021-02-28 09:57:14,846 epoch 11. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:57:14,847 Batch time: 0.089s, current epoch time: 32.796s
+2021-02-28 09:57:19,378 epoch 11. train 401/469, loss=0.0006, acc concept=100.0000
+2021-02-28 09:57:19,379 Batch time: 0.090s, current epoch time: 37.328s
+2021-02-28 09:57:23,903 epoch 11. train 451/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:57:23,904 Batch time: 0.090s, current epoch time: 41.853s
+2021-02-28 09:57:25,541 Epoch time: 43.490s
+2021-02-28 09:57:25,541 epoch 11, loss=0.0004, category acc=99.996667
+2021-02-28 09:57:40,629 epoch 11, val acc concept=99.99666666666667
+2021-02-28 09:57:40,630 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:57:40,630 ETA:11m/1.6h
+2021-02-28 09:57:41,594 epoch 12. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:57:41,594 Batch time: 0.092s, current epoch time: 0.964s
+2021-02-28 09:57:46,349 epoch 12. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:57:46,350 Batch time: 0.090s, current epoch time: 5.720s
+2021-02-28 09:57:50,882 epoch 12. train 101/469, loss=0.0010, acc concept=100.0000
+2021-02-28 09:57:50,883 Batch time: 0.089s, current epoch time: 10.253s
+2021-02-28 09:57:55,437 epoch 12. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 09:57:55,437 Batch time: 0.090s, current epoch time: 14.807s
+2021-02-28 09:57:59,987 epoch 12. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:57:59,987 Batch time: 0.090s, current epoch time: 19.357s
+2021-02-28 09:58:04,525 epoch 12. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:58:04,526 Batch time: 0.091s, current epoch time: 23.896s
+2021-02-28 09:58:09,097 epoch 12. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:58:09,097 Batch time: 0.089s, current epoch time: 28.467s
+2021-02-28 09:58:13,646 epoch 12. train 351/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:58:13,647 Batch time: 0.091s, current epoch time: 33.017s
+2021-02-28 09:58:18,185 epoch 12. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:58:18,185 Batch time: 0.091s, current epoch time: 37.555s
+2021-02-28 09:58:22,720 epoch 12. train 451/469, loss=0.0031, acc concept=100.0000
+2021-02-28 09:58:22,720 Batch time: 0.091s, current epoch time: 42.090s
+2021-02-28 09:58:24,345 Epoch time: 43.715s
+2021-02-28 09:58:24,345 epoch 12, loss=0.0005, category acc=99.996667
+2021-02-28 09:58:39,357 epoch 12, val acc concept=99.98666666666666
+2021-02-28 09:58:39,358 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:58:39,358 ETA:12m/1.6h
+2021-02-28 09:58:40,397 epoch 13. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:58:40,398 Batch time: 0.093s, current epoch time: 1.040s
+2021-02-28 09:58:44,976 epoch 13. train 51/469, loss=0.0006, acc concept=100.0000
+2021-02-28 09:58:44,976 Batch time: 0.091s, current epoch time: 5.618s
+2021-02-28 09:58:49,519 epoch 13. train 101/469, loss=0.0019, acc concept=100.0000
+2021-02-28 09:58:49,519 Batch time: 0.089s, current epoch time: 10.161s
+2021-02-28 09:58:54,066 epoch 13. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:58:54,067 Batch time: 0.091s, current epoch time: 14.709s
+2021-02-28 09:58:58,629 epoch 13. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:58:58,630 Batch time: 0.091s, current epoch time: 19.272s
+2021-02-28 09:59:03,186 epoch 13. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 09:59:03,186 Batch time: 0.091s, current epoch time: 23.828s
+2021-02-28 09:59:07,740 epoch 13. train 301/469, loss=0.0004, acc concept=100.0000
+2021-02-28 09:59:07,741 Batch time: 0.089s, current epoch time: 28.383s
+2021-02-28 09:59:12,306 epoch 13. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:12,306 Batch time: 0.091s, current epoch time: 32.948s
+2021-02-28 09:59:16,878 epoch 13. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:16,880 Batch time: 0.090s, current epoch time: 37.522s
+2021-02-28 09:59:21,400 epoch 13. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:59:21,400 Batch time: 0.089s, current epoch time: 42.042s
+2021-02-28 09:59:23,022 Epoch time: 43.664s
+2021-02-28 09:59:23,022 epoch 13, loss=0.0002, category acc=99.996667
+2021-02-28 09:59:38,036 epoch 13, val acc concept=100.0
+2021-02-28 09:59:38,037 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 09:59:38,037 ETA:13m/1.6h
+2021-02-28 09:59:38,902 epoch 14. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 09:59:38,902 Batch time: 0.101s, current epoch time: 0.865s
+2021-02-28 09:59:43,582 epoch 14. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:43,583 Batch time: 0.090s, current epoch time: 5.545s
+2021-02-28 09:59:48,103 epoch 14. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:48,103 Batch time: 0.093s, current epoch time: 10.066s
+2021-02-28 09:59:52,657 epoch 14. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:52,658 Batch time: 0.090s, current epoch time: 14.620s
+2021-02-28 09:59:57,192 epoch 14. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 09:59:57,193 Batch time: 0.090s, current epoch time: 19.155s
+2021-02-28 10:00:01,739 epoch 14. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:01,739 Batch time: 0.091s, current epoch time: 23.702s
+2021-02-28 10:00:06,299 epoch 14. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:06,299 Batch time: 0.090s, current epoch time: 28.262s
+2021-02-28 10:00:10,836 epoch 14. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:10,836 Batch time: 0.093s, current epoch time: 32.799s
+2021-02-28 10:00:15,357 epoch 14. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:15,357 Batch time: 0.090s, current epoch time: 37.320s
+2021-02-28 10:00:19,866 epoch 14. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:19,866 Batch time: 0.089s, current epoch time: 41.829s
+2021-02-28 10:00:21,499 Epoch time: 43.462s
+2021-02-28 10:00:21,499 epoch 14, loss=0.0001, category acc=100.000000
+2021-02-28 10:00:35,852 epoch 14, val acc concept=100.0
+2021-02-28 10:00:35,853 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:00:35,853 ETA:14m/1.6h
+2021-02-28 10:00:36,798 epoch 15. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:00:36,798 Batch time: 0.090s, current epoch time: 0.945s
+2021-02-28 10:00:41,472 epoch 15. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:41,472 Batch time: 0.090s, current epoch time: 5.619s
+2021-02-28 10:00:45,989 epoch 15. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:45,989 Batch time: 0.090s, current epoch time: 10.136s
+2021-02-28 10:00:50,489 epoch 15. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:00:50,490 Batch time: 0.093s, current epoch time: 14.637s
+2021-02-28 10:00:54,987 epoch 15. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:54,987 Batch time: 0.089s, current epoch time: 19.134s
+2021-02-28 10:00:59,477 epoch 15. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:00:59,478 Batch time: 0.090s, current epoch time: 23.625s
+2021-02-28 10:01:03,984 epoch 15. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:01:03,985 Batch time: 0.093s, current epoch time: 28.132s
+2021-02-28 10:01:08,489 epoch 15. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:01:08,489 Batch time: 0.089s, current epoch time: 32.636s
+2021-02-28 10:01:12,988 epoch 15. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:01:12,989 Batch time: 0.090s, current epoch time: 37.136s
+2021-02-28 10:01:17,467 epoch 15. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:01:17,468 Batch time: 0.089s, current epoch time: 41.615s
+2021-02-28 10:01:19,074 Epoch time: 43.221s
+2021-02-28 10:01:19,074 epoch 15, loss=0.0001, category acc=100.000000
+2021-02-28 10:01:33,269 epoch 15, val acc concept=99.50333332926432
+2021-02-28 10:01:33,270 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:01:33,270 ETA:15m/1.6h
+2021-02-28 10:01:34,424 epoch 16. train 1/469, loss=0.0014, acc concept=100.0000
+2021-02-28 10:01:34,424 Batch time: 0.093s, current epoch time: 1.154s
+2021-02-28 10:01:38,984 epoch 16. train 51/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:01:38,985 Batch time: 0.090s, current epoch time: 5.714s
+2021-02-28 10:01:43,549 epoch 16. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:01:43,549 Batch time: 0.092s, current epoch time: 10.279s
+2021-02-28 10:01:48,091 epoch 16. train 151/469, loss=0.0027, acc concept=100.0000
+2021-02-28 10:01:48,092 Batch time: 0.091s, current epoch time: 14.821s
+2021-02-28 10:01:52,629 epoch 16. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:01:52,631 Batch time: 0.090s, current epoch time: 19.360s
+2021-02-28 10:01:57,174 epoch 16. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:01:57,175 Batch time: 0.091s, current epoch time: 23.905s
+2021-02-28 10:02:01,714 epoch 16. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:02:01,714 Batch time: 0.090s, current epoch time: 28.444s
+2021-02-28 10:02:06,254 epoch 16. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:02:06,255 Batch time: 0.090s, current epoch time: 32.985s
+2021-02-28 10:02:10,790 epoch 16. train 401/469, loss=0.0238, acc concept=98.4375
+2021-02-28 10:02:10,791 Batch time: 0.091s, current epoch time: 37.521s
+2021-02-28 10:02:15,314 epoch 16. train 451/469, loss=0.0270, acc concept=98.4375
+2021-02-28 10:02:15,315 Batch time: 0.089s, current epoch time: 42.044s
+2021-02-28 10:02:16,922 Epoch time: 43.652s
+2021-02-28 10:02:16,922 epoch 16, loss=0.0018, category acc=99.950000
+2021-02-28 10:02:31,228 epoch 16, val acc concept=99.97666666666667
+2021-02-28 10:02:31,228 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:02:31,228 ETA:16m/1.6h
+2021-02-28 10:02:32,319 epoch 17. train 1/469, loss=0.0010, acc concept=100.0000
+2021-02-28 10:02:32,319 Batch time: 0.090s, current epoch time: 1.091s
+2021-02-28 10:02:36,921 epoch 17. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:02:36,921 Batch time: 0.090s, current epoch time: 5.692s
+2021-02-28 10:02:41,410 epoch 17. train 101/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:02:41,411 Batch time: 0.089s, current epoch time: 10.182s
+2021-02-28 10:02:45,905 epoch 17. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:02:45,906 Batch time: 0.089s, current epoch time: 14.677s
+2021-02-28 10:02:50,394 epoch 17. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:02:50,395 Batch time: 0.089s, current epoch time: 19.166s
+2021-02-28 10:02:54,887 epoch 17. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:02:54,887 Batch time: 0.089s, current epoch time: 23.658s
+2021-02-28 10:02:59,376 epoch 17. train 301/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:02:59,377 Batch time: 0.089s, current epoch time: 28.148s
+2021-02-28 10:03:03,865 epoch 17. train 351/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:03:03,866 Batch time: 0.089s, current epoch time: 32.637s
+2021-02-28 10:03:08,353 epoch 17. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:03:08,353 Batch time: 0.089s, current epoch time: 37.125s
+2021-02-28 10:03:12,829 epoch 17. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:03:12,829 Batch time: 0.089s, current epoch time: 41.600s
+2021-02-28 10:03:14,443 Epoch time: 43.215s
+2021-02-28 10:03:14,444 epoch 17, loss=0.0008, category acc=99.996667
+2021-02-28 10:03:29,402 epoch 17, val acc concept=99.99
+2021-02-28 10:03:29,403 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:03:29,403 ETA:17m/1.6h
+2021-02-28 10:03:30,151 epoch 18. train 1/469, loss=0.0008, acc concept=100.0000
+2021-02-28 10:03:30,152 Batch time: 0.091s, current epoch time: 0.749s
+2021-02-28 10:03:35,054 epoch 18. train 51/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:03:35,054 Batch time: 0.091s, current epoch time: 5.652s
+2021-02-28 10:03:39,570 epoch 18. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:03:39,571 Batch time: 0.089s, current epoch time: 10.168s
+2021-02-28 10:03:44,082 epoch 18. train 151/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:03:44,082 Batch time: 0.090s, current epoch time: 14.679s
+2021-02-28 10:03:48,585 epoch 18. train 201/469, loss=0.0007, acc concept=100.0000
+2021-02-28 10:03:48,586 Batch time: 0.090s, current epoch time: 19.183s
+2021-02-28 10:03:53,086 epoch 18. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:03:53,086 Batch time: 0.089s, current epoch time: 23.684s
+2021-02-28 10:03:57,582 epoch 18. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:03:57,582 Batch time: 0.090s, current epoch time: 28.180s
+2021-02-28 10:04:02,074 epoch 18. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:04:02,074 Batch time: 0.090s, current epoch time: 32.671s
+2021-02-28 10:04:06,599 epoch 18. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:04:06,600 Batch time: 0.089s, current epoch time: 37.197s
+2021-02-28 10:04:11,085 epoch 18. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:04:11,086 Batch time: 0.089s, current epoch time: 41.683s
+2021-02-28 10:04:12,695 Epoch time: 43.292s
+2021-02-28 10:04:12,695 epoch 18, loss=0.0009, category acc=99.986667
+2021-02-28 10:04:27,720 epoch 18, val acc concept=100.0
+2021-02-28 10:04:27,721 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:04:27,721 ETA:18m/1.6h
+2021-02-28 10:04:28,875 epoch 19. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:04:28,875 Batch time: 0.090s, current epoch time: 1.155s
+2021-02-28 10:04:33,413 epoch 19. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:04:33,414 Batch time: 0.090s, current epoch time: 5.693s
+2021-02-28 10:04:37,934 epoch 19. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:04:37,934 Batch time: 0.090s, current epoch time: 10.213s
+2021-02-28 10:04:42,432 epoch 19. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:04:42,432 Batch time: 0.090s, current epoch time: 14.711s
+2021-02-28 10:04:46,940 epoch 19. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:04:46,940 Batch time: 0.089s, current epoch time: 19.219s
+2021-02-28 10:04:51,433 epoch 19. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:04:51,433 Batch time: 0.090s, current epoch time: 23.712s
+2021-02-28 10:04:55,935 epoch 19. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:04:55,935 Batch time: 0.090s, current epoch time: 28.214s
+2021-02-28 10:05:00,428 epoch 19. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:00,428 Batch time: 0.090s, current epoch time: 32.707s
+2021-02-28 10:05:04,923 epoch 19. train 401/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:05:04,923 Batch time: 0.090s, current epoch time: 37.203s
+2021-02-28 10:05:09,416 epoch 19. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:05:09,416 Batch time: 0.089s, current epoch time: 41.696s
+2021-02-28 10:05:11,023 Epoch time: 43.303s
+2021-02-28 10:05:11,024 epoch 19, loss=0.0001, category acc=100.000000
+2021-02-28 10:05:25,480 epoch 19, val acc concept=100.0
+2021-02-28 10:05:25,481 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:05:25,481 ETA:18m/1.6h
+2021-02-28 10:05:26,449 epoch 20. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:05:26,449 Batch time: 0.090s, current epoch time: 0.968s
+2021-02-28 10:05:31,038 epoch 20. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:31,038 Batch time: 0.092s, current epoch time: 5.557s
+2021-02-28 10:05:35,548 epoch 20. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:35,549 Batch time: 0.089s, current epoch time: 10.067s
+2021-02-28 10:05:40,082 epoch 20. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:40,083 Batch time: 0.090s, current epoch time: 14.601s
+2021-02-28 10:05:44,609 epoch 20. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:44,610 Batch time: 0.089s, current epoch time: 19.128s
+2021-02-28 10:05:49,118 epoch 20. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:05:49,119 Batch time: 0.090s, current epoch time: 23.638s
+2021-02-28 10:05:53,633 epoch 20. train 301/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:05:53,634 Batch time: 0.091s, current epoch time: 28.152s
+2021-02-28 10:05:58,154 epoch 20. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:05:58,154 Batch time: 0.089s, current epoch time: 32.673s
+2021-02-28 10:06:02,657 epoch 20. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:06:02,657 Batch time: 0.089s, current epoch time: 37.176s
+2021-02-28 10:06:07,144 epoch 20. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:07,145 Batch time: 0.089s, current epoch time: 41.664s
+2021-02-28 10:06:08,759 Epoch time: 43.277s
+2021-02-28 10:06:08,759 epoch 20, loss=0.0001, category acc=100.000000
+2021-02-28 10:06:22,993 epoch 20, val acc concept=100.0
+2021-02-28 10:06:22,993 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:06:22,993 ETA:19m/1.6h
+2021-02-28 10:06:23,944 epoch 21. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:06:23,944 Batch time: 0.090s, current epoch time: 0.951s
+2021-02-28 10:06:28,587 epoch 21. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:28,587 Batch time: 0.089s, current epoch time: 5.594s
+2021-02-28 10:06:33,082 epoch 21. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:33,083 Batch time: 0.090s, current epoch time: 10.089s
+2021-02-28 10:06:37,596 epoch 21. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:37,597 Batch time: 0.090s, current epoch time: 14.603s
+2021-02-28 10:06:42,084 epoch 21. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:06:42,084 Batch time: 0.089s, current epoch time: 19.091s
+2021-02-28 10:06:46,571 epoch 21. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:46,572 Batch time: 0.089s, current epoch time: 23.578s
+2021-02-28 10:06:51,068 epoch 21. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:51,068 Batch time: 0.090s, current epoch time: 28.075s
+2021-02-28 10:06:55,557 epoch 21. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:06:55,558 Batch time: 0.089s, current epoch time: 32.564s
+2021-02-28 10:07:00,047 epoch 21. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:07:00,048 Batch time: 0.089s, current epoch time: 37.054s
+2021-02-28 10:07:04,527 epoch 21. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:07:04,527 Batch time: 0.089s, current epoch time: 41.534s
+2021-02-28 10:07:06,141 Epoch time: 43.147s
+2021-02-28 10:07:06,141 epoch 21, loss=0.0001, category acc=100.000000
+2021-02-28 10:07:20,310 epoch 21, val acc concept=100.0
+2021-02-28 10:07:20,311 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:07:20,311 ETA:20m/1.6h
+2021-02-28 10:07:21,173 epoch 22. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:07:21,174 Batch time: 0.092s, current epoch time: 0.863s
+2021-02-28 10:07:25,891 epoch 22. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:25,892 Batch time: 0.090s, current epoch time: 5.581s
+2021-02-28 10:07:30,412 epoch 22. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:30,413 Batch time: 0.091s, current epoch time: 10.102s
+2021-02-28 10:07:34,964 epoch 22. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:34,965 Batch time: 0.090s, current epoch time: 14.653s
+2021-02-28 10:07:39,518 epoch 22. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:07:39,519 Batch time: 0.090s, current epoch time: 19.208s
+2021-02-28 10:07:44,077 epoch 22. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:44,078 Batch time: 0.091s, current epoch time: 23.767s
+2021-02-28 10:07:48,645 epoch 22. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:48,645 Batch time: 0.089s, current epoch time: 28.334s
+2021-02-28 10:07:53,189 epoch 22. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:07:53,190 Batch time: 0.091s, current epoch time: 32.879s
+2021-02-28 10:07:57,739 epoch 22. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:07:57,739 Batch time: 0.091s, current epoch time: 37.428s
+2021-02-28 10:08:02,273 epoch 22. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:08:02,273 Batch time: 0.089s, current epoch time: 41.962s
+2021-02-28 10:08:03,908 Epoch time: 43.597s
+2021-02-28 10:08:03,909 epoch 22, loss=0.0001, category acc=100.000000
+2021-02-28 10:08:18,098 epoch 22, val acc concept=100.0
+2021-02-28 10:08:18,099 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:08:18,099 ETA:21m/1.6h
+2021-02-28 10:08:19,291 epoch 23. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:08:19,292 Batch time: 0.090s, current epoch time: 1.192s
+2021-02-28 10:08:23,856 epoch 23. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:08:23,856 Batch time: 0.091s, current epoch time: 5.757s
+2021-02-28 10:08:28,401 epoch 23. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:08:28,402 Batch time: 0.091s, current epoch time: 10.303s
+2021-02-28 10:08:32,952 epoch 23. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:08:32,952 Batch time: 0.090s, current epoch time: 14.853s
+2021-02-28 10:08:37,494 epoch 23. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:08:37,494 Batch time: 0.090s, current epoch time: 19.395s
+2021-02-28 10:08:42,034 epoch 23. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:08:42,035 Batch time: 0.091s, current epoch time: 23.935s
+2021-02-28 10:08:46,576 epoch 23. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:08:46,577 Batch time: 0.090s, current epoch time: 28.477s
+2021-02-28 10:08:51,123 epoch 23. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:08:51,124 Batch time: 0.091s, current epoch time: 33.024s
+2021-02-28 10:08:55,678 epoch 23. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:08:55,678 Batch time: 0.091s, current epoch time: 37.579s
+2021-02-28 10:09:00,197 epoch 23. train 451/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:09:00,198 Batch time: 0.089s, current epoch time: 42.098s
+2021-02-28 10:09:01,791 Epoch time: 43.691s
+2021-02-28 10:09:01,791 epoch 23, loss=0.0001, category acc=100.000000
+2021-02-28 10:09:16,023 epoch 23, val acc concept=100.0
+2021-02-28 10:09:16,024 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:09:16,024 ETA:22m/1.6h
+2021-02-28 10:09:16,814 epoch 24. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:09:16,814 Batch time: 0.095s, current epoch time: 0.790s
+2021-02-28 10:09:21,686 epoch 24. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:09:21,687 Batch time: 0.091s, current epoch time: 5.662s
+2021-02-28 10:09:26,237 epoch 24. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:09:26,238 Batch time: 0.090s, current epoch time: 10.214s
+2021-02-28 10:09:30,795 epoch 24. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:09:30,796 Batch time: 0.091s, current epoch time: 14.771s
+2021-02-28 10:09:35,355 epoch 24. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:09:35,356 Batch time: 0.091s, current epoch time: 19.331s
+2021-02-28 10:09:39,892 epoch 24. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:09:39,892 Batch time: 0.089s, current epoch time: 23.868s
+2021-02-28 10:09:44,445 epoch 24. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:09:44,446 Batch time: 0.091s, current epoch time: 28.421s
+2021-02-28 10:09:49,001 epoch 24. train 351/469, loss=0.0010, acc concept=100.0000
+2021-02-28 10:09:49,002 Batch time: 0.091s, current epoch time: 32.977s
+2021-02-28 10:09:53,575 epoch 24. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:09:53,575 Batch time: 0.091s, current epoch time: 37.551s
+2021-02-28 10:09:58,117 epoch 24. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:09:58,118 Batch time: 0.092s, current epoch time: 42.093s
+2021-02-28 10:09:59,753 Epoch time: 43.729s
+2021-02-28 10:09:59,754 epoch 24, loss=0.0001, category acc=100.000000
+2021-02-28 10:10:14,810 epoch 24, val acc concept=100.0
+2021-02-28 10:10:14,811 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:10:14,811 ETA:23m/1.6h
+2021-02-28 10:10:15,593 epoch 25. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:10:15,594 Batch time: 0.112s, current epoch time: 0.782s
+2021-02-28 10:10:20,461 epoch 25. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:10:20,462 Batch time: 0.091s, current epoch time: 5.650s
+2021-02-28 10:10:25,024 epoch 25. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:10:25,025 Batch time: 0.091s, current epoch time: 10.214s
+2021-02-28 10:10:29,586 epoch 25. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:10:29,587 Batch time: 0.092s, current epoch time: 14.775s
+2021-02-28 10:10:34,138 epoch 25. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:10:34,139 Batch time: 0.089s, current epoch time: 19.327s
+2021-02-28 10:10:38,692 epoch 25. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:10:38,692 Batch time: 0.091s, current epoch time: 23.881s
+2021-02-28 10:10:43,247 epoch 25. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:10:43,247 Batch time: 0.092s, current epoch time: 28.436s
+2021-02-28 10:10:47,814 epoch 25. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:10:47,814 Batch time: 0.091s, current epoch time: 33.003s
+2021-02-28 10:10:52,379 epoch 25. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:10:52,379 Batch time: 0.092s, current epoch time: 37.568s
+2021-02-28 10:10:56,914 epoch 25. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:10:56,914 Batch time: 0.094s, current epoch time: 42.103s
+2021-02-28 10:10:58,552 Epoch time: 43.740s
+2021-02-28 10:10:58,552 epoch 25, loss=0.0001, category acc=100.000000
+2021-02-28 10:11:13,635 epoch 25, val acc concept=100.0
+2021-02-28 10:11:13,636 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:11:13,636 ETA:24m/1.6h
+2021-02-28 10:11:14,638 epoch 26. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:11:14,639 Batch time: 0.090s, current epoch time: 1.003s
+2021-02-28 10:11:19,353 epoch 26. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:11:19,354 Batch time: 0.091s, current epoch time: 5.718s
+2021-02-28 10:11:23,890 epoch 26. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:11:23,891 Batch time: 0.090s, current epoch time: 10.255s
+2021-02-28 10:11:28,419 epoch 26. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:11:28,420 Batch time: 0.090s, current epoch time: 14.784s
+2021-02-28 10:11:32,936 epoch 26. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:11:32,937 Batch time: 0.090s, current epoch time: 19.301s
+2021-02-28 10:11:37,436 epoch 26. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:11:37,437 Batch time: 0.093s, current epoch time: 23.801s
+2021-02-28 10:11:41,957 epoch 26. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:11:41,957 Batch time: 0.089s, current epoch time: 28.322s
+2021-02-28 10:11:46,451 epoch 26. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:11:46,452 Batch time: 0.089s, current epoch time: 32.816s
+2021-02-28 10:11:50,947 epoch 26. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:11:50,947 Batch time: 0.092s, current epoch time: 37.312s
+2021-02-28 10:11:55,436 epoch 26. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:11:55,437 Batch time: 0.088s, current epoch time: 41.801s
+2021-02-28 10:11:57,052 Epoch time: 43.416s
+2021-02-28 10:11:57,052 epoch 26, loss=0.0001, category acc=100.000000
+2021-02-28 10:12:11,300 epoch 26, val acc concept=99.99333333333334
+2021-02-28 10:12:11,301 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:12:11,301 ETA:25m/1.6h
+2021-02-28 10:12:12,445 epoch 27. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:12,446 Batch time: 0.090s, current epoch time: 1.145s
+2021-02-28 10:12:16,949 epoch 27. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:16,949 Batch time: 0.090s, current epoch time: 5.648s
+2021-02-28 10:12:21,447 epoch 27. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:12:21,448 Batch time: 0.090s, current epoch time: 10.147s
+2021-02-28 10:12:25,968 epoch 27. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:12:25,968 Batch time: 0.089s, current epoch time: 14.667s
+2021-02-28 10:12:30,489 epoch 27. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:30,490 Batch time: 0.090s, current epoch time: 19.189s
+2021-02-28 10:12:35,003 epoch 27. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:35,003 Batch time: 0.089s, current epoch time: 23.702s
+2021-02-28 10:12:39,521 epoch 27. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:12:39,522 Batch time: 0.090s, current epoch time: 28.221s
+2021-02-28 10:12:44,045 epoch 27. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:44,045 Batch time: 0.090s, current epoch time: 32.744s
+2021-02-28 10:12:48,559 epoch 27. train 401/469, loss=0.0011, acc concept=100.0000
+2021-02-28 10:12:48,559 Batch time: 0.090s, current epoch time: 37.258s
+2021-02-28 10:12:53,068 epoch 27. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:12:53,069 Batch time: 0.090s, current epoch time: 41.768s
+2021-02-28 10:12:54,702 Epoch time: 43.401s
+2021-02-28 10:12:54,702 epoch 27, loss=0.0001, category acc=100.000000
+2021-02-28 10:13:09,287 epoch 27, val acc concept=100.0
+2021-02-28 10:13:09,288 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:13:09,288 ETA:26m/1.6h
+2021-02-28 10:13:10,525 epoch 28. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:10,525 Batch time: 0.090s, current epoch time: 1.237s
+2021-02-28 10:13:15,031 epoch 28. train 51/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:13:15,032 Batch time: 0.089s, current epoch time: 5.743s
+2021-02-28 10:13:19,528 epoch 28. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:13:19,529 Batch time: 0.089s, current epoch time: 10.241s
+2021-02-28 10:13:24,022 epoch 28. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:24,022 Batch time: 0.089s, current epoch time: 14.734s
+2021-02-28 10:13:28,504 epoch 28. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:28,505 Batch time: 0.090s, current epoch time: 19.217s
+2021-02-28 10:13:33,004 epoch 28. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:33,004 Batch time: 0.090s, current epoch time: 23.716s
+2021-02-28 10:13:37,486 epoch 28. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:13:37,487 Batch time: 0.090s, current epoch time: 28.199s
+2021-02-28 10:13:41,981 epoch 28. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:13:41,981 Batch time: 0.091s, current epoch time: 32.693s
+2021-02-28 10:13:46,475 epoch 28. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:46,476 Batch time: 0.090s, current epoch time: 37.188s
+2021-02-28 10:13:50,951 epoch 28. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:13:50,951 Batch time: 0.089s, current epoch time: 41.663s
+2021-02-28 10:13:52,565 Epoch time: 43.277s
+2021-02-28 10:13:52,566 epoch 28, loss=0.0003, category acc=99.993333
+2021-02-28 10:14:07,770 epoch 28, val acc concept=99.97
+2021-02-28 10:14:07,771 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:14:07,771 ETA:27m/1.6h
+2021-02-28 10:14:09,017 epoch 29. train 1/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:14:09,018 Batch time: 0.090s, current epoch time: 1.247s
+2021-02-28 10:14:13,582 epoch 29. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:14:13,582 Batch time: 0.090s, current epoch time: 5.812s
+2021-02-28 10:14:18,118 epoch 29. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:14:18,119 Batch time: 0.091s, current epoch time: 10.348s
+2021-02-28 10:14:22,638 epoch 29. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:14:22,638 Batch time: 0.091s, current epoch time: 14.868s
+2021-02-28 10:14:27,186 epoch 29. train 201/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:14:27,186 Batch time: 0.091s, current epoch time: 19.415s
+2021-02-28 10:14:31,730 epoch 29. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:14:31,730 Batch time: 0.092s, current epoch time: 23.959s
+2021-02-28 10:14:36,272 epoch 29. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:14:36,273 Batch time: 0.091s, current epoch time: 28.502s
+2021-02-28 10:14:40,819 epoch 29. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:14:40,819 Batch time: 0.091s, current epoch time: 33.048s
+2021-02-28 10:14:45,371 epoch 29. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:14:45,372 Batch time: 0.091s, current epoch time: 37.601s
+2021-02-28 10:14:49,900 epoch 29. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:14:49,900 Batch time: 0.089s, current epoch time: 42.129s
+2021-02-28 10:14:51,506 Epoch time: 43.735s
+2021-02-28 10:14:51,506 epoch 29, loss=0.0002, category acc=100.000000
+2021-02-28 10:15:05,738 epoch 29, val acc concept=100.0
+2021-02-28 10:15:05,739 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:15:05,739 ETA:28m/1.6h
+2021-02-28 10:15:06,772 epoch 30. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:06,773 Batch time: 0.091s, current epoch time: 1.033s
+2021-02-28 10:15:11,439 epoch 30. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:15:11,439 Batch time: 0.090s, current epoch time: 5.700s
+2021-02-28 10:15:15,933 epoch 30. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:15,933 Batch time: 0.089s, current epoch time: 10.194s
+2021-02-28 10:15:20,466 epoch 30. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:20,466 Batch time: 0.090s, current epoch time: 14.727s
+2021-02-28 10:15:24,961 epoch 30. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:24,962 Batch time: 0.089s, current epoch time: 19.222s
+2021-02-28 10:15:29,457 epoch 30. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:15:29,457 Batch time: 0.090s, current epoch time: 23.718s
+2021-02-28 10:15:33,950 epoch 30. train 301/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:15:33,950 Batch time: 0.089s, current epoch time: 28.211s
+2021-02-28 10:15:38,436 epoch 30. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:38,436 Batch time: 0.090s, current epoch time: 32.697s
+2021-02-28 10:15:42,921 epoch 30. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:15:42,921 Batch time: 0.089s, current epoch time: 37.182s
+2021-02-28 10:15:47,397 epoch 30. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:15:47,398 Batch time: 0.089s, current epoch time: 41.658s
+2021-02-28 10:15:49,011 Epoch time: 43.272s
+2021-02-28 10:15:49,011 epoch 30, loss=0.0001, category acc=100.000000
+2021-02-28 10:16:03,432 epoch 30, val acc concept=100.0
+2021-02-28 10:16:03,433 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:16:03,433 ETA:29m/1.6h
+2021-02-28 10:16:04,588 epoch 31. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:16:04,588 Batch time: 0.091s, current epoch time: 1.155s
+2021-02-28 10:16:09,144 epoch 31. train 51/469, loss=0.0006, acc concept=100.0000
+2021-02-28 10:16:09,144 Batch time: 0.090s, current epoch time: 5.711s
+2021-02-28 10:16:13,645 epoch 31. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:13,646 Batch time: 0.090s, current epoch time: 10.212s
+2021-02-28 10:16:18,160 epoch 31. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:16:18,160 Batch time: 0.089s, current epoch time: 14.727s
+2021-02-28 10:16:22,659 epoch 31. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:22,660 Batch time: 0.090s, current epoch time: 19.227s
+2021-02-28 10:16:27,148 epoch 31. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:27,148 Batch time: 0.089s, current epoch time: 23.715s
+2021-02-28 10:16:31,639 epoch 31. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:31,639 Batch time: 0.090s, current epoch time: 28.206s
+2021-02-28 10:16:36,136 epoch 31. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:16:36,136 Batch time: 0.090s, current epoch time: 32.703s
+2021-02-28 10:16:40,635 epoch 31. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:40,635 Batch time: 0.090s, current epoch time: 37.202s
+2021-02-28 10:16:45,122 epoch 31. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:16:45,123 Batch time: 0.089s, current epoch time: 41.690s
+2021-02-28 10:16:46,729 Epoch time: 43.296s
+2021-02-28 10:16:46,729 epoch 31, loss=0.0001, category acc=100.000000
+2021-02-28 10:17:00,984 epoch 31, val acc concept=100.0
+2021-02-28 10:17:00,985 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:17:00,985 ETA:30m/1.6h
+2021-02-28 10:17:01,738 epoch 32. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:17:01,739 Batch time: 0.095s, current epoch time: 0.754s
+2021-02-28 10:17:06,545 epoch 32. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:17:06,545 Batch time: 0.090s, current epoch time: 5.560s
+2021-02-28 10:17:11,040 epoch 32. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:11,041 Batch time: 0.089s, current epoch time: 10.056s
+2021-02-28 10:17:15,533 epoch 32. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:17:15,534 Batch time: 0.090s, current epoch time: 14.549s
+2021-02-28 10:17:20,024 epoch 32. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:20,024 Batch time: 0.090s, current epoch time: 19.039s
+2021-02-28 10:17:24,525 epoch 32. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:24,526 Batch time: 0.089s, current epoch time: 23.541s
+2021-02-28 10:17:29,034 epoch 32. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:17:29,035 Batch time: 0.091s, current epoch time: 28.049s
+2021-02-28 10:17:33,531 epoch 32. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:33,532 Batch time: 0.089s, current epoch time: 32.547s
+2021-02-28 10:17:38,026 epoch 32. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:38,026 Batch time: 0.090s, current epoch time: 37.041s
+2021-02-28 10:17:42,498 epoch 32. train 451/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:17:42,498 Batch time: 0.088s, current epoch time: 41.513s
+2021-02-28 10:17:44,111 Epoch time: 43.125s
+2021-02-28 10:17:44,111 epoch 32, loss=0.0001, category acc=100.000000
+2021-02-28 10:17:58,519 epoch 32, val acc concept=100.0
+2021-02-28 10:17:58,520 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:17:58,520 ETA:31m/1.6h
+2021-02-28 10:17:59,686 epoch 33. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:17:59,686 Batch time: 0.090s, current epoch time: 1.166s
+2021-02-28 10:18:04,225 epoch 33. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:18:04,225 Batch time: 0.089s, current epoch time: 5.706s
+2021-02-28 10:18:08,732 epoch 33. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:18:08,732 Batch time: 0.093s, current epoch time: 10.212s
+2021-02-28 10:18:13,232 epoch 33. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:18:13,232 Batch time: 0.089s, current epoch time: 14.712s
+2021-02-28 10:18:17,719 epoch 33. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:18:17,720 Batch time: 0.089s, current epoch time: 19.200s
+2021-02-28 10:18:22,224 epoch 33. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:18:22,225 Batch time: 0.090s, current epoch time: 23.705s
+2021-02-28 10:18:26,720 epoch 33. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:18:26,720 Batch time: 0.090s, current epoch time: 28.200s
+2021-02-28 10:18:31,211 epoch 33. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:18:31,212 Batch time: 0.090s, current epoch time: 32.692s
+2021-02-28 10:18:35,719 epoch 33. train 401/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:18:35,719 Batch time: 0.089s, current epoch time: 37.199s
+2021-02-28 10:18:40,197 epoch 33. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:18:40,197 Batch time: 0.089s, current epoch time: 41.677s
+2021-02-28 10:18:41,793 Epoch time: 43.273s
+2021-02-28 10:18:41,794 epoch 33, loss=0.0001, category acc=100.000000
+2021-02-28 10:18:56,062 epoch 33, val acc concept=100.0
+2021-02-28 10:18:56,063 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:18:56,063 ETA:32m/1.6h
+2021-02-28 10:18:56,831 epoch 34. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:18:56,831 Batch time: 0.086s, current epoch time: 0.768s
+2021-02-28 10:19:01,680 epoch 34. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:19:01,680 Batch time: 0.090s, current epoch time: 5.617s
+2021-02-28 10:19:06,175 epoch 34. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:19:06,175 Batch time: 0.089s, current epoch time: 10.112s
+2021-02-28 10:19:10,686 epoch 34. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:19:10,686 Batch time: 0.090s, current epoch time: 14.623s
+2021-02-28 10:19:15,191 epoch 34. train 201/469, loss=0.0026, acc concept=100.0000
+2021-02-28 10:19:15,192 Batch time: 0.090s, current epoch time: 19.129s
+2021-02-28 10:19:19,699 epoch 34. train 251/469, loss=0.0019, acc concept=100.0000
+2021-02-28 10:19:19,699 Batch time: 0.090s, current epoch time: 23.636s
+2021-02-28 10:19:24,187 epoch 34. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:19:24,188 Batch time: 0.089s, current epoch time: 28.125s
+2021-02-28 10:19:28,682 epoch 34. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:19:28,683 Batch time: 0.090s, current epoch time: 32.620s
+2021-02-28 10:19:33,179 epoch 34. train 401/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:19:33,179 Batch time: 0.089s, current epoch time: 37.117s
+2021-02-28 10:19:37,659 epoch 34. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:19:37,659 Batch time: 0.089s, current epoch time: 41.596s
+2021-02-28 10:19:39,272 Epoch time: 43.209s
+2021-02-28 10:19:39,273 epoch 34, loss=0.0002, category acc=100.000000
+2021-02-28 10:19:54,453 epoch 34, val acc concept=100.0
+2021-02-28 10:19:54,454 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:19:54,454 ETA:33m/1.6h
+2021-02-28 10:19:55,270 epoch 35. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:19:55,270 Batch time: 0.096s, current epoch time: 0.816s
+2021-02-28 10:20:00,152 epoch 35. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:20:00,153 Batch time: 0.091s, current epoch time: 5.698s
+2021-02-28 10:20:04,710 epoch 35. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:20:04,711 Batch time: 0.090s, current epoch time: 10.256s
+2021-02-28 10:20:09,268 epoch 35. train 151/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:20:09,268 Batch time: 0.089s, current epoch time: 14.814s
+2021-02-28 10:20:13,836 epoch 35. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:20:13,837 Batch time: 0.090s, current epoch time: 19.382s
+2021-02-28 10:20:18,390 epoch 35. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:20:18,390 Batch time: 0.091s, current epoch time: 23.936s
+2021-02-28 10:20:22,951 epoch 35. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:20:22,952 Batch time: 0.090s, current epoch time: 28.497s
+2021-02-28 10:20:27,501 epoch 35. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:20:27,503 Batch time: 0.091s, current epoch time: 33.048s
+2021-02-28 10:20:32,048 epoch 35. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:20:32,049 Batch time: 0.090s, current epoch time: 37.594s
+2021-02-28 10:20:36,582 epoch 35. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:20:36,582 Batch time: 0.089s, current epoch time: 42.128s
+2021-02-28 10:20:38,196 Epoch time: 43.741s
+2021-02-28 10:20:38,196 epoch 35, loss=0.0001, category acc=100.000000
+2021-02-28 10:20:53,308 epoch 35, val acc concept=100.0
+2021-02-28 10:20:53,309 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:20:53,309 ETA:34m/1.6h
+2021-02-28 10:20:54,343 epoch 36. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:20:54,344 Batch time: 0.090s, current epoch time: 1.035s
+2021-02-28 10:20:59,006 epoch 36. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:20:59,006 Batch time: 0.089s, current epoch time: 5.698s
+2021-02-28 10:21:03,534 epoch 36. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:21:03,534 Batch time: 0.091s, current epoch time: 10.225s
+2021-02-28 10:21:08,063 epoch 36. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:21:08,063 Batch time: 0.095s, current epoch time: 14.755s
+2021-02-28 10:21:12,580 epoch 36. train 201/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:21:12,581 Batch time: 0.096s, current epoch time: 19.272s
+2021-02-28 10:21:17,089 epoch 36. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:21:17,089 Batch time: 0.090s, current epoch time: 23.781s
+2021-02-28 10:21:21,599 epoch 36. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:21:21,599 Batch time: 0.090s, current epoch time: 28.291s
+2021-02-28 10:21:26,100 epoch 36. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:21:26,100 Batch time: 0.090s, current epoch time: 32.791s
+2021-02-28 10:21:30,598 epoch 36. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:21:30,598 Batch time: 0.090s, current epoch time: 37.289s
+2021-02-28 10:21:35,098 epoch 36. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:21:35,098 Batch time: 0.089s, current epoch time: 41.790s
+2021-02-28 10:21:36,708 Epoch time: 43.399s
+2021-02-28 10:21:36,708 epoch 36, loss=0.0001, category acc=100.000000
+2021-02-28 10:21:51,780 epoch 36, val acc concept=100.0
+2021-02-28 10:21:51,781 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:21:51,781 ETA:35m/1.6h
+2021-02-28 10:21:52,861 epoch 37. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:21:52,862 Batch time: 0.091s, current epoch time: 1.081s
+2021-02-28 10:21:57,456 epoch 37. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:21:57,457 Batch time: 0.091s, current epoch time: 5.677s
+2021-02-28 10:22:02,038 epoch 37. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:02,039 Batch time: 0.091s, current epoch time: 10.258s
+2021-02-28 10:22:06,607 epoch 37. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:06,608 Batch time: 0.090s, current epoch time: 14.827s
+2021-02-28 10:22:11,160 epoch 37. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:22:11,161 Batch time: 0.090s, current epoch time: 19.380s
+2021-02-28 10:22:15,717 epoch 37. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:15,718 Batch time: 0.090s, current epoch time: 23.937s
+2021-02-28 10:22:20,263 epoch 37. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:22:20,264 Batch time: 0.091s, current epoch time: 28.483s
+2021-02-28 10:22:24,795 epoch 37. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:24,796 Batch time: 0.089s, current epoch time: 33.015s
+2021-02-28 10:22:29,334 epoch 37. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:29,335 Batch time: 0.089s, current epoch time: 37.554s
+2021-02-28 10:22:33,877 epoch 37. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:22:33,877 Batch time: 0.088s, current epoch time: 42.096s
+2021-02-28 10:22:35,484 Epoch time: 43.704s
+2021-02-28 10:22:35,485 epoch 37, loss=0.0001, category acc=100.000000
+2021-02-28 10:22:50,495 epoch 37, val acc concept=100.0
+2021-02-28 10:22:50,496 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:22:50,496 ETA:36m/1.6h
+2021-02-28 10:22:51,532 epoch 38. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:51,533 Batch time: 0.090s, current epoch time: 1.036s
+2021-02-28 10:22:56,157 epoch 38. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:22:56,158 Batch time: 0.090s, current epoch time: 5.661s
+2021-02-28 10:23:00,682 epoch 38. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:23:00,683 Batch time: 0.095s, current epoch time: 10.187s
+2021-02-28 10:23:05,198 epoch 38. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:23:05,199 Batch time: 0.090s, current epoch time: 14.703s
+2021-02-28 10:23:09,695 epoch 38. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:23:09,695 Batch time: 0.089s, current epoch time: 19.199s
+2021-02-28 10:23:14,188 epoch 38. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:23:14,188 Batch time: 0.089s, current epoch time: 23.692s
+2021-02-28 10:23:18,694 epoch 38. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:23:18,695 Batch time: 0.089s, current epoch time: 28.198s
+2021-02-28 10:23:23,211 epoch 38. train 351/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:23:23,211 Batch time: 0.090s, current epoch time: 32.715s
+2021-02-28 10:23:27,721 epoch 38. train 401/469, loss=0.0010, acc concept=100.0000
+2021-02-28 10:23:27,722 Batch time: 0.091s, current epoch time: 37.225s
+2021-02-28 10:23:32,222 epoch 38. train 451/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:23:32,222 Batch time: 0.089s, current epoch time: 41.726s
+2021-02-28 10:23:33,836 Epoch time: 43.339s
+2021-02-28 10:23:33,836 epoch 38, loss=0.0009, category acc=99.980000
+2021-02-28 10:23:47,939 epoch 38, val acc concept=99.99666666666667
+2021-02-28 10:23:47,940 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:23:47,940 ETA:37m/1.6h
+2021-02-28 10:23:48,933 epoch 39. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:23:48,934 Batch time: 0.090s, current epoch time: 0.994s
+2021-02-28 10:23:53,609 epoch 39. train 51/469, loss=0.0009, acc concept=100.0000
+2021-02-28 10:23:53,609 Batch time: 0.090s, current epoch time: 5.669s
+2021-02-28 10:23:58,121 epoch 39. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:23:58,121 Batch time: 0.090s, current epoch time: 10.181s
+2021-02-28 10:24:02,634 epoch 39. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:02,634 Batch time: 0.090s, current epoch time: 14.694s
+2021-02-28 10:24:07,142 epoch 39. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:07,142 Batch time: 0.089s, current epoch time: 19.202s
+2021-02-28 10:24:11,648 epoch 39. train 251/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:24:11,648 Batch time: 0.089s, current epoch time: 23.708s
+2021-02-28 10:24:16,152 epoch 39. train 301/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:24:16,152 Batch time: 0.090s, current epoch time: 28.212s
+2021-02-28 10:24:20,647 epoch 39. train 351/469, loss=0.0020, acc concept=100.0000
+2021-02-28 10:24:20,647 Batch time: 0.089s, current epoch time: 32.708s
+2021-02-28 10:24:25,142 epoch 39. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:25,143 Batch time: 0.090s, current epoch time: 37.203s
+2021-02-28 10:24:29,624 epoch 39. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:29,624 Batch time: 0.089s, current epoch time: 41.684s
+2021-02-28 10:24:31,231 Epoch time: 43.292s
+2021-02-28 10:24:31,232 epoch 39, loss=0.0003, category acc=100.000000
+2021-02-28 10:24:45,399 epoch 39, val acc concept=100.0
+2021-02-28 10:24:45,400 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:24:45,400 ETA:38m/1.6h
+2021-02-28 10:24:46,611 epoch 40. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:46,612 Batch time: 0.091s, current epoch time: 1.212s
+2021-02-28 10:24:51,131 epoch 40. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:51,132 Batch time: 0.090s, current epoch time: 5.731s
+2021-02-28 10:24:55,640 epoch 40. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:24:55,641 Batch time: 0.089s, current epoch time: 10.240s
+2021-02-28 10:25:00,136 epoch 40. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:25:00,136 Batch time: 0.090s, current epoch time: 14.736s
+2021-02-28 10:25:04,634 epoch 40. train 201/469, loss=0.0014, acc concept=100.0000
+2021-02-28 10:25:04,634 Batch time: 0.090s, current epoch time: 19.234s
+2021-02-28 10:25:09,134 epoch 40. train 251/469, loss=0.0012, acc concept=100.0000
+2021-02-28 10:25:09,135 Batch time: 0.089s, current epoch time: 23.734s
+2021-02-28 10:25:13,624 epoch 40. train 301/469, loss=0.0008, acc concept=100.0000
+2021-02-28 10:25:13,624 Batch time: 0.089s, current epoch time: 28.224s
+2021-02-28 10:25:18,115 epoch 40. train 351/469, loss=0.0008, acc concept=100.0000
+2021-02-28 10:25:18,115 Batch time: 0.089s, current epoch time: 32.715s
+2021-02-28 10:25:22,609 epoch 40. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:25:22,609 Batch time: 0.090s, current epoch time: 37.209s
+2021-02-28 10:25:27,090 epoch 40. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:25:27,090 Batch time: 0.089s, current epoch time: 41.690s
+2021-02-28 10:25:28,687 Epoch time: 43.287s
+2021-02-28 10:25:28,688 epoch 40, loss=0.0006, category acc=99.996667
+2021-02-28 10:25:42,952 epoch 40, val acc concept=100.0
+2021-02-28 10:25:42,953 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:25:42,953 ETA:39m/1.6h
+2021-02-28 10:25:44,174 epoch 41. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:25:44,175 Batch time: 0.090s, current epoch time: 1.222s
+2021-02-28 10:25:48,681 epoch 41. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:25:48,681 Batch time: 0.090s, current epoch time: 5.729s
+2021-02-28 10:25:53,175 epoch 41. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:25:53,175 Batch time: 0.090s, current epoch time: 10.222s
+2021-02-28 10:25:57,673 epoch 41. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:25:57,673 Batch time: 0.090s, current epoch time: 14.720s
+2021-02-28 10:26:02,191 epoch 41. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:26:02,191 Batch time: 0.091s, current epoch time: 19.239s
+2021-02-28 10:26:06,678 epoch 41. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:26:06,678 Batch time: 0.089s, current epoch time: 23.726s
+2021-02-28 10:26:11,166 epoch 41. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:26:11,167 Batch time: 0.090s, current epoch time: 28.214s
+2021-02-28 10:26:15,675 epoch 41. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:26:15,675 Batch time: 0.090s, current epoch time: 32.722s
+2021-02-28 10:26:20,173 epoch 41. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:26:20,173 Batch time: 0.089s, current epoch time: 37.220s
+2021-02-28 10:26:24,656 epoch 41. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:26:24,657 Batch time: 0.090s, current epoch time: 41.704s
+2021-02-28 10:26:26,262 Epoch time: 43.309s
+2021-02-28 10:26:26,262 epoch 41, loss=0.0001, category acc=100.000000
+2021-02-28 10:26:40,614 epoch 41, val acc concept=100.0
+2021-02-28 10:26:40,615 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:26:40,615 ETA:40m/1.6h
+2021-02-28 10:26:41,469 epoch 42. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:26:41,469 Batch time: 0.092s, current epoch time: 0.854s
+2021-02-28 10:26:46,265 epoch 42. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:26:46,266 Batch time: 0.090s, current epoch time: 5.651s
+2021-02-28 10:26:50,807 epoch 42. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:26:50,808 Batch time: 0.090s, current epoch time: 10.193s
+2021-02-28 10:26:55,311 epoch 42. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:26:55,311 Batch time: 0.090s, current epoch time: 14.697s
+2021-02-28 10:26:59,807 epoch 42. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:26:59,808 Batch time: 0.089s, current epoch time: 19.193s
+2021-02-28 10:27:04,336 epoch 42. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:27:04,336 Batch time: 0.090s, current epoch time: 23.721s
+2021-02-28 10:27:08,856 epoch 42. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:08,857 Batch time: 0.089s, current epoch time: 28.242s
+2021-02-28 10:27:13,364 epoch 42. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:13,364 Batch time: 0.089s, current epoch time: 32.749s
+2021-02-28 10:27:17,872 epoch 42. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:27:17,872 Batch time: 0.089s, current epoch time: 37.258s
+2021-02-28 10:27:22,351 epoch 42. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:22,351 Batch time: 0.089s, current epoch time: 41.736s
+2021-02-28 10:27:23,953 Epoch time: 43.339s
+2021-02-28 10:27:23,954 epoch 42, loss=0.0001, category acc=100.000000
+2021-02-28 10:27:39,280 epoch 42, val acc concept=100.0
+2021-02-28 10:27:39,280 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:27:39,280 ETA:41m/1.6h
+2021-02-28 10:27:40,190 epoch 43. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:27:40,191 Batch time: 0.093s, current epoch time: 0.910s
+2021-02-28 10:27:44,876 epoch 43. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:44,877 Batch time: 0.091s, current epoch time: 5.596s
+2021-02-28 10:27:49,404 epoch 43. train 101/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:27:49,404 Batch time: 0.093s, current epoch time: 10.124s
+2021-02-28 10:27:53,925 epoch 43. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:53,925 Batch time: 0.090s, current epoch time: 14.644s
+2021-02-28 10:27:58,427 epoch 43. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:27:58,427 Batch time: 0.090s, current epoch time: 19.147s
+2021-02-28 10:28:02,925 epoch 43. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:28:02,925 Batch time: 0.089s, current epoch time: 23.645s
+2021-02-28 10:28:07,444 epoch 43. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:28:07,445 Batch time: 0.090s, current epoch time: 28.164s
+2021-02-28 10:28:11,941 epoch 43. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:28:11,942 Batch time: 0.089s, current epoch time: 32.661s
+2021-02-28 10:28:16,450 epoch 43. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:28:16,450 Batch time: 0.091s, current epoch time: 37.169s
+2021-02-28 10:28:20,948 epoch 43. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:28:20,949 Batch time: 0.088s, current epoch time: 41.668s
+2021-02-28 10:28:22,571 Epoch time: 43.290s
+2021-02-28 10:28:22,571 epoch 43, loss=0.0001, category acc=100.000000
+2021-02-28 10:28:37,548 epoch 43, val acc concept=100.0
+2021-02-28 10:28:37,549 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:28:37,549 ETA:42m/1.6h
+2021-02-28 10:28:38,503 epoch 44. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:28:38,503 Batch time: 0.092s, current epoch time: 0.954s
+2021-02-28 10:28:43,108 epoch 44. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:28:43,108 Batch time: 0.089s, current epoch time: 5.559s
+2021-02-28 10:28:47,622 epoch 44. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:28:47,623 Batch time: 0.093s, current epoch time: 10.074s
+2021-02-28 10:28:52,132 epoch 44. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:28:52,133 Batch time: 0.090s, current epoch time: 14.584s
+2021-02-28 10:28:56,616 epoch 44. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:28:56,616 Batch time: 0.089s, current epoch time: 19.067s
+2021-02-28 10:29:01,102 epoch 44. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:29:01,102 Batch time: 0.090s, current epoch time: 23.554s
+2021-02-28 10:29:05,597 epoch 44. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:29:05,597 Batch time: 0.089s, current epoch time: 28.049s
+2021-02-28 10:29:10,088 epoch 44. train 351/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:29:10,088 Batch time: 0.089s, current epoch time: 32.540s
+2021-02-28 10:29:14,574 epoch 44. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:29:14,575 Batch time: 0.089s, current epoch time: 37.026s
+2021-02-28 10:29:19,055 epoch 44. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:29:19,055 Batch time: 0.089s, current epoch time: 41.506s
+2021-02-28 10:29:20,680 Epoch time: 43.131s
+2021-02-28 10:29:20,680 epoch 44, loss=0.0001, category acc=100.000000
+2021-02-28 10:29:35,050 epoch 44, val acc concept=100.0
+2021-02-28 10:29:35,051 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:29:35,051 ETA:43m/1.6h
+2021-02-28 10:29:35,948 epoch 45. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:29:35,949 Batch time: 0.092s, current epoch time: 0.898s
+2021-02-28 10:29:40,732 epoch 45. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:29:40,732 Batch time: 0.090s, current epoch time: 5.681s
+2021-02-28 10:29:45,228 epoch 45. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:29:45,228 Batch time: 0.089s, current epoch time: 10.177s
+2021-02-28 10:29:49,731 epoch 45. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:29:49,732 Batch time: 0.089s, current epoch time: 14.680s
+2021-02-28 10:29:54,222 epoch 45. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:29:54,222 Batch time: 0.090s, current epoch time: 19.171s
+2021-02-28 10:29:58,717 epoch 45. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:29:58,717 Batch time: 0.089s, current epoch time: 23.666s
+2021-02-28 10:30:03,205 epoch 45. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:30:03,206 Batch time: 0.089s, current epoch time: 28.155s
+2021-02-28 10:30:07,712 epoch 45. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:07,713 Batch time: 0.089s, current epoch time: 32.662s
+2021-02-28 10:30:12,212 epoch 45. train 401/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:30:12,213 Batch time: 0.089s, current epoch time: 37.161s
+2021-02-28 10:30:16,703 epoch 45. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:16,703 Batch time: 0.089s, current epoch time: 41.652s
+2021-02-28 10:30:18,294 Epoch time: 43.243s
+2021-02-28 10:30:18,295 epoch 45, loss=0.0001, category acc=100.000000
+2021-02-28 10:30:32,672 epoch 45, val acc concept=100.0
+2021-02-28 10:30:32,673 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:30:32,673 ETA:44m/1.6h
+2021-02-28 10:30:33,839 epoch 46. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:33,840 Batch time: 0.092s, current epoch time: 1.167s
+2021-02-28 10:30:38,364 epoch 46. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:30:38,364 Batch time: 0.091s, current epoch time: 5.691s
+2021-02-28 10:30:42,895 epoch 46. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:42,895 Batch time: 0.091s, current epoch time: 10.222s
+2021-02-28 10:30:47,425 epoch 46. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:47,426 Batch time: 0.091s, current epoch time: 14.753s
+2021-02-28 10:30:51,951 epoch 46. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:30:51,952 Batch time: 0.090s, current epoch time: 19.279s
+2021-02-28 10:30:56,468 epoch 46. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:30:56,469 Batch time: 0.091s, current epoch time: 23.796s
+2021-02-28 10:31:00,987 epoch 46. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:00,987 Batch time: 0.090s, current epoch time: 28.314s
+2021-02-28 10:31:05,503 epoch 46. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:05,503 Batch time: 0.090s, current epoch time: 32.830s
+2021-02-28 10:31:10,022 epoch 46. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:10,022 Batch time: 0.090s, current epoch time: 37.349s
+2021-02-28 10:31:14,530 epoch 46. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:31:14,531 Batch time: 0.089s, current epoch time: 41.858s
+2021-02-28 10:31:16,133 Epoch time: 43.460s
+2021-02-28 10:31:16,133 epoch 46, loss=0.0001, category acc=100.000000
+2021-02-28 10:31:30,556 epoch 46, val acc concept=100.0
+2021-02-28 10:31:30,557 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:31:30,557 ETA:45m/1.6h
+2021-02-28 10:31:31,752 epoch 47. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:31,752 Batch time: 0.092s, current epoch time: 1.195s
+2021-02-28 10:31:36,369 epoch 47. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:31:36,369 Batch time: 0.090s, current epoch time: 5.812s
+2021-02-28 10:31:40,863 epoch 47. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:40,863 Batch time: 0.089s, current epoch time: 10.306s
+2021-02-28 10:31:45,354 epoch 47. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:45,354 Batch time: 0.089s, current epoch time: 14.797s
+2021-02-28 10:31:49,853 epoch 47. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:31:49,854 Batch time: 0.090s, current epoch time: 19.296s
+2021-02-28 10:31:54,361 epoch 47. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:31:54,361 Batch time: 0.090s, current epoch time: 23.804s
+2021-02-28 10:31:58,867 epoch 47. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:31:58,867 Batch time: 0.090s, current epoch time: 28.310s
+2021-02-28 10:32:03,365 epoch 47. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:03,366 Batch time: 0.090s, current epoch time: 32.808s
+2021-02-28 10:32:07,869 epoch 47. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:07,869 Batch time: 0.091s, current epoch time: 37.312s
+2021-02-28 10:32:12,353 epoch 47. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:12,354 Batch time: 0.089s, current epoch time: 41.796s
+2021-02-28 10:32:13,967 Epoch time: 43.410s
+2021-02-28 10:32:13,968 epoch 47, loss=0.0001, category acc=100.000000
+2021-02-28 10:32:28,645 epoch 47, val acc concept=100.0
+2021-02-28 10:32:28,646 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:32:28,646 ETA:46m/1.6h
+2021-02-28 10:32:29,598 epoch 48. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:32:29,599 Batch time: 0.090s, current epoch time: 0.953s
+2021-02-28 10:32:34,342 epoch 48. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:32:34,342 Batch time: 0.093s, current epoch time: 5.696s
+2021-02-28 10:32:38,840 epoch 48. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:38,840 Batch time: 0.089s, current epoch time: 10.194s
+2021-02-28 10:32:43,337 epoch 48. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:43,338 Batch time: 0.090s, current epoch time: 14.692s
+2021-02-28 10:32:47,829 epoch 48. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:32:47,829 Batch time: 0.090s, current epoch time: 19.183s
+2021-02-28 10:32:52,323 epoch 48. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:32:52,324 Batch time: 0.089s, current epoch time: 23.678s
+2021-02-28 10:32:56,815 epoch 48. train 301/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:32:56,816 Batch time: 0.089s, current epoch time: 28.170s
+2021-02-28 10:33:01,310 epoch 48. train 351/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:33:01,311 Batch time: 0.093s, current epoch time: 32.665s
+2021-02-28 10:33:05,804 epoch 48. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:33:05,804 Batch time: 0.090s, current epoch time: 37.158s
+2021-02-28 10:33:10,279 epoch 48. train 451/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:10,279 Batch time: 0.089s, current epoch time: 41.633s
+2021-02-28 10:33:11,895 Epoch time: 43.248s
+2021-02-28 10:33:11,895 epoch 48, loss=0.0001, category acc=100.000000
+2021-02-28 10:33:27,130 epoch 48, val acc concept=100.0
+2021-02-28 10:33:27,131 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:33:27,131 ETA:46m/1.6h
+2021-02-28 10:33:28,331 epoch 49. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:28,331 Batch time: 0.090s, current epoch time: 1.200s
+2021-02-28 10:33:32,846 epoch 49. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:33:32,847 Batch time: 0.094s, current epoch time: 5.716s
+2021-02-28 10:33:37,363 epoch 49. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:37,363 Batch time: 0.090s, current epoch time: 10.232s
+2021-02-28 10:33:41,901 epoch 49. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:33:41,902 Batch time: 0.091s, current epoch time: 14.771s
+2021-02-28 10:33:46,417 epoch 49. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:46,418 Batch time: 0.089s, current epoch time: 19.287s
+2021-02-28 10:33:50,920 epoch 49. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:50,921 Batch time: 0.089s, current epoch time: 23.790s
+2021-02-28 10:33:55,418 epoch 49. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:33:55,418 Batch time: 0.089s, current epoch time: 28.288s
+2021-02-28 10:33:59,912 epoch 49. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:33:59,912 Batch time: 0.090s, current epoch time: 32.781s
+2021-02-28 10:34:04,416 epoch 49. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:04,416 Batch time: 0.090s, current epoch time: 37.285s
+2021-02-28 10:34:08,905 epoch 49. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:08,905 Batch time: 0.089s, current epoch time: 41.774s
+2021-02-28 10:34:10,525 Epoch time: 43.394s
+2021-02-28 10:34:10,525 epoch 49, loss=0.0001, category acc=100.000000
+2021-02-28 10:34:24,865 epoch 49, val acc concept=100.0
+2021-02-28 10:34:24,866 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:34:24,866 ETA:47m/1.6h
+2021-02-28 10:34:26,044 epoch 50. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:34:26,045 Batch time: 0.090s, current epoch time: 1.178s
+2021-02-28 10:34:30,550 epoch 50. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:34:30,550 Batch time: 0.090s, current epoch time: 5.684s
+2021-02-28 10:34:35,061 epoch 50. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:35,061 Batch time: 0.093s, current epoch time: 10.195s
+2021-02-28 10:34:39,570 epoch 50. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:39,571 Batch time: 0.089s, current epoch time: 14.704s
+2021-02-28 10:34:44,073 epoch 50. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:34:44,074 Batch time: 0.090s, current epoch time: 19.207s
+2021-02-28 10:34:48,571 epoch 50. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:48,571 Batch time: 0.089s, current epoch time: 23.705s
+2021-02-28 10:34:53,066 epoch 50. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:53,066 Batch time: 0.090s, current epoch time: 28.199s
+2021-02-28 10:34:57,558 epoch 50. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:34:57,559 Batch time: 0.089s, current epoch time: 32.692s
+2021-02-28 10:35:02,046 epoch 50. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:35:02,046 Batch time: 0.090s, current epoch time: 37.180s
+2021-02-28 10:35:06,529 epoch 50. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:35:06,529 Batch time: 0.089s, current epoch time: 41.663s
+2021-02-28 10:35:08,134 Epoch time: 43.267s
+2021-02-28 10:35:08,134 epoch 50, loss=0.0001, category acc=100.000000
+2021-02-28 10:35:22,375 epoch 50, val acc concept=99.98
+2021-02-28 10:35:22,376 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:35:22,376 ETA:48m/1.6h
+2021-02-28 10:35:23,222 epoch 51. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:35:23,222 Batch time: 0.096s, current epoch time: 0.846s
+2021-02-28 10:35:28,003 epoch 51. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:35:28,003 Batch time: 0.089s, current epoch time: 5.627s
+2021-02-28 10:35:32,505 epoch 51. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:35:32,505 Batch time: 0.089s, current epoch time: 10.129s
+2021-02-28 10:35:36,997 epoch 51. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:35:36,998 Batch time: 0.090s, current epoch time: 14.622s
+2021-02-28 10:35:41,512 epoch 51. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:35:41,513 Batch time: 0.089s, current epoch time: 19.137s
+2021-02-28 10:35:46,000 epoch 51. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:35:46,000 Batch time: 0.089s, current epoch time: 23.624s
+2021-02-28 10:35:50,501 epoch 51. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:35:50,501 Batch time: 0.090s, current epoch time: 28.125s
+2021-02-28 10:35:54,997 epoch 51. train 351/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:35:54,997 Batch time: 0.090s, current epoch time: 32.621s
+2021-02-28 10:35:59,491 epoch 51. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:35:59,492 Batch time: 0.089s, current epoch time: 37.116s
+2021-02-28 10:36:03,970 epoch 51. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:03,971 Batch time: 0.089s, current epoch time: 41.595s
+2021-02-28 10:36:05,570 Epoch time: 43.194s
+2021-02-28 10:36:05,570 epoch 51, loss=0.0001, category acc=100.000000
+2021-02-28 10:36:20,214 epoch 51, val acc concept=100.0
+2021-02-28 10:36:20,215 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:36:20,215 ETA:49m/1.6h
+2021-02-28 10:36:21,142 epoch 52. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:36:21,143 Batch time: 0.090s, current epoch time: 0.928s
+2021-02-28 10:36:25,803 epoch 52. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:36:25,803 Batch time: 0.089s, current epoch time: 5.588s
+2021-02-28 10:36:30,291 epoch 52. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:30,292 Batch time: 0.090s, current epoch time: 10.077s
+2021-02-28 10:36:34,802 epoch 52. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:34,802 Batch time: 0.090s, current epoch time: 14.587s
+2021-02-28 10:36:39,306 epoch 52. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:39,307 Batch time: 0.089s, current epoch time: 19.092s
+2021-02-28 10:36:43,818 epoch 52. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:36:43,818 Batch time: 0.089s, current epoch time: 23.603s
+2021-02-28 10:36:48,306 epoch 52. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:48,306 Batch time: 0.089s, current epoch time: 28.091s
+2021-02-28 10:36:52,805 epoch 52. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:52,805 Batch time: 0.090s, current epoch time: 32.590s
+2021-02-28 10:36:57,297 epoch 52. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:36:57,297 Batch time: 0.089s, current epoch time: 37.082s
+2021-02-28 10:37:01,771 epoch 52. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:37:01,771 Batch time: 0.089s, current epoch time: 41.556s
+2021-02-28 10:37:03,373 Epoch time: 43.158s
+2021-02-28 10:37:03,374 epoch 52, loss=0.0001, category acc=100.000000
+2021-02-28 10:37:17,856 epoch 52, val acc concept=100.0
+2021-02-28 10:37:17,857 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:37:17,857 ETA:50m/1.6h
+2021-02-28 10:37:18,639 epoch 53. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:37:18,640 Batch time: 0.089s, current epoch time: 0.783s
+2021-02-28 10:37:23,432 epoch 53. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:37:23,432 Batch time: 0.089s, current epoch time: 5.575s
+2021-02-28 10:37:27,928 epoch 53. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:37:27,928 Batch time: 0.090s, current epoch time: 10.071s
+2021-02-28 10:37:32,421 epoch 53. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:37:32,421 Batch time: 0.089s, current epoch time: 14.564s
+2021-02-28 10:37:36,919 epoch 53. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:37:36,920 Batch time: 0.089s, current epoch time: 19.062s
+2021-02-28 10:37:41,409 epoch 53. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:37:41,410 Batch time: 0.090s, current epoch time: 23.552s
+2021-02-28 10:37:45,902 epoch 53. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:37:45,902 Batch time: 0.089s, current epoch time: 28.045s
+2021-02-28 10:37:50,404 epoch 53. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:37:50,405 Batch time: 0.089s, current epoch time: 32.547s
+2021-02-28 10:37:54,892 epoch 53. train 401/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:37:54,892 Batch time: 0.090s, current epoch time: 37.035s
+2021-02-28 10:37:59,366 epoch 53. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:37:59,366 Batch time: 0.089s, current epoch time: 41.509s
+2021-02-28 10:38:00,986 Epoch time: 43.128s
+2021-02-28 10:38:00,986 epoch 53, loss=0.0001, category acc=100.000000
+2021-02-28 10:38:15,151 epoch 53, val acc concept=100.0
+2021-02-28 10:38:15,152 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:38:15,152 ETA:51m/1.6h
+2021-02-28 10:38:16,260 epoch 54. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:38:16,260 Batch time: 0.090s, current epoch time: 1.108s
+2021-02-28 10:38:20,920 epoch 54. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:38:20,920 Batch time: 0.091s, current epoch time: 5.768s
+2021-02-28 10:38:25,448 epoch 54. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:38:25,449 Batch time: 0.091s, current epoch time: 10.297s
+2021-02-28 10:38:29,984 epoch 54. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:38:29,985 Batch time: 0.086s, current epoch time: 14.833s
+2021-02-28 10:38:34,527 epoch 54. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:38:34,527 Batch time: 0.091s, current epoch time: 19.375s
+2021-02-28 10:38:39,068 epoch 54. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:38:39,068 Batch time: 0.090s, current epoch time: 23.916s
+2021-02-28 10:38:43,606 epoch 54. train 301/469, loss=0.0012, acc concept=100.0000
+2021-02-28 10:38:43,607 Batch time: 0.091s, current epoch time: 28.455s
+2021-02-28 10:38:48,155 epoch 54. train 351/469, loss=0.0005, acc concept=100.0000
+2021-02-28 10:38:48,155 Batch time: 0.092s, current epoch time: 33.003s
+2021-02-28 10:38:52,699 epoch 54. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:38:52,699 Batch time: 0.086s, current epoch time: 37.547s
+2021-02-28 10:38:57,235 epoch 54. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:38:57,236 Batch time: 0.088s, current epoch time: 42.084s
+2021-02-28 10:38:58,828 Epoch time: 43.676s
+2021-02-28 10:38:58,828 epoch 54, loss=0.0001, category acc=100.000000
+2021-02-28 10:39:13,124 epoch 54, val acc concept=100.0
+2021-02-28 10:39:13,125 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:39:13,125 ETA:52m/1.6h
+2021-02-28 10:39:14,310 epoch 55. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:14,311 Batch time: 0.092s, current epoch time: 1.186s
+2021-02-28 10:39:18,897 epoch 55. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:18,898 Batch time: 0.092s, current epoch time: 5.773s
+2021-02-28 10:39:23,451 epoch 55. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:23,451 Batch time: 0.091s, current epoch time: 10.326s
+2021-02-28 10:39:27,978 epoch 55. train 151/469, loss=0.0007, acc concept=100.0000
+2021-02-28 10:39:27,978 Batch time: 0.086s, current epoch time: 14.853s
+2021-02-28 10:39:32,503 epoch 55. train 201/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:39:32,503 Batch time: 0.090s, current epoch time: 19.378s
+2021-02-28 10:39:37,051 epoch 55. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:37,052 Batch time: 0.090s, current epoch time: 23.927s
+2021-02-28 10:39:41,583 epoch 55. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:41,583 Batch time: 0.091s, current epoch time: 28.458s
+2021-02-28 10:39:46,117 epoch 55. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:39:46,118 Batch time: 0.091s, current epoch time: 32.993s
+2021-02-28 10:39:50,660 epoch 55. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:50,661 Batch time: 0.091s, current epoch time: 37.536s
+2021-02-28 10:39:55,170 epoch 55. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:39:55,170 Batch time: 0.089s, current epoch time: 42.045s
+2021-02-28 10:39:56,769 Epoch time: 43.644s
+2021-02-28 10:39:56,770 epoch 55, loss=0.0001, category acc=100.000000
+2021-02-28 10:40:11,464 epoch 55, val acc concept=100.0
+2021-02-28 10:40:11,465 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:40:11,465 ETA:53m/1.6h
+2021-02-28 10:40:12,219 epoch 56. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:40:12,219 Batch time: 0.087s, current epoch time: 0.754s
+2021-02-28 10:40:17,108 epoch 56. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:40:17,109 Batch time: 0.090s, current epoch time: 5.644s
+2021-02-28 10:40:21,603 epoch 56. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:21,604 Batch time: 0.090s, current epoch time: 10.139s
+2021-02-28 10:40:26,097 epoch 56. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:26,097 Batch time: 0.090s, current epoch time: 14.632s
+2021-02-28 10:40:30,596 epoch 56. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:30,596 Batch time: 0.089s, current epoch time: 19.131s
+2021-02-28 10:40:35,089 epoch 56. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:40:35,089 Batch time: 0.090s, current epoch time: 23.624s
+2021-02-28 10:40:39,579 epoch 56. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:39,580 Batch time: 0.090s, current epoch time: 28.115s
+2021-02-28 10:40:44,076 epoch 56. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:44,076 Batch time: 0.090s, current epoch time: 32.611s
+2021-02-28 10:40:48,589 epoch 56. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:40:48,590 Batch time: 0.090s, current epoch time: 37.125s
+2021-02-28 10:40:53,066 epoch 56. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:40:53,066 Batch time: 0.089s, current epoch time: 41.601s
+2021-02-28 10:40:54,672 Epoch time: 43.207s
+2021-02-28 10:40:54,672 epoch 56, loss=0.0001, category acc=100.000000
+2021-02-28 10:41:09,043 epoch 56, val acc concept=100.0
+2021-02-28 10:41:09,044 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:41:09,044 ETA:54m/1.6h
+2021-02-28 10:41:10,033 epoch 57. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:41:10,033 Batch time: 0.092s, current epoch time: 0.989s
+2021-02-28 10:41:14,717 epoch 57. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:14,717 Batch time: 0.090s, current epoch time: 5.673s
+2021-02-28 10:41:19,226 epoch 57. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:19,226 Batch time: 0.093s, current epoch time: 10.182s
+2021-02-28 10:41:23,727 epoch 57. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:41:23,728 Batch time: 0.090s, current epoch time: 14.683s
+2021-02-28 10:41:28,222 epoch 57. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:28,223 Batch time: 0.090s, current epoch time: 19.178s
+2021-02-28 10:41:32,724 epoch 57. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:32,725 Batch time: 0.090s, current epoch time: 23.681s
+2021-02-28 10:41:37,242 epoch 57. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:37,242 Batch time: 0.090s, current epoch time: 28.198s
+2021-02-28 10:41:41,742 epoch 57. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:41:41,742 Batch time: 0.090s, current epoch time: 32.698s
+2021-02-28 10:41:46,260 epoch 57. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:46,260 Batch time: 0.090s, current epoch time: 37.216s
+2021-02-28 10:41:50,750 epoch 57. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:41:50,750 Batch time: 0.089s, current epoch time: 41.706s
+2021-02-28 10:41:52,347 Epoch time: 43.303s
+2021-02-28 10:41:52,347 epoch 57, loss=0.0001, category acc=100.000000
+2021-02-28 10:42:06,429 epoch 57, val acc concept=100.0
+2021-02-28 10:42:06,430 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:42:06,430 ETA:55m/1.6h
+2021-02-28 10:42:07,375 epoch 58. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:07,375 Batch time: 0.090s, current epoch time: 0.946s
+2021-02-28 10:42:12,147 epoch 58. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:12,147 Batch time: 0.090s, current epoch time: 5.718s
+2021-02-28 10:42:16,660 epoch 58. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:16,661 Batch time: 0.090s, current epoch time: 10.231s
+2021-02-28 10:42:21,164 epoch 58. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:21,164 Batch time: 0.089s, current epoch time: 14.734s
+2021-02-28 10:42:25,663 epoch 58. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:25,663 Batch time: 0.089s, current epoch time: 19.233s
+2021-02-28 10:42:30,160 epoch 58. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:30,160 Batch time: 0.090s, current epoch time: 23.730s
+2021-02-28 10:42:34,653 epoch 58. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:34,653 Batch time: 0.089s, current epoch time: 28.224s
+2021-02-28 10:42:39,145 epoch 58. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:39,146 Batch time: 0.090s, current epoch time: 32.716s
+2021-02-28 10:42:43,641 epoch 58. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:42:43,641 Batch time: 0.090s, current epoch time: 37.212s
+2021-02-28 10:42:48,124 epoch 58. train 451/469, loss=0.0007, acc concept=100.0000
+2021-02-28 10:42:48,125 Batch time: 0.089s, current epoch time: 41.695s
+2021-02-28 10:42:49,726 Epoch time: 43.296s
+2021-02-28 10:42:49,726 epoch 58, loss=0.0001, category acc=100.000000
+2021-02-28 10:43:04,141 epoch 58, val acc concept=100.0
+2021-02-28 10:43:04,142 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:43:04,142 ETA:56m/1.6h
+2021-02-28 10:43:05,391 epoch 59. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:05,392 Batch time: 0.090s, current epoch time: 1.250s
+2021-02-28 10:43:09,937 epoch 59. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:09,937 Batch time: 0.091s, current epoch time: 5.795s
+2021-02-28 10:43:14,491 epoch 59. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:14,491 Batch time: 0.090s, current epoch time: 10.349s
+2021-02-28 10:43:19,042 epoch 59. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:19,042 Batch time: 0.091s, current epoch time: 14.900s
+2021-02-28 10:43:23,592 epoch 59. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:23,593 Batch time: 0.091s, current epoch time: 19.451s
+2021-02-28 10:43:28,136 epoch 59. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:28,136 Batch time: 0.091s, current epoch time: 23.994s
+2021-02-28 10:43:32,679 epoch 59. train 301/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:43:32,679 Batch time: 0.090s, current epoch time: 28.537s
+2021-02-28 10:43:37,222 epoch 59. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:43:37,222 Batch time: 0.091s, current epoch time: 33.080s
+2021-02-28 10:43:41,758 epoch 59. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:43:41,759 Batch time: 0.090s, current epoch time: 37.617s
+2021-02-28 10:43:46,269 epoch 59. train 451/469, loss=0.0008, acc concept=100.0000
+2021-02-28 10:43:46,270 Batch time: 0.089s, current epoch time: 42.127s
+2021-02-28 10:43:47,870 Epoch time: 43.728s
+2021-02-28 10:43:47,870 epoch 59, loss=0.0001, category acc=100.000000
+2021-02-28 10:44:02,029 epoch 59, val acc concept=100.0
+2021-02-28 10:44:02,030 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:44:02,030 ETA:57m/1.6h
+2021-02-28 10:44:03,143 epoch 60. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:44:03,143 Batch time: 0.092s, current epoch time: 1.113s
+2021-02-28 10:44:07,754 epoch 60. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:07,754 Batch time: 0.091s, current epoch time: 5.724s
+2021-02-28 10:44:12,313 epoch 60. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:12,314 Batch time: 0.090s, current epoch time: 10.283s
+2021-02-28 10:44:16,860 epoch 60. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:16,860 Batch time: 0.093s, current epoch time: 14.830s
+2021-02-28 10:44:21,414 epoch 60. train 201/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:44:21,414 Batch time: 0.089s, current epoch time: 19.384s
+2021-02-28 10:44:25,958 epoch 60. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:44:25,959 Batch time: 0.089s, current epoch time: 23.929s
+2021-02-28 10:44:30,502 epoch 60. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:30,502 Batch time: 0.091s, current epoch time: 28.472s
+2021-02-28 10:44:35,052 epoch 60. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:35,052 Batch time: 0.091s, current epoch time: 33.022s
+2021-02-28 10:44:39,604 epoch 60. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:44:39,605 Batch time: 0.091s, current epoch time: 37.574s
+2021-02-28 10:44:44,164 epoch 60. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:44:44,165 Batch time: 0.090s, current epoch time: 42.135s
+2021-02-28 10:44:45,786 Epoch time: 43.756s
+2021-02-28 10:44:45,786 epoch 60, loss=0.0001, category acc=100.000000
+2021-02-28 10:45:00,331 epoch 60, val acc concept=100.0
+2021-02-28 10:45:00,331 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:45:00,332 ETA:58m/1.6h
+2021-02-28 10:45:01,277 epoch 61. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:01,277 Batch time: 0.090s, current epoch time: 0.946s
+2021-02-28 10:45:06,021 epoch 61. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:06,022 Batch time: 0.090s, current epoch time: 5.690s
+2021-02-28 10:45:10,532 epoch 61. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:45:10,532 Batch time: 0.090s, current epoch time: 10.201s
+2021-02-28 10:45:15,028 epoch 61. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:15,028 Batch time: 0.089s, current epoch time: 14.697s
+2021-02-28 10:45:19,518 epoch 61. train 201/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:45:19,518 Batch time: 0.090s, current epoch time: 19.186s
+2021-02-28 10:45:24,024 epoch 61. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:24,024 Batch time: 0.090s, current epoch time: 23.693s
+2021-02-28 10:45:28,524 epoch 61. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:28,524 Batch time: 0.089s, current epoch time: 28.193s
+2021-02-28 10:45:33,025 epoch 61. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:33,025 Batch time: 0.090s, current epoch time: 32.694s
+2021-02-28 10:45:37,516 epoch 61. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:37,517 Batch time: 0.090s, current epoch time: 37.185s
+2021-02-28 10:45:41,994 epoch 61. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:41,994 Batch time: 0.089s, current epoch time: 41.662s
+2021-02-28 10:45:43,587 Epoch time: 43.256s
+2021-02-28 10:45:43,587 epoch 61, loss=0.0001, category acc=100.000000
+2021-02-28 10:45:57,810 epoch 61, val acc concept=100.0
+2021-02-28 10:45:57,811 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:45:57,811 ETA:59m/1.6h
+2021-02-28 10:45:58,856 epoch 62. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:45:58,856 Batch time: 0.090s, current epoch time: 1.045s
+2021-02-28 10:46:03,414 epoch 62. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:46:03,415 Batch time: 0.090s, current epoch time: 5.604s
+2021-02-28 10:46:07,906 epoch 62. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:07,906 Batch time: 0.090s, current epoch time: 10.095s
+2021-02-28 10:46:12,412 epoch 62. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:12,413 Batch time: 0.090s, current epoch time: 14.601s
+2021-02-28 10:46:16,935 epoch 62. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:16,935 Batch time: 0.089s, current epoch time: 19.124s
+2021-02-28 10:46:21,444 epoch 62. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:21,445 Batch time: 0.093s, current epoch time: 23.633s
+2021-02-28 10:46:25,936 epoch 62. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:25,937 Batch time: 0.090s, current epoch time: 28.125s
+2021-02-28 10:46:30,431 epoch 62. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:30,432 Batch time: 0.089s, current epoch time: 32.620s
+2021-02-28 10:46:34,920 epoch 62. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:34,920 Batch time: 0.089s, current epoch time: 37.109s
+2021-02-28 10:46:39,397 epoch 62. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:39,397 Batch time: 0.089s, current epoch time: 41.586s
+2021-02-28 10:46:41,014 Epoch time: 43.202s
+2021-02-28 10:46:41,014 epoch 62, loss=0.0001, category acc=100.000000
+2021-02-28 10:46:55,496 epoch 62, val acc concept=100.0
+2021-02-28 10:46:55,497 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:46:55,497 ETA:60m/1.6h
+2021-02-28 10:46:56,423 epoch 63. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:46:56,424 Batch time: 0.093s, current epoch time: 0.926s
+2021-02-28 10:47:01,149 epoch 63. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:01,150 Batch time: 0.089s, current epoch time: 5.652s
+2021-02-28 10:47:05,642 epoch 63. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:05,642 Batch time: 0.089s, current epoch time: 10.145s
+2021-02-28 10:47:10,141 epoch 63. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:10,141 Batch time: 0.090s, current epoch time: 14.644s
+2021-02-28 10:47:14,632 epoch 63. train 201/469, loss=0.0006, acc concept=100.0000
+2021-02-28 10:47:14,633 Batch time: 0.090s, current epoch time: 19.135s
+2021-02-28 10:47:19,124 epoch 63. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:19,124 Batch time: 0.089s, current epoch time: 23.627s
+2021-02-28 10:47:23,614 epoch 63. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:23,615 Batch time: 0.090s, current epoch time: 28.117s
+2021-02-28 10:47:28,108 epoch 63. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:28,109 Batch time: 0.090s, current epoch time: 32.611s
+2021-02-28 10:47:32,619 epoch 63. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:32,619 Batch time: 0.089s, current epoch time: 37.122s
+2021-02-28 10:47:37,094 epoch 63. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:47:37,094 Batch time: 0.089s, current epoch time: 41.597s
+2021-02-28 10:47:38,706 Epoch time: 43.209s
+2021-02-28 10:47:38,706 epoch 63, loss=0.0001, category acc=100.000000
+2021-02-28 10:47:53,112 epoch 63, val acc concept=100.0
+2021-02-28 10:47:53,113 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:47:53,113 ETA:1.0h/1.6h
+2021-02-28 10:47:54,335 epoch 64. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:54,336 Batch time: 0.092s, current epoch time: 1.223s
+2021-02-28 10:47:58,881 epoch 64. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:47:58,882 Batch time: 0.089s, current epoch time: 5.769s
+2021-02-28 10:48:03,428 epoch 64. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:48:03,428 Batch time: 0.091s, current epoch time: 10.315s
+2021-02-28 10:48:07,993 epoch 64. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:07,995 Batch time: 0.090s, current epoch time: 14.882s
+2021-02-28 10:48:12,530 epoch 64. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:12,531 Batch time: 0.089s, current epoch time: 19.418s
+2021-02-28 10:48:17,082 epoch 64. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:17,083 Batch time: 0.091s, current epoch time: 23.970s
+2021-02-28 10:48:21,605 epoch 64. train 301/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:48:21,605 Batch time: 0.089s, current epoch time: 28.492s
+2021-02-28 10:48:26,144 epoch 64. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:26,144 Batch time: 0.086s, current epoch time: 33.031s
+2021-02-28 10:48:30,703 epoch 64. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:30,704 Batch time: 0.091s, current epoch time: 37.591s
+2021-02-28 10:48:35,264 epoch 64. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:35,265 Batch time: 0.091s, current epoch time: 42.152s
+2021-02-28 10:48:36,876 Epoch time: 43.763s
+2021-02-28 10:48:36,877 epoch 64, loss=0.0001, category acc=100.000000
+2021-02-28 10:48:51,931 epoch 64, val acc concept=100.0
+2021-02-28 10:48:51,931 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:48:51,932 ETA:1.0h/1.6h
+2021-02-28 10:48:52,714 epoch 65. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:52,715 Batch time: 0.118s, current epoch time: 0.784s
+2021-02-28 10:48:57,616 epoch 65. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:48:57,616 Batch time: 0.089s, current epoch time: 5.684s
+2021-02-28 10:49:02,115 epoch 65. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:02,115 Batch time: 0.089s, current epoch time: 10.184s
+2021-02-28 10:49:06,630 epoch 65. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:06,631 Batch time: 0.093s, current epoch time: 14.699s
+2021-02-28 10:49:11,151 epoch 65. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:11,152 Batch time: 0.090s, current epoch time: 19.220s
+2021-02-28 10:49:15,648 epoch 65. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:49:15,649 Batch time: 0.089s, current epoch time: 23.717s
+2021-02-28 10:49:20,148 epoch 65. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:20,149 Batch time: 0.093s, current epoch time: 28.217s
+2021-02-28 10:49:24,656 epoch 65. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:49:24,657 Batch time: 0.089s, current epoch time: 32.725s
+2021-02-28 10:49:29,151 epoch 65. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:29,152 Batch time: 0.089s, current epoch time: 37.220s
+2021-02-28 10:49:33,640 epoch 65. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:33,640 Batch time: 0.089s, current epoch time: 41.708s
+2021-02-28 10:49:35,239 Epoch time: 43.307s
+2021-02-28 10:49:35,239 epoch 65, loss=0.0001, category acc=100.000000
+2021-02-28 10:49:50,198 epoch 65, val acc concept=100.0
+2021-02-28 10:49:50,199 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:49:50,199 ETA:1.0h/1.6h
+2021-02-28 10:49:50,998 epoch 66. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:50,999 Batch time: 0.103s, current epoch time: 0.800s
+2021-02-28 10:49:55,861 epoch 66. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:49:55,861 Batch time: 0.089s, current epoch time: 5.662s
+2021-02-28 10:50:00,384 epoch 66. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:00,384 Batch time: 0.090s, current epoch time: 10.185s
+2021-02-28 10:50:04,899 epoch 66. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:04,900 Batch time: 0.089s, current epoch time: 14.700s
+2021-02-28 10:50:09,432 epoch 66. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:09,432 Batch time: 0.092s, current epoch time: 19.233s
+2021-02-28 10:50:13,960 epoch 66. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:13,960 Batch time: 0.090s, current epoch time: 23.761s
+2021-02-28 10:50:18,461 epoch 66. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:18,461 Batch time: 0.090s, current epoch time: 28.262s
+2021-02-28 10:50:22,957 epoch 66. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:50:22,958 Batch time: 0.090s, current epoch time: 32.758s
+2021-02-28 10:50:27,452 epoch 66. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:50:27,452 Batch time: 0.090s, current epoch time: 37.253s
+2021-02-28 10:50:31,957 epoch 66. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:31,957 Batch time: 0.089s, current epoch time: 41.758s
+2021-02-28 10:50:33,574 Epoch time: 43.374s
+2021-02-28 10:50:33,574 epoch 66, loss=0.0001, category acc=100.000000
+2021-02-28 10:50:47,822 epoch 66, val acc concept=100.0
+2021-02-28 10:50:47,823 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:50:47,823 ETA:1.1h/1.6h
+2021-02-28 10:50:48,614 epoch 67. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:50:48,614 Batch time: 0.115s, current epoch time: 0.791s
+2021-02-28 10:50:53,460 epoch 67. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:53,460 Batch time: 0.093s, current epoch time: 5.637s
+2021-02-28 10:50:57,958 epoch 67. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:50:57,959 Batch time: 0.089s, current epoch time: 10.135s
+2021-02-28 10:51:02,464 epoch 67. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:02,465 Batch time: 0.090s, current epoch time: 14.642s
+2021-02-28 10:51:06,956 epoch 67. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:06,957 Batch time: 0.090s, current epoch time: 19.133s
+2021-02-28 10:51:11,451 epoch 67. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:11,451 Batch time: 0.089s, current epoch time: 23.628s
+2021-02-28 10:51:15,949 epoch 67. train 301/469, loss=0.0007, acc concept=100.0000
+2021-02-28 10:51:15,949 Batch time: 0.089s, current epoch time: 28.126s
+2021-02-28 10:51:20,451 epoch 67. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:20,452 Batch time: 0.093s, current epoch time: 32.628s
+2021-02-28 10:51:24,939 epoch 67. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:24,940 Batch time: 0.089s, current epoch time: 37.116s
+2021-02-28 10:51:29,452 epoch 67. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:29,453 Batch time: 0.090s, current epoch time: 41.630s
+2021-02-28 10:51:31,065 Epoch time: 43.241s
+2021-02-28 10:51:31,065 epoch 67, loss=0.0001, category acc=100.000000
+2021-02-28 10:51:46,249 epoch 67, val acc concept=100.0
+2021-02-28 10:51:46,250 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:51:46,250 ETA:1.1h/1.6h
+2021-02-28 10:51:47,200 epoch 68. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:47,200 Batch time: 0.092s, current epoch time: 0.950s
+2021-02-28 10:51:51,932 epoch 68. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:51:51,932 Batch time: 0.090s, current epoch time: 5.682s
+2021-02-28 10:51:56,449 epoch 68. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:51:56,449 Batch time: 0.090s, current epoch time: 10.200s
+2021-02-28 10:52:00,968 epoch 68. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:00,968 Batch time: 0.089s, current epoch time: 14.718s
+2021-02-28 10:52:05,478 epoch 68. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:05,478 Batch time: 0.089s, current epoch time: 19.228s
+2021-02-28 10:52:09,991 epoch 68. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:09,991 Batch time: 0.090s, current epoch time: 23.742s
+2021-02-28 10:52:14,492 epoch 68. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:14,492 Batch time: 0.090s, current epoch time: 28.243s
+2021-02-28 10:52:19,007 epoch 68. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:52:19,008 Batch time: 0.090s, current epoch time: 32.758s
+2021-02-28 10:52:23,511 epoch 68. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:52:23,511 Batch time: 0.090s, current epoch time: 37.261s
+2021-02-28 10:52:27,992 epoch 68. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:27,992 Batch time: 0.089s, current epoch time: 41.743s
+2021-02-28 10:52:29,607 Epoch time: 43.357s
+2021-02-28 10:52:29,607 epoch 68, loss=0.0001, category acc=100.000000
+2021-02-28 10:52:43,869 epoch 68, val acc concept=100.0
+2021-02-28 10:52:43,870 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:52:43,870 ETA:1.1h/1.6h
+2021-02-28 10:52:44,966 epoch 69. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:44,967 Batch time: 0.090s, current epoch time: 1.097s
+2021-02-28 10:52:49,560 epoch 69. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:49,561 Batch time: 0.089s, current epoch time: 5.691s
+2021-02-28 10:52:54,064 epoch 69. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:54,065 Batch time: 0.090s, current epoch time: 10.195s
+2021-02-28 10:52:58,576 epoch 69. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:52:58,576 Batch time: 0.091s, current epoch time: 14.706s
+2021-02-28 10:53:03,090 epoch 69. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:03,090 Batch time: 0.092s, current epoch time: 19.220s
+2021-02-28 10:53:07,592 epoch 69. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:07,592 Batch time: 0.090s, current epoch time: 23.722s
+2021-02-28 10:53:12,092 epoch 69. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:12,093 Batch time: 0.089s, current epoch time: 28.223s
+2021-02-28 10:53:16,607 epoch 69. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:53:16,608 Batch time: 0.090s, current epoch time: 32.738s
+2021-02-28 10:53:21,107 epoch 69. train 401/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:53:21,108 Batch time: 0.090s, current epoch time: 37.238s
+2021-02-28 10:53:25,590 epoch 69. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:25,591 Batch time: 0.089s, current epoch time: 41.721s
+2021-02-28 10:53:27,184 Epoch time: 43.314s
+2021-02-28 10:53:27,184 epoch 69, loss=0.0001, category acc=100.000000
+2021-02-28 10:53:41,349 epoch 69, val acc concept=100.0
+2021-02-28 10:53:41,349 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:53:41,349 ETA:1.1h/1.6h
+2021-02-28 10:53:42,425 epoch 70. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:42,425 Batch time: 0.092s, current epoch time: 1.076s
+2021-02-28 10:53:47,064 epoch 70. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:47,064 Batch time: 0.091s, current epoch time: 5.714s
+2021-02-28 10:53:51,608 epoch 70. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:51,608 Batch time: 0.091s, current epoch time: 10.259s
+2021-02-28 10:53:56,144 epoch 70. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:53:56,144 Batch time: 0.094s, current epoch time: 14.795s
+2021-02-28 10:54:00,688 epoch 70. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:00,688 Batch time: 0.091s, current epoch time: 19.338s
+2021-02-28 10:54:05,219 epoch 70. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:05,220 Batch time: 0.091s, current epoch time: 23.870s
+2021-02-28 10:54:09,771 epoch 70. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:09,772 Batch time: 0.090s, current epoch time: 28.422s
+2021-02-28 10:54:14,315 epoch 70. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:54:14,315 Batch time: 0.091s, current epoch time: 32.966s
+2021-02-28 10:54:18,848 epoch 70. train 401/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:54:18,849 Batch time: 0.086s, current epoch time: 37.499s
+2021-02-28 10:54:23,376 epoch 70. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:23,377 Batch time: 0.089s, current epoch time: 42.027s
+2021-02-28 10:54:24,977 Epoch time: 43.628s
+2021-02-28 10:54:24,977 epoch 70, loss=0.0001, category acc=100.000000
+2021-02-28 10:54:39,939 epoch 70, val acc concept=100.0
+2021-02-28 10:54:39,939 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:54:39,939 ETA:1.1h/1.6h
+2021-02-28 10:54:41,090 epoch 71. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:41,090 Batch time: 0.090s, current epoch time: 1.151s
+2021-02-28 10:54:45,596 epoch 71. train 51/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:54:45,597 Batch time: 0.089s, current epoch time: 5.658s
+2021-02-28 10:54:50,105 epoch 71. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:50,105 Batch time: 0.089s, current epoch time: 10.166s
+2021-02-28 10:54:54,601 epoch 71. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:54,602 Batch time: 0.090s, current epoch time: 14.662s
+2021-02-28 10:54:59,101 epoch 71. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:54:59,101 Batch time: 0.089s, current epoch time: 19.162s
+2021-02-28 10:55:03,611 epoch 71. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:03,612 Batch time: 0.090s, current epoch time: 23.672s
+2021-02-28 10:55:08,111 epoch 71. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:08,112 Batch time: 0.090s, current epoch time: 28.172s
+2021-02-28 10:55:12,632 epoch 71. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:12,632 Batch time: 0.090s, current epoch time: 32.692s
+2021-02-28 10:55:17,133 epoch 71. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:17,133 Batch time: 0.090s, current epoch time: 37.193s
+2021-02-28 10:55:21,610 epoch 71. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:21,610 Batch time: 0.089s, current epoch time: 41.671s
+2021-02-28 10:55:23,213 Epoch time: 43.273s
+2021-02-28 10:55:23,213 epoch 71, loss=0.0001, category acc=100.000000
+2021-02-28 10:55:37,738 epoch 71, val acc concept=100.0
+2021-02-28 10:55:37,738 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:55:37,739 ETA:1.1h/1.6h
+2021-02-28 10:55:38,720 epoch 72. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:38,721 Batch time: 0.094s, current epoch time: 0.982s
+2021-02-28 10:55:43,435 epoch 72. train 51/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:55:43,436 Batch time: 0.091s, current epoch time: 5.697s
+2021-02-28 10:55:47,984 epoch 72. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:55:47,984 Batch time: 0.091s, current epoch time: 10.245s
+2021-02-28 10:55:52,537 epoch 72. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:52,537 Batch time: 0.091s, current epoch time: 14.799s
+2021-02-28 10:55:57,072 epoch 72. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:55:57,072 Batch time: 0.092s, current epoch time: 19.333s
+2021-02-28 10:56:01,582 epoch 72. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:01,582 Batch time: 0.091s, current epoch time: 23.843s
+2021-02-28 10:56:06,104 epoch 72. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:06,104 Batch time: 0.090s, current epoch time: 28.366s
+2021-02-28 10:56:10,636 epoch 72. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:10,636 Batch time: 0.090s, current epoch time: 32.898s
+2021-02-28 10:56:15,159 epoch 72. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:56:15,160 Batch time: 0.089s, current epoch time: 37.421s
+2021-02-28 10:56:19,682 epoch 72. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:19,682 Batch time: 0.089s, current epoch time: 41.943s
+2021-02-28 10:56:21,284 Epoch time: 43.546s
+2021-02-28 10:56:21,284 epoch 72, loss=0.0001, category acc=100.000000
+2021-02-28 10:56:35,582 epoch 72, val acc concept=100.0
+2021-02-28 10:56:35,583 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:56:35,583 ETA:1.2h/1.6h
+2021-02-28 10:56:36,585 epoch 73. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:36,586 Batch time: 0.092s, current epoch time: 1.003s
+2021-02-28 10:56:41,354 epoch 73. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:41,354 Batch time: 0.091s, current epoch time: 5.772s
+2021-02-28 10:56:45,874 epoch 73. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:45,874 Batch time: 0.090s, current epoch time: 10.292s
+2021-02-28 10:56:50,411 epoch 73. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:50,411 Batch time: 0.090s, current epoch time: 14.828s
+2021-02-28 10:56:54,935 epoch 73. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:54,935 Batch time: 0.090s, current epoch time: 19.352s
+2021-02-28 10:56:59,461 epoch 73. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:56:59,462 Batch time: 0.093s, current epoch time: 23.879s
+2021-02-28 10:57:03,960 epoch 73. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:03,961 Batch time: 0.089s, current epoch time: 28.378s
+2021-02-28 10:57:08,466 epoch 73. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:57:08,467 Batch time: 0.090s, current epoch time: 32.884s
+2021-02-28 10:57:12,965 epoch 73. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:12,965 Batch time: 0.089s, current epoch time: 37.382s
+2021-02-28 10:57:17,472 epoch 73. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:17,473 Batch time: 0.089s, current epoch time: 41.890s
+2021-02-28 10:57:19,074 Epoch time: 43.491s
+2021-02-28 10:57:19,074 epoch 73, loss=0.0001, category acc=100.000000
+2021-02-28 10:57:33,220 epoch 73, val acc concept=100.0
+2021-02-28 10:57:33,221 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:57:33,221 ETA:1.2h/1.6h
+2021-02-28 10:57:34,399 epoch 74. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:57:34,399 Batch time: 0.090s, current epoch time: 1.178s
+2021-02-28 10:57:38,889 epoch 74. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:38,890 Batch time: 0.089s, current epoch time: 5.669s
+2021-02-28 10:57:43,387 epoch 74. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:43,387 Batch time: 0.089s, current epoch time: 10.166s
+2021-02-28 10:57:47,879 epoch 74. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:57:47,879 Batch time: 0.090s, current epoch time: 14.658s
+2021-02-28 10:57:52,365 epoch 74. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:52,366 Batch time: 0.090s, current epoch time: 19.144s
+2021-02-28 10:57:56,851 epoch 74. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:57:56,851 Batch time: 0.089s, current epoch time: 23.630s
+2021-02-28 10:58:01,340 epoch 74. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:01,340 Batch time: 0.089s, current epoch time: 28.119s
+2021-02-28 10:58:05,830 epoch 74. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:05,831 Batch time: 0.090s, current epoch time: 32.610s
+2021-02-28 10:58:10,323 epoch 74. train 401/469, loss=0.0006, acc concept=100.0000
+2021-02-28 10:58:10,323 Batch time: 0.089s, current epoch time: 37.102s
+2021-02-28 10:58:14,801 epoch 74. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:14,801 Batch time: 0.088s, current epoch time: 41.580s
+2021-02-28 10:58:16,403 Epoch time: 43.181s
+2021-02-28 10:58:16,403 epoch 74, loss=0.0001, category acc=100.000000
+2021-02-28 10:58:30,660 epoch 74, val acc concept=100.0
+2021-02-28 10:58:30,661 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:58:30,661 ETA:1.2h/1.6h
+2021-02-28 10:58:31,518 epoch 75. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:31,519 Batch time: 0.094s, current epoch time: 0.858s
+2021-02-28 10:58:36,346 epoch 75. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:36,347 Batch time: 0.089s, current epoch time: 5.686s
+2021-02-28 10:58:40,839 epoch 75. train 101/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:58:40,840 Batch time: 0.090s, current epoch time: 10.179s
+2021-02-28 10:58:45,329 epoch 75. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:45,330 Batch time: 0.089s, current epoch time: 14.668s
+2021-02-28 10:58:49,828 epoch 75. train 201/469, loss=0.0004, acc concept=100.0000
+2021-02-28 10:58:49,828 Batch time: 0.089s, current epoch time: 19.167s
+2021-02-28 10:58:54,314 epoch 75. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:54,314 Batch time: 0.089s, current epoch time: 23.653s
+2021-02-28 10:58:58,806 epoch 75. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:58:58,806 Batch time: 0.089s, current epoch time: 28.145s
+2021-02-28 10:59:03,293 epoch 75. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:03,293 Batch time: 0.089s, current epoch time: 32.632s
+2021-02-28 10:59:07,786 epoch 75. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:07,786 Batch time: 0.090s, current epoch time: 37.125s
+2021-02-28 10:59:12,267 epoch 75. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:12,267 Batch time: 0.089s, current epoch time: 41.606s
+2021-02-28 10:59:13,871 Epoch time: 43.210s
+2021-02-28 10:59:13,871 epoch 75, loss=0.0001, category acc=100.000000
+2021-02-28 10:59:29,041 epoch 75, val acc concept=100.0
+2021-02-28 10:59:29,042 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 10:59:29,042 ETA:1.2h/1.6h
+2021-02-28 10:59:30,018 epoch 76. train 1/469, loss=0.0003, acc concept=100.0000
+2021-02-28 10:59:30,019 Batch time: 0.096s, current epoch time: 0.976s
+2021-02-28 10:59:34,729 epoch 76. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 10:59:34,729 Batch time: 0.090s, current epoch time: 5.687s
+2021-02-28 10:59:39,261 epoch 76. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:39,262 Batch time: 0.091s, current epoch time: 10.219s
+2021-02-28 10:59:43,780 epoch 76. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:43,780 Batch time: 0.090s, current epoch time: 14.738s
+2021-02-28 10:59:48,297 epoch 76. train 201/469, loss=0.0000, acc concept=100.0000
+2021-02-28 10:59:48,297 Batch time: 0.090s, current epoch time: 19.255s
+2021-02-28 10:59:52,819 epoch 76. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:52,820 Batch time: 0.089s, current epoch time: 23.777s
+2021-02-28 10:59:57,342 epoch 76. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 10:59:57,343 Batch time: 0.090s, current epoch time: 28.300s
+2021-02-28 11:00:01,852 epoch 76. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:01,853 Batch time: 0.090s, current epoch time: 32.810s
+2021-02-28 11:00:06,382 epoch 76. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:06,382 Batch time: 0.093s, current epoch time: 37.340s
+2021-02-28 11:00:10,878 epoch 76. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:10,879 Batch time: 0.089s, current epoch time: 41.836s
+2021-02-28 11:00:12,484 Epoch time: 43.442s
+2021-02-28 11:00:12,484 epoch 76, loss=0.0001, category acc=100.000000
+2021-02-28 11:00:26,924 epoch 76, val acc concept=100.0
+2021-02-28 11:00:26,925 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:00:26,925 ETA:1.2h/1.6h
+2021-02-28 11:00:27,726 epoch 77. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:27,727 Batch time: 0.096s, current epoch time: 0.802s
+2021-02-28 11:00:32,583 epoch 77. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:00:32,584 Batch time: 0.090s, current epoch time: 5.659s
+2021-02-28 11:00:37,137 epoch 77. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:37,138 Batch time: 0.091s, current epoch time: 10.213s
+2021-02-28 11:00:41,670 epoch 77. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:41,671 Batch time: 0.093s, current epoch time: 14.746s
+2021-02-28 11:00:46,199 epoch 77. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:46,199 Batch time: 0.090s, current epoch time: 19.274s
+2021-02-28 11:00:50,715 epoch 77. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:50,716 Batch time: 0.090s, current epoch time: 23.791s
+2021-02-28 11:00:55,250 epoch 77. train 301/469, loss=0.0004, acc concept=100.0000
+2021-02-28 11:00:55,251 Batch time: 0.090s, current epoch time: 28.326s
+2021-02-28 11:00:59,792 epoch 77. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:00:59,793 Batch time: 0.090s, current epoch time: 32.868s
+2021-02-28 11:01:04,310 epoch 77. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:04,311 Batch time: 0.090s, current epoch time: 37.386s
+2021-02-28 11:01:08,811 epoch 77. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:08,811 Batch time: 0.089s, current epoch time: 41.887s
+2021-02-28 11:01:10,418 Epoch time: 43.493s
+2021-02-28 11:01:10,418 epoch 77, loss=0.0001, category acc=100.000000
+2021-02-28 11:01:24,516 epoch 77, val acc concept=100.0
+2021-02-28 11:01:24,517 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:01:24,517 ETA:1.2h/1.6h
+2021-02-28 11:01:25,511 epoch 78. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:25,511 Batch time: 0.092s, current epoch time: 0.994s
+2021-02-28 11:01:30,182 epoch 78. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:30,183 Batch time: 0.090s, current epoch time: 5.666s
+2021-02-28 11:01:34,699 epoch 78. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:34,699 Batch time: 0.090s, current epoch time: 10.182s
+2021-02-28 11:01:39,202 epoch 78. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:39,203 Batch time: 0.089s, current epoch time: 14.686s
+2021-02-28 11:01:43,707 epoch 78. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:43,708 Batch time: 0.090s, current epoch time: 19.191s
+2021-02-28 11:01:48,209 epoch 78. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:48,210 Batch time: 0.090s, current epoch time: 23.693s
+2021-02-28 11:01:52,696 epoch 78. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:01:52,696 Batch time: 0.089s, current epoch time: 28.179s
+2021-02-28 11:01:57,195 epoch 78. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:01:57,196 Batch time: 0.089s, current epoch time: 32.679s
+2021-02-28 11:02:01,689 epoch 78. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:01,689 Batch time: 0.090s, current epoch time: 37.172s
+2021-02-28 11:02:06,182 epoch 78. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:06,182 Batch time: 0.088s, current epoch time: 41.665s
+2021-02-28 11:02:07,780 Epoch time: 43.263s
+2021-02-28 11:02:07,780 epoch 78, loss=0.0001, category acc=100.000000
+2021-02-28 11:02:21,990 epoch 78, val acc concept=100.0
+2021-02-28 11:02:21,991 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:02:21,991 ETA:1.3h/1.6h
+2021-02-28 11:02:23,143 epoch 79. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:02:23,144 Batch time: 0.090s, current epoch time: 1.153s
+2021-02-28 11:02:27,718 epoch 79. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:27,719 Batch time: 0.091s, current epoch time: 5.728s
+2021-02-28 11:02:32,208 epoch 79. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:32,209 Batch time: 0.089s, current epoch time: 10.218s
+2021-02-28 11:02:36,710 epoch 79. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:36,710 Batch time: 0.090s, current epoch time: 14.719s
+2021-02-28 11:02:41,211 epoch 79. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:02:41,211 Batch time: 0.089s, current epoch time: 19.220s
+2021-02-28 11:02:45,714 epoch 79. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:45,714 Batch time: 0.093s, current epoch time: 23.723s
+2021-02-28 11:02:50,207 epoch 79. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:50,208 Batch time: 0.089s, current epoch time: 28.217s
+2021-02-28 11:02:54,703 epoch 79. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:54,703 Batch time: 0.090s, current epoch time: 32.712s
+2021-02-28 11:02:59,205 epoch 79. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:02:59,205 Batch time: 0.089s, current epoch time: 37.214s
+2021-02-28 11:03:03,699 epoch 79. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:03:03,699 Batch time: 0.089s, current epoch time: 41.708s
+2021-02-28 11:03:05,304 Epoch time: 43.313s
+2021-02-28 11:03:05,304 epoch 79, loss=0.0001, category acc=100.000000
+2021-02-28 11:03:20,258 epoch 79, val acc concept=100.0
+2021-02-28 11:03:20,259 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:03:20,260 ETA:1.3h/1.6h
+2021-02-28 11:03:21,045 epoch 80. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:03:21,048 Batch time: 0.092s, current epoch time: 0.788s
+2021-02-28 11:03:25,891 epoch 80. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:03:25,892 Batch time: 0.089s, current epoch time: 5.633s
+2021-02-28 11:03:30,451 epoch 80. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:03:30,451 Batch time: 0.093s, current epoch time: 10.192s
+2021-02-28 11:03:34,995 epoch 80. train 151/469, loss=0.0004, acc concept=100.0000
+2021-02-28 11:03:34,996 Batch time: 0.092s, current epoch time: 14.736s
+2021-02-28 11:03:39,538 epoch 80. train 201/469, loss=0.0003, acc concept=100.0000
+2021-02-28 11:03:39,539 Batch time: 0.091s, current epoch time: 19.279s
+2021-02-28 11:03:44,076 epoch 80. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:03:44,076 Batch time: 0.089s, current epoch time: 23.817s
+2021-02-28 11:03:48,622 epoch 80. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:03:48,623 Batch time: 0.089s, current epoch time: 28.364s
+2021-02-28 11:03:53,163 epoch 80. train 351/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:03:53,163 Batch time: 0.090s, current epoch time: 32.904s
+2021-02-28 11:03:57,693 epoch 80. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:03:57,694 Batch time: 0.091s, current epoch time: 37.434s
+2021-02-28 11:04:02,233 epoch 80. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:02,234 Batch time: 0.089s, current epoch time: 41.974s
+2021-02-28 11:04:03,867 Epoch time: 43.607s
+2021-02-28 11:04:03,867 epoch 80, loss=0.0001, category acc=100.000000
+2021-02-28 11:04:19,088 epoch 80, val acc concept=100.0
+2021-02-28 11:04:19,089 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:04:19,089 ETA:1.3h/1.6h
+2021-02-28 11:04:20,028 epoch 81. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:20,029 Batch time: 0.090s, current epoch time: 0.940s
+2021-02-28 11:04:24,795 epoch 81. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:24,796 Batch time: 0.091s, current epoch time: 5.707s
+2021-02-28 11:04:29,338 epoch 81. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:29,338 Batch time: 0.091s, current epoch time: 10.249s
+2021-02-28 11:04:33,882 epoch 81. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:33,882 Batch time: 0.091s, current epoch time: 14.794s
+2021-02-28 11:04:38,434 epoch 81. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:38,434 Batch time: 0.091s, current epoch time: 19.345s
+2021-02-28 11:04:42,986 epoch 81. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:42,986 Batch time: 0.092s, current epoch time: 23.897s
+2021-02-28 11:04:47,526 epoch 81. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:04:47,527 Batch time: 0.090s, current epoch time: 28.438s
+2021-02-28 11:04:52,064 epoch 81. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:52,065 Batch time: 0.090s, current epoch time: 32.976s
+2021-02-28 11:04:56,584 epoch 81. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:04:56,584 Batch time: 0.089s, current epoch time: 37.495s
+2021-02-28 11:05:01,090 epoch 81. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:01,091 Batch time: 0.089s, current epoch time: 42.002s
+2021-02-28 11:05:02,716 Epoch time: 43.627s
+2021-02-28 11:05:02,716 epoch 81, loss=0.0001, category acc=100.000000
+2021-02-28 11:05:17,020 epoch 81, val acc concept=100.0
+2021-02-28 11:05:17,021 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:05:17,021 ETA:1.3h/1.6h
+2021-02-28 11:05:18,181 epoch 82. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:18,182 Batch time: 0.090s, current epoch time: 1.161s
+2021-02-28 11:05:22,718 epoch 82. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:22,718 Batch time: 0.091s, current epoch time: 5.698s
+2021-02-28 11:05:27,251 epoch 82. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:27,252 Batch time: 0.089s, current epoch time: 10.231s
+2021-02-28 11:05:31,775 epoch 82. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:05:31,776 Batch time: 0.091s, current epoch time: 14.755s
+2021-02-28 11:05:36,282 epoch 82. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:36,282 Batch time: 0.089s, current epoch time: 19.261s
+2021-02-28 11:05:40,791 epoch 82. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:40,791 Batch time: 0.090s, current epoch time: 23.770s
+2021-02-28 11:05:45,306 epoch 82. train 301/469, loss=0.0003, acc concept=100.0000
+2021-02-28 11:05:45,307 Batch time: 0.089s, current epoch time: 28.286s
+2021-02-28 11:05:49,814 epoch 82. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:05:49,815 Batch time: 0.090s, current epoch time: 32.794s
+2021-02-28 11:05:54,337 epoch 82. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:05:54,338 Batch time: 0.086s, current epoch time: 37.317s
+2021-02-28 11:05:58,860 epoch 82. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:05:58,861 Batch time: 0.090s, current epoch time: 41.841s
+2021-02-28 11:06:00,475 Epoch time: 43.454s
+2021-02-28 11:06:00,476 epoch 82, loss=0.0001, category acc=100.000000
+2021-02-28 11:06:14,944 epoch 82, val acc concept=100.0
+2021-02-28 11:06:14,945 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:06:14,945 ETA:1.3h/1.6h
+2021-02-28 11:06:16,028 epoch 83. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:16,029 Batch time: 0.091s, current epoch time: 1.084s
+2021-02-28 11:06:20,642 epoch 83. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:20,642 Batch time: 0.090s, current epoch time: 5.697s
+2021-02-28 11:06:25,133 epoch 83. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:25,133 Batch time: 0.089s, current epoch time: 10.188s
+2021-02-28 11:06:29,621 epoch 83. train 151/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:06:29,622 Batch time: 0.090s, current epoch time: 14.676s
+2021-02-28 11:06:34,125 epoch 83. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:34,125 Batch time: 0.089s, current epoch time: 19.180s
+2021-02-28 11:06:38,616 epoch 83. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:06:38,616 Batch time: 0.090s, current epoch time: 23.671s
+2021-02-28 11:06:43,122 epoch 83. train 301/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:06:43,123 Batch time: 0.089s, current epoch time: 28.178s
+2021-02-28 11:06:47,622 epoch 83. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:47,623 Batch time: 0.089s, current epoch time: 32.677s
+2021-02-28 11:06:52,114 epoch 83. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:06:52,115 Batch time: 0.090s, current epoch time: 37.169s
+2021-02-28 11:06:56,597 epoch 83. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:06:56,597 Batch time: 0.089s, current epoch time: 41.652s
+2021-02-28 11:06:58,189 Epoch time: 43.243s
+2021-02-28 11:06:58,189 epoch 83, loss=0.0001, category acc=100.000000
+2021-02-28 11:07:12,462 epoch 83, val acc concept=100.0
+2021-02-28 11:07:12,463 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:07:12,463 ETA:1.3h/1.6h
+2021-02-28 11:07:13,300 epoch 84. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:13,301 Batch time: 0.109s, current epoch time: 0.838s
+2021-02-28 11:07:18,137 epoch 84. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:18,137 Batch time: 0.090s, current epoch time: 5.674s
+2021-02-28 11:07:22,631 epoch 84. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:22,632 Batch time: 0.090s, current epoch time: 10.169s
+2021-02-28 11:07:27,135 epoch 84. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:27,135 Batch time: 0.089s, current epoch time: 14.672s
+2021-02-28 11:07:31,635 epoch 84. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:31,636 Batch time: 0.090s, current epoch time: 19.173s
+2021-02-28 11:07:36,144 epoch 84. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:36,145 Batch time: 0.093s, current epoch time: 23.682s
+2021-02-28 11:07:40,661 epoch 84. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:40,661 Batch time: 0.089s, current epoch time: 28.198s
+2021-02-28 11:07:45,157 epoch 84. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:45,157 Batch time: 0.090s, current epoch time: 32.695s
+2021-02-28 11:07:49,661 epoch 84. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:07:49,661 Batch time: 0.089s, current epoch time: 37.199s
+2021-02-28 11:07:54,149 epoch 84. train 451/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:07:54,149 Batch time: 0.089s, current epoch time: 41.687s
+2021-02-28 11:07:55,746 Epoch time: 43.283s
+2021-02-28 11:07:55,746 epoch 84, loss=0.0001, category acc=100.000000
+2021-02-28 11:08:10,294 epoch 84, val acc concept=100.0
+2021-02-28 11:08:10,295 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:08:10,295 ETA:1.4h/1.6h
+2021-02-28 11:08:11,202 epoch 85. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:11,203 Batch time: 0.092s, current epoch time: 0.908s
+2021-02-28 11:08:15,996 epoch 85. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:15,997 Batch time: 0.091s, current epoch time: 5.702s
+2021-02-28 11:08:20,566 epoch 85. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:20,567 Batch time: 0.092s, current epoch time: 10.272s
+2021-02-28 11:08:25,142 epoch 85. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:25,142 Batch time: 0.092s, current epoch time: 14.847s
+2021-02-28 11:08:29,701 epoch 85. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:08:29,701 Batch time: 0.090s, current epoch time: 19.406s
+2021-02-28 11:08:34,268 epoch 85. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:34,269 Batch time: 0.090s, current epoch time: 23.974s
+2021-02-28 11:08:38,824 epoch 85. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:38,825 Batch time: 0.091s, current epoch time: 28.530s
+2021-02-28 11:08:43,367 epoch 85. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:43,368 Batch time: 0.091s, current epoch time: 33.073s
+2021-02-28 11:08:47,923 epoch 85. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:47,923 Batch time: 0.091s, current epoch time: 37.628s
+2021-02-28 11:08:52,454 epoch 85. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:08:52,454 Batch time: 0.090s, current epoch time: 42.159s
+2021-02-28 11:08:54,076 Epoch time: 43.781s
+2021-02-28 11:08:54,076 epoch 85, loss=0.0001, category acc=100.000000
+2021-02-28 11:09:08,268 epoch 85, val acc concept=100.0
+2021-02-28 11:09:08,269 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:09:08,269 ETA:1.4h/1.6h
+2021-02-28 11:09:09,115 epoch 86. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:09:09,116 Batch time: 0.093s, current epoch time: 0.846s
+2021-02-28 11:09:13,895 epoch 86. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:13,895 Batch time: 0.090s, current epoch time: 5.626s
+2021-02-28 11:09:18,402 epoch 86. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:18,402 Batch time: 0.089s, current epoch time: 10.133s
+2021-02-28 11:09:22,902 epoch 86. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:22,902 Batch time: 0.089s, current epoch time: 14.633s
+2021-02-28 11:09:27,396 epoch 86. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:27,396 Batch time: 0.089s, current epoch time: 19.127s
+2021-02-28 11:09:31,890 epoch 86. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:31,890 Batch time: 0.090s, current epoch time: 23.621s
+2021-02-28 11:09:36,385 epoch 86. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:36,385 Batch time: 0.090s, current epoch time: 28.116s
+2021-02-28 11:09:40,874 epoch 86. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:09:40,874 Batch time: 0.090s, current epoch time: 32.605s
+2021-02-28 11:09:45,375 epoch 86. train 401/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:09:45,375 Batch time: 0.089s, current epoch time: 37.106s
+2021-02-28 11:09:49,852 epoch 86. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:09:49,852 Batch time: 0.089s, current epoch time: 41.583s
+2021-02-28 11:09:51,454 Epoch time: 43.185s
+2021-02-28 11:09:51,454 epoch 86, loss=0.0001, category acc=100.000000
+2021-02-28 11:10:05,831 epoch 86, val acc concept=100.0
+2021-02-28 11:10:05,832 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:10:05,832 ETA:1.4h/1.6h
+2021-02-28 11:10:06,659 epoch 87. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:06,660 Batch time: 0.097s, current epoch time: 0.828s
+2021-02-28 11:10:11,567 epoch 87. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:11,567 Batch time: 0.089s, current epoch time: 5.735s
+2021-02-28 11:10:16,069 epoch 87. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:16,069 Batch time: 0.090s, current epoch time: 10.236s
+2021-02-28 11:10:20,584 epoch 87. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:20,584 Batch time: 0.091s, current epoch time: 14.752s
+2021-02-28 11:10:25,101 epoch 87. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:10:25,101 Batch time: 0.089s, current epoch time: 19.269s
+2021-02-28 11:10:29,600 epoch 87. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:29,600 Batch time: 0.089s, current epoch time: 23.768s
+2021-02-28 11:10:34,107 epoch 87. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:34,107 Batch time: 0.090s, current epoch time: 28.275s
+2021-02-28 11:10:38,608 epoch 87. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:38,609 Batch time: 0.089s, current epoch time: 32.776s
+2021-02-28 11:10:43,105 epoch 87. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:43,106 Batch time: 0.090s, current epoch time: 37.274s
+2021-02-28 11:10:47,608 epoch 87. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:10:47,609 Batch time: 0.089s, current epoch time: 41.777s
+2021-02-28 11:10:49,211 Epoch time: 43.378s
+2021-02-28 11:10:49,211 epoch 87, loss=0.0001, category acc=100.000000
+2021-02-28 11:11:04,260 epoch 87, val acc concept=100.0
+2021-02-28 11:11:04,262 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:11:04,262 ETA:1.4h/1.6h
+2021-02-28 11:11:05,408 epoch 88. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:05,408 Batch time: 0.093s, current epoch time: 1.146s
+2021-02-28 11:11:09,954 epoch 88. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:09,955 Batch time: 0.090s, current epoch time: 5.693s
+2021-02-28 11:11:14,486 epoch 88. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:14,487 Batch time: 0.091s, current epoch time: 10.225s
+2021-02-28 11:11:19,002 epoch 88. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:19,003 Batch time: 0.089s, current epoch time: 14.741s
+2021-02-28 11:11:23,540 epoch 88. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:23,541 Batch time: 0.089s, current epoch time: 19.279s
+2021-02-28 11:11:28,083 epoch 88. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:28,083 Batch time: 0.090s, current epoch time: 23.821s
+2021-02-28 11:11:32,604 epoch 88. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:32,605 Batch time: 0.090s, current epoch time: 28.343s
+2021-02-28 11:11:37,120 epoch 88. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:37,121 Batch time: 0.092s, current epoch time: 32.859s
+2021-02-28 11:11:41,640 epoch 88. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:11:41,640 Batch time: 0.090s, current epoch time: 37.378s
+2021-02-28 11:11:46,158 epoch 88. train 451/469, loss=0.0004, acc concept=100.0000
+2021-02-28 11:11:46,158 Batch time: 0.089s, current epoch time: 41.896s
+2021-02-28 11:11:47,778 Epoch time: 43.516s
+2021-02-28 11:11:47,778 epoch 88, loss=0.0001, category acc=100.000000
+2021-02-28 11:12:02,272 epoch 88, val acc concept=100.0
+2021-02-28 11:12:02,273 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:12:02,273 ETA:1.4h/1.6h
+2021-02-28 11:12:03,486 epoch 89. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:03,487 Batch time: 0.092s, current epoch time: 1.214s
+2021-02-28 11:12:08,023 epoch 89. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:12:08,023 Batch time: 0.092s, current epoch time: 5.751s
+2021-02-28 11:12:12,558 epoch 89. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:12,558 Batch time: 0.091s, current epoch time: 10.285s
+2021-02-28 11:12:17,104 epoch 89. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:17,104 Batch time: 0.091s, current epoch time: 14.831s
+2021-02-28 11:12:21,655 epoch 89. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:21,656 Batch time: 0.091s, current epoch time: 19.383s
+2021-02-28 11:12:26,193 epoch 89. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:26,193 Batch time: 0.090s, current epoch time: 23.920s
+2021-02-28 11:12:30,727 epoch 89. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:30,727 Batch time: 0.090s, current epoch time: 28.454s
+2021-02-28 11:12:35,264 epoch 89. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:35,264 Batch time: 0.090s, current epoch time: 32.991s
+2021-02-28 11:12:39,806 epoch 89. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:39,807 Batch time: 0.091s, current epoch time: 37.534s
+2021-02-28 11:12:44,320 epoch 89. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:12:44,320 Batch time: 0.088s, current epoch time: 42.048s
+2021-02-28 11:12:45,922 Epoch time: 43.649s
+2021-02-28 11:12:45,922 epoch 89, loss=0.0001, category acc=100.000000
+2021-02-28 11:13:01,273 epoch 89, val acc concept=100.0
+2021-02-28 11:13:01,274 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=0, val acc concept last10=0.0000
+2021-02-28 11:13:01,274 ETA:1.4h/1.6h
+2021-02-28 11:13:02,310 epoch 90. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:02,310 Batch time: 0.091s, current epoch time: 1.036s
+2021-02-28 11:13:06,819 epoch 90. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:06,819 Batch time: 0.086s, current epoch time: 5.545s
+2021-02-28 11:13:11,334 epoch 90. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:11,335 Batch time: 0.089s, current epoch time: 10.060s
+2021-02-28 11:13:15,846 epoch 90. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:15,846 Batch time: 0.089s, current epoch time: 14.572s
+2021-02-28 11:13:20,340 epoch 90. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:13:20,340 Batch time: 0.090s, current epoch time: 19.066s
+2021-02-28 11:13:24,858 epoch 90. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:24,858 Batch time: 0.093s, current epoch time: 23.584s
+2021-02-28 11:13:29,359 epoch 90. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:29,360 Batch time: 0.089s, current epoch time: 28.086s
+2021-02-28 11:13:33,885 epoch 90. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:33,886 Batch time: 0.090s, current epoch time: 32.612s
+2021-02-28 11:13:38,405 epoch 90. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:38,406 Batch time: 0.090s, current epoch time: 37.131s
+2021-02-28 11:13:42,888 epoch 90. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:13:42,889 Batch time: 0.089s, current epoch time: 41.615s
+2021-02-28 11:13:44,495 Epoch time: 43.221s
+2021-02-28 11:13:44,495 epoch 90, loss=0.0001, category acc=100.000000
+2021-02-28 11:13:58,748 epoch 90, val acc concept=100.0
+2021-02-28 11:13:58,749 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=90, val acc concept last10=100.0000
+2021-02-28 11:13:58,749 ETA:1.5h/1.6h
+2021-02-28 11:13:59,950 epoch 91. train 1/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:13:59,950 Batch time: 0.091s, current epoch time: 1.201s
+2021-02-28 11:14:04,443 epoch 91. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:04,443 Batch time: 0.090s, current epoch time: 5.694s
+2021-02-28 11:14:08,964 epoch 91. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:14:08,965 Batch time: 0.089s, current epoch time: 10.216s
+2021-02-28 11:14:13,469 epoch 91. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:13,469 Batch time: 0.090s, current epoch time: 14.720s
+2021-02-28 11:14:17,980 epoch 91. train 201/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:14:17,980 Batch time: 0.090s, current epoch time: 19.231s
+2021-02-28 11:14:22,497 epoch 91. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:22,497 Batch time: 0.086s, current epoch time: 23.748s
+2021-02-28 11:14:26,999 epoch 91. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:14:27,000 Batch time: 0.090s, current epoch time: 28.251s
+2021-02-28 11:14:31,515 epoch 91. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:31,515 Batch time: 0.086s, current epoch time: 32.766s
+2021-02-28 11:14:36,012 epoch 91. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:14:36,013 Batch time: 0.091s, current epoch time: 37.264s
+2021-02-28 11:14:40,524 epoch 91. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:40,525 Batch time: 0.090s, current epoch time: 41.776s
+2021-02-28 11:14:42,132 Epoch time: 43.383s
+2021-02-28 11:14:42,132 epoch 91, loss=0.0001, category acc=100.000000
+2021-02-28 11:14:56,350 epoch 91, val acc concept=100.0
+2021-02-28 11:14:56,351 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=91, val acc concept last10=100.0000
+2021-02-28 11:14:56,351 ETA:1.5h/1.6h
+2021-02-28 11:14:57,391 epoch 92. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:14:57,391 Batch time: 0.090s, current epoch time: 1.040s
+2021-02-28 11:15:02,015 epoch 92. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:02,016 Batch time: 0.089s, current epoch time: 5.665s
+2021-02-28 11:15:06,518 epoch 92. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:06,519 Batch time: 0.089s, current epoch time: 10.168s
+2021-02-28 11:15:11,019 epoch 92. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:11,019 Batch time: 0.090s, current epoch time: 14.668s
+2021-02-28 11:15:15,516 epoch 92. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:15,516 Batch time: 0.089s, current epoch time: 19.165s
+2021-02-28 11:15:20,019 epoch 92. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:20,020 Batch time: 0.089s, current epoch time: 23.669s
+2021-02-28 11:15:24,530 epoch 92. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:24,530 Batch time: 0.089s, current epoch time: 28.179s
+2021-02-28 11:15:29,035 epoch 92. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:29,035 Batch time: 0.089s, current epoch time: 32.684s
+2021-02-28 11:15:33,535 epoch 92. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:33,535 Batch time: 0.089s, current epoch time: 37.184s
+2021-02-28 11:15:38,019 epoch 92. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:38,019 Batch time: 0.089s, current epoch time: 41.668s
+2021-02-28 11:15:39,629 Epoch time: 43.278s
+2021-02-28 11:15:39,629 epoch 92, loss=0.0001, category acc=100.000000
+2021-02-28 11:15:53,926 epoch 92, val acc concept=100.0
+2021-02-28 11:15:53,927 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=92, val acc concept last10=100.0000
+2021-02-28 11:15:53,928 ETA:1.5h/1.6h
+2021-02-28 11:15:55,193 epoch 93. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:55,193 Batch time: 0.093s, current epoch time: 1.266s
+2021-02-28 11:15:59,747 epoch 93. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:15:59,748 Batch time: 0.091s, current epoch time: 5.820s
+2021-02-28 11:16:04,303 epoch 93. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:04,303 Batch time: 0.092s, current epoch time: 10.375s
+2021-02-28 11:16:08,883 epoch 93. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:08,884 Batch time: 0.091s, current epoch time: 14.956s
+2021-02-28 11:16:13,442 epoch 93. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:13,442 Batch time: 0.091s, current epoch time: 19.515s
+2021-02-28 11:16:17,997 epoch 93. train 251/469, loss=0.0000, acc concept=100.0000
+2021-02-28 11:16:17,998 Batch time: 0.093s, current epoch time: 24.070s
+2021-02-28 11:16:22,539 epoch 93. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:22,539 Batch time: 0.090s, current epoch time: 28.612s
+2021-02-28 11:16:27,078 epoch 93. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:27,079 Batch time: 0.091s, current epoch time: 33.152s
+2021-02-28 11:16:31,627 epoch 93. train 401/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:16:31,627 Batch time: 0.091s, current epoch time: 37.700s
+2021-02-28 11:16:36,160 epoch 93. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:36,160 Batch time: 0.089s, current epoch time: 42.233s
+2021-02-28 11:16:37,765 Epoch time: 43.838s
+2021-02-28 11:16:37,766 epoch 93, loss=0.0001, category acc=100.000000
+2021-02-28 11:16:52,846 epoch 93, val acc concept=100.0
+2021-02-28 11:16:52,847 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=93, val acc concept last10=100.0000
+2021-02-28 11:16:52,847 ETA:1.5h/1.6h
+2021-02-28 11:16:53,773 epoch 94. train 1/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:16:53,773 Batch time: 0.093s, current epoch time: 0.926s
+2021-02-28 11:16:58,579 epoch 94. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:16:58,580 Batch time: 0.089s, current epoch time: 5.733s
+2021-02-28 11:17:03,101 epoch 94. train 101/469, loss=0.0003, acc concept=100.0000
+2021-02-28 11:17:03,101 Batch time: 0.089s, current epoch time: 10.254s
+2021-02-28 11:17:07,614 epoch 94. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:07,615 Batch time: 0.093s, current epoch time: 14.768s
+2021-02-28 11:17:12,145 epoch 94. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:12,146 Batch time: 0.090s, current epoch time: 19.299s
+2021-02-28 11:17:16,672 epoch 94. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:16,672 Batch time: 0.091s, current epoch time: 23.825s
+2021-02-28 11:17:21,189 epoch 94. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:21,190 Batch time: 0.090s, current epoch time: 28.343s
+2021-02-28 11:17:25,724 epoch 94. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:25,726 Batch time: 0.091s, current epoch time: 32.879s
+2021-02-28 11:17:30,246 epoch 94. train 401/469, loss=0.0005, acc concept=100.0000
+2021-02-28 11:17:30,247 Batch time: 0.090s, current epoch time: 37.400s
+2021-02-28 11:17:34,770 epoch 94. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:34,770 Batch time: 0.091s, current epoch time: 41.923s
+2021-02-28 11:17:36,388 Epoch time: 43.541s
+2021-02-28 11:17:36,388 epoch 94, loss=0.0001, category acc=100.000000
+2021-02-28 11:17:51,514 epoch 94, val acc concept=100.0
+2021-02-28 11:17:51,515 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=94, val acc concept last10=100.0000
+2021-02-28 11:17:51,515 ETA:1.5h/1.6h
+2021-02-28 11:17:52,653 epoch 95. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:17:52,654 Batch time: 0.094s, current epoch time: 1.139s
+2021-02-28 11:17:57,203 epoch 95. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:17:57,203 Batch time: 0.089s, current epoch time: 5.688s
+2021-02-28 11:18:01,765 epoch 95. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:01,766 Batch time: 0.092s, current epoch time: 10.250s
+2021-02-28 11:18:06,323 epoch 95. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:18:06,324 Batch time: 0.091s, current epoch time: 14.809s
+2021-02-28 11:18:10,866 epoch 95. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:10,867 Batch time: 0.090s, current epoch time: 19.352s
+2021-02-28 11:18:15,415 epoch 95. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:15,416 Batch time: 0.092s, current epoch time: 23.901s
+2021-02-28 11:18:19,959 epoch 95. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:19,960 Batch time: 0.090s, current epoch time: 28.444s
+2021-02-28 11:18:24,498 epoch 95. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:24,499 Batch time: 0.091s, current epoch time: 32.984s
+2021-02-28 11:18:29,048 epoch 95. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:29,049 Batch time: 0.090s, current epoch time: 37.534s
+2021-02-28 11:18:33,599 epoch 95. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:33,600 Batch time: 0.090s, current epoch time: 42.084s
+2021-02-28 11:18:35,218 Epoch time: 43.703s
+2021-02-28 11:18:35,219 epoch 95, loss=0.0001, category acc=100.000000
+2021-02-28 11:18:49,630 epoch 95, val acc concept=100.0
+2021-02-28 11:18:49,631 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=95, val acc concept last10=100.0000
+2021-02-28 11:18:49,631 ETA:1.5h/1.6h
+2021-02-28 11:18:50,836 epoch 96. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:50,836 Batch time: 0.092s, current epoch time: 1.205s
+2021-02-28 11:18:55,348 epoch 96. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:18:55,348 Batch time: 0.090s, current epoch time: 5.717s
+2021-02-28 11:18:59,842 epoch 96. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:18:59,842 Batch time: 0.090s, current epoch time: 10.211s
+2021-02-28 11:19:04,333 epoch 96. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:04,334 Batch time: 0.090s, current epoch time: 14.703s
+2021-02-28 11:19:08,829 epoch 96. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:08,829 Batch time: 0.090s, current epoch time: 19.198s
+2021-02-28 11:19:13,314 epoch 96. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:13,314 Batch time: 0.090s, current epoch time: 23.683s
+2021-02-28 11:19:17,803 epoch 96. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:17,804 Batch time: 0.090s, current epoch time: 28.172s
+2021-02-28 11:19:22,297 epoch 96. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:22,298 Batch time: 0.090s, current epoch time: 32.666s
+2021-02-28 11:19:26,798 epoch 96. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:26,799 Batch time: 0.090s, current epoch time: 37.167s
+2021-02-28 11:19:31,293 epoch 96. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:31,294 Batch time: 0.090s, current epoch time: 41.663s
+2021-02-28 11:19:32,904 Epoch time: 43.273s
+2021-02-28 11:19:32,905 epoch 96, loss=0.0001, category acc=100.000000
+2021-02-28 11:19:47,199 epoch 96, val acc concept=100.0
+2021-02-28 11:19:47,199 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=96, val acc concept last10=100.0000
+2021-02-28 11:19:47,200 ETA:1.5h/1.6h
+2021-02-28 11:19:47,940 epoch 97. train 1/469, loss=0.0003, acc concept=100.0000
+2021-02-28 11:19:47,941 Batch time: 0.087s, current epoch time: 0.741s
+2021-02-28 11:19:52,861 epoch 97. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:19:52,862 Batch time: 0.091s, current epoch time: 5.662s
+2021-02-28 11:19:57,417 epoch 97. train 101/469, loss=0.0007, acc concept=100.0000
+2021-02-28 11:19:57,418 Batch time: 0.091s, current epoch time: 10.218s
+2021-02-28 11:20:01,981 epoch 97. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:01,981 Batch time: 0.090s, current epoch time: 14.782s
+2021-02-28 11:20:06,558 epoch 97. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:06,559 Batch time: 0.094s, current epoch time: 19.359s
+2021-02-28 11:20:11,102 epoch 97. train 251/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:20:11,102 Batch time: 0.090s, current epoch time: 23.903s
+2021-02-28 11:20:15,658 epoch 97. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:15,659 Batch time: 0.091s, current epoch time: 28.459s
+2021-02-28 11:20:20,215 epoch 97. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:20,216 Batch time: 0.091s, current epoch time: 33.017s
+2021-02-28 11:20:24,769 epoch 97. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:24,770 Batch time: 0.093s, current epoch time: 37.570s
+2021-02-28 11:20:29,301 epoch 97. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:29,302 Batch time: 0.089s, current epoch time: 42.103s
+2021-02-28 11:20:30,936 Epoch time: 43.736s
+2021-02-28 11:20:30,936 epoch 97, loss=0.0001, category acc=100.000000
+2021-02-28 11:20:46,138 epoch 97, val acc concept=100.0
+2021-02-28 11:20:46,139 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=97, val acc concept last10=100.0000
+2021-02-28 11:20:46,139 ETA:1.6h/1.6h
+2021-02-28 11:20:47,114 epoch 98. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:47,114 Batch time: 0.090s, current epoch time: 0.975s
+2021-02-28 11:20:51,846 epoch 98. train 51/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:20:51,847 Batch time: 0.091s, current epoch time: 5.707s
+2021-02-28 11:20:56,400 epoch 98. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:20:56,400 Batch time: 0.091s, current epoch time: 10.261s
+2021-02-28 11:21:00,954 epoch 98. train 151/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:00,955 Batch time: 0.091s, current epoch time: 14.815s
+2021-02-28 11:21:05,484 epoch 98. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:05,485 Batch time: 0.090s, current epoch time: 19.345s
+2021-02-28 11:21:10,055 epoch 98. train 251/469, loss=0.0003, acc concept=100.0000
+2021-02-28 11:21:10,056 Batch time: 0.091s, current epoch time: 23.916s
+2021-02-28 11:21:14,604 epoch 98. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:14,604 Batch time: 0.091s, current epoch time: 28.465s
+2021-02-28 11:21:19,140 epoch 98. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:19,141 Batch time: 0.091s, current epoch time: 33.002s
+2021-02-28 11:21:23,678 epoch 98. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:23,678 Batch time: 0.091s, current epoch time: 37.539s
+2021-02-28 11:21:28,214 epoch 98. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:28,215 Batch time: 0.090s, current epoch time: 42.075s
+2021-02-28 11:21:29,839 Epoch time: 43.699s
+2021-02-28 11:21:29,839 epoch 98, loss=0.0001, category acc=100.000000
+2021-02-28 11:21:44,317 epoch 98, val acc concept=100.0
+2021-02-28 11:21:44,318 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=98, val acc concept last10=100.0000
+2021-02-28 11:21:44,318 ETA:1.6h/1.6h
+2021-02-28 11:21:45,058 epoch 99. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:45,059 Batch time: 0.089s, current epoch time: 0.741s
+2021-02-28 11:21:49,864 epoch 99. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:21:49,864 Batch time: 0.091s, current epoch time: 5.546s
+2021-02-28 11:21:54,378 epoch 99. train 101/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:21:54,378 Batch time: 0.090s, current epoch time: 10.060s
+2021-02-28 11:21:58,880 epoch 99. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:21:58,881 Batch time: 0.090s, current epoch time: 14.563s
+2021-02-28 11:22:03,392 epoch 99. train 201/469, loss=0.0007, acc concept=100.0000
+2021-02-28 11:22:03,393 Batch time: 0.090s, current epoch time: 19.075s
+2021-02-28 11:22:07,906 epoch 99. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:07,906 Batch time: 0.090s, current epoch time: 23.588s
+2021-02-28 11:22:12,441 epoch 99. train 301/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:22:12,442 Batch time: 0.091s, current epoch time: 28.124s
+2021-02-28 11:22:16,971 epoch 99. train 351/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:16,972 Batch time: 0.090s, current epoch time: 32.654s
+2021-02-28 11:22:21,497 epoch 99. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:21,497 Batch time: 0.090s, current epoch time: 37.179s
+2021-02-28 11:22:25,997 epoch 99. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:25,999 Batch time: 0.089s, current epoch time: 41.681s
+2021-02-28 11:22:27,624 Epoch time: 43.306s
+2021-02-28 11:22:27,624 epoch 99, loss=0.0001, category acc=100.000000
+2021-02-28 11:22:42,617 epoch 99, val acc concept=100.0
+2021-02-28 11:22:42,618 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=99, val acc concept last10=100.0000
+2021-02-28 11:22:42,618 ETA:1.6h/1.6h
+2021-02-28 11:22:43,740 epoch 100. train 1/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:43,740 Batch time: 0.090s, current epoch time: 1.122s
+2021-02-28 11:22:48,301 epoch 100. train 51/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:48,301 Batch time: 0.090s, current epoch time: 5.683s
+2021-02-28 11:22:52,823 epoch 100. train 101/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:22:52,824 Batch time: 0.090s, current epoch time: 10.206s
+2021-02-28 11:22:57,348 epoch 100. train 151/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:22:57,349 Batch time: 0.092s, current epoch time: 14.730s
+2021-02-28 11:23:01,883 epoch 100. train 201/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:23:01,884 Batch time: 0.091s, current epoch time: 19.266s
+2021-02-28 11:23:06,426 epoch 100. train 251/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:23:06,427 Batch time: 0.090s, current epoch time: 23.809s
+2021-02-28 11:23:10,948 epoch 100. train 301/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:23:10,949 Batch time: 0.091s, current epoch time: 28.331s
+2021-02-28 11:23:15,477 epoch 100. train 351/469, loss=0.0002, acc concept=100.0000
+2021-02-28 11:23:15,477 Batch time: 0.090s, current epoch time: 32.859s
+2021-02-28 11:23:20,016 epoch 100. train 401/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:23:20,017 Batch time: 0.090s, current epoch time: 37.399s
+2021-02-28 11:23:24,525 epoch 100. train 451/469, loss=0.0001, acc concept=100.0000
+2021-02-28 11:23:24,526 Batch time: 0.089s, current epoch time: 41.908s
+2021-02-28 11:23:26,125 Epoch time: 43.507s
+2021-02-28 11:23:26,126 epoch 100, loss=0.0001, category acc=100.000000
+2021-02-28 11:23:40,461 epoch 100, val acc concept=100.0
+2021-02-28 11:23:40,462 best epoch 5, best val acc concept=100.0000, best val acc concept last10 epoch=100, val acc concept last10=100.0000
+2021-02-28 11:23:40,462 ETA:1.6h/1.6h
+2021-02-28 11:23:40,462 Total epoch training time: 4343.847s, average: 43.438s
+2021-02-28 11:23:40,462 ./exp_log/finger-classConcept-ConvNet-pretrain-None/0.01_64_100_2021-02-28 09:46:53
+2021-02-28 11:23:40,467 Best Epoch 5, best val acc concept=100.0000
+2021-02-28 11:23:55,597 Test acc concept=100.0000

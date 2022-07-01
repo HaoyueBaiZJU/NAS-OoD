@@ -1,0 +1,2505 @@
+2021-02-28 01:40:20,784 {'dataset': 'finger', 'backbone_class': 'ConvNet', 'max_epoch': 100, 'lr': 0.01, 'init_weights': None, 'batch_size': 64, 'image_size': 84, 'prefetch': 16, 'model_type': 'classCategory', 'epsilon': 1e-08, 'targetdomain': 'photo', 'fptargetdomain': 'domain_6', 'pretrain': False, 'gpu': '0', 'root_path': None, 'save_dir': None, 'data_cloud_path': None, 'cloud_save_dir': None, 'save_path': './exp_log/finger-classCategory-ConvNet-pretrain-None/0.01_64_100_2021-02-28 01:40:20', 'save_path1': './exp_log/finger-classCategory-ConvNet-pretrain-None'}
+2021-02-28 01:40:38,516 epoch 1. train 1/469, loss=0.6930, acc=51.5625
+2021-02-28 01:40:38,516 Batch time: 2.383s, current epoch time: 3.772s
+2021-02-28 01:40:56,687 epoch 1. train 51/469, loss=0.3750, acc=84.3750
+2021-02-28 01:40:56,687 Batch time: 0.382s, current epoch time: 21.944s
+2021-02-28 01:41:15,507 epoch 1. train 101/469, loss=0.2998, acc=89.0625
+2021-02-28 01:41:15,507 Batch time: 0.380s, current epoch time: 40.763s
+2021-02-28 01:41:34,513 epoch 1. train 151/469, loss=0.1973, acc=93.7500
+2021-02-28 01:41:34,513 Batch time: 0.382s, current epoch time: 59.770s
+2021-02-28 01:41:53,467 epoch 1. train 201/469, loss=0.1818, acc=92.1875
+2021-02-28 01:41:53,468 Batch time: 0.379s, current epoch time: 78.724s
+2021-02-28 01:42:12,450 epoch 1. train 251/469, loss=0.2290, acc=85.9375
+2021-02-28 01:42:12,450 Batch time: 0.380s, current epoch time: 97.707s
+2021-02-28 01:42:31,182 epoch 1. train 301/469, loss=0.0596, acc=98.4375
+2021-02-28 01:42:31,183 Batch time: 0.387s, current epoch time: 116.439s
+2021-02-28 01:42:50,583 epoch 1. train 351/469, loss=0.0716, acc=98.4375
+2021-02-28 01:42:50,583 Batch time: 0.393s, current epoch time: 135.840s
+2021-02-28 01:43:10,044 epoch 1. train 401/469, loss=0.1005, acc=95.3125
+2021-02-28 01:43:10,044 Batch time: 0.387s, current epoch time: 155.300s
+2021-02-28 01:43:29,478 epoch 1. train 451/469, loss=0.1650, acc=96.8750
+2021-02-28 01:43:29,478 Batch time: 0.388s, current epoch time: 174.735s
+2021-02-28 01:43:38,096 Epoch time: 183.352s
+2021-02-28 01:43:38,096 epoch 1, loss=0.2402, category acc=89.933333
+2021-02-28 01:44:31,170 epoch 1, val acc=91.19666665852864
+2021-02-28 01:44:31,175 best epoch 1, best val acc=91.1967, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 01:44:31,175 ETA:4m/6.6h
+2021-02-28 01:44:32,636 epoch 2. train 1/469, loss=0.0412, acc=98.4375
+2021-02-28 01:44:32,637 Batch time: 0.363s, current epoch time: 1.462s
+2021-02-28 01:44:50,898 epoch 2. train 51/469, loss=0.2541, acc=95.3125
+2021-02-28 01:44:50,898 Batch time: 0.373s, current epoch time: 19.723s
+2021-02-28 01:45:09,755 epoch 2. train 101/469, loss=0.0663, acc=96.8750
+2021-02-28 01:45:09,755 Batch time: 0.388s, current epoch time: 38.580s
+2021-02-28 01:45:29,242 epoch 2. train 151/469, loss=0.0505, acc=98.4375
+2021-02-28 01:45:29,242 Batch time: 0.392s, current epoch time: 58.067s
+2021-02-28 01:45:47,723 epoch 2. train 201/469, loss=0.0429, acc=98.4375
+2021-02-28 01:45:47,723 Batch time: 0.375s, current epoch time: 76.548s
+2021-02-28 01:46:06,606 epoch 2. train 251/469, loss=0.3910, acc=92.1875
+2021-02-28 01:46:06,607 Batch time: 0.380s, current epoch time: 95.432s
+2021-02-28 01:46:25,486 epoch 2. train 301/469, loss=0.0628, acc=98.4375
+2021-02-28 01:46:25,486 Batch time: 0.337s, current epoch time: 114.311s
+2021-02-28 01:46:44,638 epoch 2. train 351/469, loss=0.0497, acc=98.4375
+2021-02-28 01:46:44,639 Batch time: 0.387s, current epoch time: 133.464s
+2021-02-28 01:47:04,045 epoch 2. train 401/469, loss=0.0204, acc=100.0000
+2021-02-28 01:47:04,045 Batch time: 0.385s, current epoch time: 152.870s
+2021-02-28 01:47:23,367 epoch 2. train 451/469, loss=0.1640, acc=93.7500
+2021-02-28 01:47:23,368 Batch time: 0.386s, current epoch time: 172.193s
+2021-02-28 01:47:30,314 Epoch time: 179.139s
+2021-02-28 01:47:30,314 epoch 2, loss=0.0982, category acc=96.830000
+2021-02-28 01:48:23,474 epoch 2, val acc=95.68333332926433
+2021-02-28 01:48:23,478 best epoch 2, best val acc=95.6833, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 01:48:23,479 ETA:8m/6.5h
+2021-02-28 01:48:24,542 epoch 3. train 1/469, loss=0.0989, acc=96.8750
+2021-02-28 01:48:24,542 Batch time: 0.380s, current epoch time: 1.064s
+2021-02-28 01:48:42,973 epoch 3. train 51/469, loss=0.0641, acc=96.8750
+2021-02-28 01:48:42,974 Batch time: 0.382s, current epoch time: 19.495s
+2021-02-28 01:49:01,876 epoch 3. train 101/469, loss=0.0380, acc=100.0000
+2021-02-28 01:49:01,876 Batch time: 0.389s, current epoch time: 38.398s
+2021-02-28 01:49:21,285 epoch 3. train 151/469, loss=0.0210, acc=100.0000
+2021-02-28 01:49:21,285 Batch time: 0.381s, current epoch time: 57.807s
+2021-02-28 01:49:40,158 epoch 3. train 201/469, loss=0.1487, acc=96.8750
+2021-02-28 01:49:40,158 Batch time: 0.375s, current epoch time: 76.680s
+2021-02-28 01:49:59,116 epoch 3. train 251/469, loss=0.0522, acc=96.8750
+2021-02-28 01:49:59,117 Batch time: 0.380s, current epoch time: 95.638s
+2021-02-28 01:50:18,049 epoch 3. train 301/469, loss=0.0341, acc=100.0000
+2021-02-28 01:50:18,049 Batch time: 0.378s, current epoch time: 114.570s
+2021-02-28 01:50:36,790 epoch 3. train 351/469, loss=0.0078, acc=100.0000
+2021-02-28 01:50:36,791 Batch time: 0.383s, current epoch time: 133.312s
+2021-02-28 01:50:56,146 epoch 3. train 401/469, loss=0.0473, acc=96.8750
+2021-02-28 01:50:56,147 Batch time: 0.387s, current epoch time: 152.668s
+2021-02-28 01:51:15,531 epoch 3. train 451/469, loss=0.0583, acc=98.4375
+2021-02-28 01:51:15,532 Batch time: 0.387s, current epoch time: 172.053s
+2021-02-28 01:51:22,426 Epoch time: 178.948s
+2021-02-28 01:51:22,426 epoch 3, loss=0.0765, category acc=97.606667
+2021-02-28 01:52:15,327 epoch 3, val acc=89.86333332519531
+2021-02-28 01:52:15,327 best epoch 2, best val acc=95.6833, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 01:52:15,327 ETA:12m/6.5h
+2021-02-28 01:52:16,717 epoch 4. train 1/469, loss=0.1405, acc=96.8750
+2021-02-28 01:52:16,718 Batch time: 0.373s, current epoch time: 1.390s
+2021-02-28 01:52:35,100 epoch 4. train 51/469, loss=0.0071, acc=100.0000
+2021-02-28 01:52:35,101 Batch time: 0.382s, current epoch time: 19.773s
+2021-02-28 01:52:54,014 epoch 4. train 101/469, loss=0.0398, acc=98.4375
+2021-02-28 01:52:54,015 Batch time: 0.384s, current epoch time: 38.687s
+2021-02-28 01:53:13,443 epoch 4. train 151/469, loss=0.0190, acc=100.0000
+2021-02-28 01:53:13,443 Batch time: 0.383s, current epoch time: 58.116s
+2021-02-28 01:53:32,434 epoch 4. train 201/469, loss=0.0641, acc=95.3125
+2021-02-28 01:53:32,434 Batch time: 0.379s, current epoch time: 77.107s
+2021-02-28 01:53:51,383 epoch 4. train 251/469, loss=0.0180, acc=100.0000
+2021-02-28 01:53:51,384 Batch time: 0.381s, current epoch time: 96.056s
+2021-02-28 01:54:10,265 epoch 4. train 301/469, loss=0.0483, acc=98.4375
+2021-02-28 01:54:10,265 Batch time: 0.377s, current epoch time: 114.938s
+2021-02-28 01:54:28,940 epoch 4. train 351/469, loss=0.0583, acc=96.8750
+2021-02-28 01:54:28,941 Batch time: 0.390s, current epoch time: 133.613s
+2021-02-28 01:54:48,341 epoch 4. train 401/469, loss=0.1507, acc=93.7500
+2021-02-28 01:54:48,341 Batch time: 0.386s, current epoch time: 153.014s
+2021-02-28 01:55:07,765 epoch 4. train 451/469, loss=0.0352, acc=98.4375
+2021-02-28 01:55:07,766 Batch time: 0.392s, current epoch time: 172.438s
+2021-02-28 01:55:14,678 Epoch time: 179.351s
+2021-02-28 01:55:14,678 epoch 4, loss=0.0687, category acc=97.836667
+2021-02-28 01:56:08,116 epoch 4, val acc=97.56999999593098
+2021-02-28 01:56:08,120 best epoch 4, best val acc=97.5700, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 01:56:08,120 ETA:16m/6.5h
+2021-02-28 01:56:09,208 epoch 5. train 1/469, loss=0.0624, acc=96.8750
+2021-02-28 01:56:09,208 Batch time: 0.365s, current epoch time: 1.088s
+2021-02-28 01:56:27,853 epoch 5. train 51/469, loss=0.0248, acc=100.0000
+2021-02-28 01:56:27,854 Batch time: 0.378s, current epoch time: 19.734s
+2021-02-28 01:56:46,785 epoch 5. train 101/469, loss=0.0887, acc=96.8750
+2021-02-28 01:56:46,785 Batch time: 0.390s, current epoch time: 38.665s
+2021-02-28 01:57:06,226 epoch 5. train 151/469, loss=0.0278, acc=98.4375
+2021-02-28 01:57:06,227 Batch time: 0.383s, current epoch time: 58.106s
+2021-02-28 01:57:25,688 epoch 5. train 201/469, loss=0.0425, acc=98.4375
+2021-02-28 01:57:25,688 Batch time: 0.393s, current epoch time: 77.568s
+2021-02-28 01:57:44,420 epoch 5. train 251/469, loss=0.0664, acc=96.8750
+2021-02-28 01:57:44,421 Batch time: 0.379s, current epoch time: 96.301s
+2021-02-28 01:58:03,325 epoch 5. train 301/469, loss=0.0432, acc=98.4375
+2021-02-28 01:58:03,325 Batch time: 0.376s, current epoch time: 115.205s
+2021-02-28 01:58:22,241 epoch 5. train 351/469, loss=0.0367, acc=98.4375
+2021-02-28 01:58:22,242 Batch time: 0.379s, current epoch time: 134.121s
+2021-02-28 01:58:41,202 epoch 5. train 401/469, loss=0.2589, acc=95.3125
+2021-02-28 01:58:41,202 Batch time: 0.394s, current epoch time: 153.082s
+2021-02-28 01:59:00,665 epoch 5. train 451/469, loss=0.0147, acc=100.0000
+2021-02-28 01:59:00,666 Batch time: 0.394s, current epoch time: 172.545s
+2021-02-28 01:59:07,570 Epoch time: 179.450s
+2021-02-28 01:59:07,570 epoch 5, loss=0.0612, category acc=98.146667
+2021-02-28 02:00:00,417 epoch 5, val acc=98.18333333333334
+2021-02-28 02:00:00,421 best epoch 5, best val acc=98.1833, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:00:00,421 ETA:19m/6.5h
+2021-02-28 02:00:02,007 epoch 6. train 1/469, loss=0.1425, acc=96.8750
+2021-02-28 02:00:02,008 Batch time: 0.366s, current epoch time: 1.587s
+2021-02-28 02:00:20,238 epoch 6. train 51/469, loss=0.0185, acc=100.0000
+2021-02-28 02:00:20,238 Batch time: 0.387s, current epoch time: 19.817s
+2021-02-28 02:00:39,139 epoch 6. train 101/469, loss=0.0205, acc=100.0000
+2021-02-28 02:00:39,139 Batch time: 0.389s, current epoch time: 38.719s
+2021-02-28 02:00:58,549 epoch 6. train 151/469, loss=0.0835, acc=98.4375
+2021-02-28 02:00:58,549 Batch time: 0.387s, current epoch time: 58.129s
+2021-02-28 02:01:17,943 epoch 6. train 201/469, loss=0.0400, acc=100.0000
+2021-02-28 02:01:17,943 Batch time: 0.386s, current epoch time: 77.523s
+2021-02-28 02:01:36,731 epoch 6. train 251/469, loss=0.1389, acc=98.4375
+2021-02-28 02:01:36,731 Batch time: 0.372s, current epoch time: 96.310s
+2021-02-28 02:01:55,621 epoch 6. train 301/469, loss=0.1128, acc=96.8750
+2021-02-28 02:01:55,621 Batch time: 0.373s, current epoch time: 115.200s
+2021-02-28 02:02:14,509 epoch 6. train 351/469, loss=0.3468, acc=95.3125
+2021-02-28 02:02:14,510 Batch time: 0.377s, current epoch time: 134.089s
+2021-02-28 02:02:33,250 epoch 6. train 401/469, loss=0.0129, acc=100.0000
+2021-02-28 02:02:33,250 Batch time: 0.391s, current epoch time: 152.830s
+2021-02-28 02:02:52,686 epoch 6. train 451/469, loss=0.0654, acc=98.4375
+2021-02-28 02:02:52,687 Batch time: 0.382s, current epoch time: 172.266s
+2021-02-28 02:02:59,549 Epoch time: 179.129s
+2021-02-28 02:02:59,550 epoch 6, loss=0.0533, category acc=98.453333
+2021-02-28 02:03:52,563 epoch 6, val acc=98.43666666666667
+2021-02-28 02:03:52,567 best epoch 6, best val acc=98.4367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:03:52,567 ETA:23m/6.5h
+2021-02-28 02:03:53,954 epoch 7. train 1/469, loss=0.1706, acc=95.3125
+2021-02-28 02:03:53,955 Batch time: 0.359s, current epoch time: 1.388s
+2021-02-28 02:04:12,255 epoch 7. train 51/469, loss=0.0549, acc=98.4375
+2021-02-28 02:04:12,256 Batch time: 0.373s, current epoch time: 19.689s
+2021-02-28 02:04:31,145 epoch 7. train 101/469, loss=0.0183, acc=100.0000
+2021-02-28 02:04:31,145 Batch time: 0.392s, current epoch time: 38.578s
+2021-02-28 02:04:50,613 epoch 7. train 151/469, loss=0.1318, acc=93.7500
+2021-02-28 02:04:50,613 Batch time: 0.395s, current epoch time: 58.047s
+2021-02-28 02:05:09,998 epoch 7. train 201/469, loss=0.0198, acc=100.0000
+2021-02-28 02:05:09,999 Batch time: 0.381s, current epoch time: 77.432s
+2021-02-28 02:05:29,237 epoch 7. train 251/469, loss=0.1394, acc=96.8750
+2021-02-28 02:05:29,237 Batch time: 0.292s, current epoch time: 96.670s
+2021-02-28 02:05:47,934 epoch 7. train 301/469, loss=0.0456, acc=98.4375
+2021-02-28 02:05:47,935 Batch time: 0.372s, current epoch time: 115.368s
+2021-02-28 02:06:06,798 epoch 7. train 351/469, loss=0.0119, acc=100.0000
+2021-02-28 02:06:06,798 Batch time: 0.380s, current epoch time: 134.231s
+2021-02-28 02:06:25,426 epoch 7. train 401/469, loss=0.0807, acc=95.3125
+2021-02-28 02:06:25,426 Batch time: 0.300s, current epoch time: 152.860s
+2021-02-28 02:06:44,793 epoch 7. train 451/469, loss=0.0260, acc=98.4375
+2021-02-28 02:06:44,794 Batch time: 0.388s, current epoch time: 172.227s
+2021-02-28 02:06:51,716 Epoch time: 179.149s
+2021-02-28 02:06:51,717 epoch 7, loss=0.0552, category acc=98.320000
+2021-02-28 02:07:44,714 epoch 7, val acc=97.58666666259765
+2021-02-28 02:07:44,715 best epoch 6, best val acc=98.4367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:07:44,715 ETA:27m/6.5h
+2021-02-28 02:07:45,808 epoch 8. train 1/469, loss=0.0326, acc=98.4375
+2021-02-28 02:07:45,809 Batch time: 0.367s, current epoch time: 1.094s
+2021-02-28 02:08:04,073 epoch 8. train 51/469, loss=0.0280, acc=98.4375
+2021-02-28 02:08:04,073 Batch time: 0.375s, current epoch time: 19.358s
+2021-02-28 02:08:22,781 epoch 8. train 101/469, loss=0.1853, acc=98.4375
+2021-02-28 02:08:22,782 Batch time: 0.386s, current epoch time: 38.067s
+2021-02-28 02:08:42,198 epoch 8. train 151/469, loss=0.0394, acc=98.4375
+2021-02-28 02:08:42,199 Batch time: 0.393s, current epoch time: 57.483s
+2021-02-28 02:09:01,594 epoch 8. train 201/469, loss=0.0280, acc=98.4375
+2021-02-28 02:09:01,594 Batch time: 0.381s, current epoch time: 76.879s
+2021-02-28 02:09:21,003 epoch 8. train 251/469, loss=0.1468, acc=96.8750
+2021-02-28 02:09:21,003 Batch time: 0.392s, current epoch time: 96.288s
+2021-02-28 02:09:39,834 epoch 8. train 301/469, loss=0.0466, acc=98.4375
+2021-02-28 02:09:39,834 Batch time: 0.379s, current epoch time: 115.119s
+2021-02-28 02:09:58,749 epoch 8. train 351/469, loss=0.0648, acc=98.4375
+2021-02-28 02:09:58,750 Batch time: 0.379s, current epoch time: 134.035s
+2021-02-28 02:10:17,715 epoch 8. train 401/469, loss=0.0363, acc=98.4375
+2021-02-28 02:10:17,716 Batch time: 0.380s, current epoch time: 153.000s
+2021-02-28 02:10:36,523 epoch 8. train 451/469, loss=0.0522, acc=98.4375
+2021-02-28 02:10:36,523 Batch time: 0.387s, current epoch time: 171.808s
+2021-02-28 02:10:43,421 Epoch time: 178.705s
+2021-02-28 02:10:43,421 epoch 8, loss=0.0504, category acc=98.550000
+2021-02-28 02:11:36,664 epoch 8, val acc=98.98
+2021-02-28 02:11:36,668 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:11:36,668 ETA:31m/6.5h
+2021-02-28 02:11:37,858 epoch 9. train 1/469, loss=0.0597, acc=95.3125
+2021-02-28 02:11:37,859 Batch time: 0.394s, current epoch time: 1.191s
+2021-02-28 02:11:56,311 epoch 9. train 51/469, loss=0.0504, acc=96.8750
+2021-02-28 02:11:56,312 Batch time: 0.377s, current epoch time: 19.643s
+2021-02-28 02:12:15,091 epoch 9. train 101/469, loss=0.0440, acc=98.4375
+2021-02-28 02:12:15,091 Batch time: 0.386s, current epoch time: 38.423s
+2021-02-28 02:12:34,516 epoch 9. train 151/469, loss=0.0533, acc=98.4375
+2021-02-28 02:12:34,516 Batch time: 0.389s, current epoch time: 57.848s
+2021-02-28 02:12:53,882 epoch 9. train 201/469, loss=0.0162, acc=100.0000
+2021-02-28 02:12:53,882 Batch time: 0.388s, current epoch time: 77.214s
+2021-02-28 02:13:13,219 epoch 9. train 251/469, loss=0.0108, acc=100.0000
+2021-02-28 02:13:13,220 Batch time: 0.389s, current epoch time: 96.551s
+2021-02-28 02:13:32,324 epoch 9. train 301/469, loss=0.0302, acc=100.0000
+2021-02-28 02:13:32,325 Batch time: 0.383s, current epoch time: 115.657s
+2021-02-28 02:13:51,205 epoch 9. train 351/469, loss=0.0173, acc=100.0000
+2021-02-28 02:13:51,205 Batch time: 0.383s, current epoch time: 134.537s
+2021-02-28 02:14:10,133 epoch 9. train 401/469, loss=0.0386, acc=98.4375
+2021-02-28 02:14:10,133 Batch time: 0.377s, current epoch time: 153.465s
+2021-02-28 02:14:28,832 epoch 9. train 451/469, loss=0.0160, acc=100.0000
+2021-02-28 02:14:28,832 Batch time: 0.388s, current epoch time: 172.164s
+2021-02-28 02:14:35,746 Epoch time: 179.077s
+2021-02-28 02:14:35,746 epoch 9, loss=0.0447, category acc=98.706667
+2021-02-28 02:15:28,833 epoch 9, val acc=98.07666666666667
+2021-02-28 02:15:28,833 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:15:28,833 ETA:35m/6.5h
+2021-02-28 02:15:30,450 epoch 10. train 1/469, loss=0.0676, acc=96.8750
+2021-02-28 02:15:30,451 Batch time: 0.372s, current epoch time: 1.617s
+2021-02-28 02:15:48,733 epoch 10. train 51/469, loss=0.0352, acc=98.4375
+2021-02-28 02:15:48,734 Batch time: 0.377s, current epoch time: 19.901s
+2021-02-28 02:16:07,540 epoch 10. train 101/469, loss=0.1225, acc=95.3125
+2021-02-28 02:16:07,540 Batch time: 0.388s, current epoch time: 38.707s
+2021-02-28 02:16:26,924 epoch 10. train 151/469, loss=0.0119, acc=100.0000
+2021-02-28 02:16:26,925 Batch time: 0.389s, current epoch time: 58.091s
+2021-02-28 02:16:46,384 epoch 10. train 201/469, loss=0.0394, acc=98.4375
+2021-02-28 02:16:46,384 Batch time: 0.385s, current epoch time: 77.551s
+2021-02-28 02:17:05,842 epoch 10. train 251/469, loss=0.0332, acc=98.4375
+2021-02-28 02:17:05,843 Batch time: 0.392s, current epoch time: 97.009s
+2021-02-28 02:17:25,257 epoch 10. train 301/469, loss=0.0420, acc=98.4375
+2021-02-28 02:17:25,257 Batch time: 0.386s, current epoch time: 116.424s
+2021-02-28 02:17:43,989 epoch 10. train 351/469, loss=0.0128, acc=100.0000
+2021-02-28 02:17:43,990 Batch time: 0.381s, current epoch time: 135.156s
+2021-02-28 02:18:02,953 epoch 10. train 401/469, loss=0.0351, acc=98.4375
+2021-02-28 02:18:02,954 Batch time: 0.377s, current epoch time: 154.120s
+2021-02-28 02:18:21,915 epoch 10. train 451/469, loss=0.1337, acc=93.7500
+2021-02-28 02:18:21,916 Batch time: 0.374s, current epoch time: 173.082s
+2021-02-28 02:18:28,307 Epoch time: 179.473s
+2021-02-28 02:18:28,307 epoch 10, loss=0.0474, category acc=98.546667
+2021-02-28 02:19:21,219 epoch 10, val acc=90.26
+2021-02-28 02:19:21,219 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:19:21,219 ETA:39m/6.5h
+2021-02-28 02:19:22,947 epoch 11. train 1/469, loss=0.0246, acc=98.4375
+2021-02-28 02:19:22,947 Batch time: 0.366s, current epoch time: 1.728s
+2021-02-28 02:19:41,142 epoch 11. train 51/469, loss=0.0105, acc=100.0000
+2021-02-28 02:19:41,142 Batch time: 0.377s, current epoch time: 19.923s
+2021-02-28 02:19:59,970 epoch 11. train 101/469, loss=0.0234, acc=98.4375
+2021-02-28 02:19:59,970 Batch time: 0.389s, current epoch time: 38.751s
+2021-02-28 02:20:19,388 epoch 11. train 151/469, loss=0.0110, acc=100.0000
+2021-02-28 02:20:19,389 Batch time: 0.390s, current epoch time: 58.169s
+2021-02-28 02:20:38,760 epoch 11. train 201/469, loss=0.0089, acc=100.0000
+2021-02-28 02:20:38,761 Batch time: 0.380s, current epoch time: 77.541s
+2021-02-28 02:20:58,175 epoch 11. train 251/469, loss=0.0126, acc=100.0000
+2021-02-28 02:20:58,175 Batch time: 0.389s, current epoch time: 96.956s
+2021-02-28 02:21:17,575 epoch 11. train 301/469, loss=0.0375, acc=98.4375
+2021-02-28 02:21:17,575 Batch time: 0.390s, current epoch time: 116.356s
+2021-02-28 02:21:36,403 epoch 11. train 351/469, loss=0.0543, acc=96.8750
+2021-02-28 02:21:36,403 Batch time: 0.376s, current epoch time: 135.184s
+2021-02-28 02:21:55,340 epoch 11. train 401/469, loss=0.0398, acc=98.4375
+2021-02-28 02:21:55,340 Batch time: 0.376s, current epoch time: 154.121s
+2021-02-28 02:22:14,203 epoch 11. train 451/469, loss=0.0466, acc=98.4375
+2021-02-28 02:22:14,203 Batch time: 0.375s, current epoch time: 172.984s
+2021-02-28 02:22:20,880 Epoch time: 179.661s
+2021-02-28 02:22:20,880 epoch 11, loss=0.0431, category acc=98.726667
+2021-02-28 02:23:13,363 epoch 11, val acc=98.88333332519531
+2021-02-28 02:23:13,364 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:23:13,364 ETA:43m/6.5h
+2021-02-28 02:23:14,891 epoch 12. train 1/469, loss=0.0310, acc=98.4375
+2021-02-28 02:23:14,892 Batch time: 0.368s, current epoch time: 1.528s
+2021-02-28 02:23:32,924 epoch 12. train 51/469, loss=0.0705, acc=98.4375
+2021-02-28 02:23:32,924 Batch time: 0.380s, current epoch time: 19.560s
+2021-02-28 02:23:51,688 epoch 12. train 101/469, loss=0.0502, acc=96.8750
+2021-02-28 02:23:51,688 Batch time: 0.392s, current epoch time: 38.325s
+2021-02-28 02:24:10,959 epoch 12. train 151/469, loss=0.0273, acc=100.0000
+2021-02-28 02:24:10,959 Batch time: 0.386s, current epoch time: 57.595s
+2021-02-28 02:24:30,315 epoch 12. train 201/469, loss=0.0441, acc=98.4375
+2021-02-28 02:24:30,315 Batch time: 0.388s, current epoch time: 76.952s
+2021-02-28 02:24:49,716 epoch 12. train 251/469, loss=0.1985, acc=96.8750
+2021-02-28 02:24:49,717 Batch time: 0.391s, current epoch time: 96.353s
+2021-02-28 02:25:09,100 epoch 12. train 301/469, loss=0.0104, acc=100.0000
+2021-02-28 02:25:09,101 Batch time: 0.380s, current epoch time: 115.737s
+2021-02-28 02:25:28,316 epoch 12. train 351/469, loss=0.0268, acc=98.4375
+2021-02-28 02:25:28,316 Batch time: 0.293s, current epoch time: 134.952s
+2021-02-28 02:25:47,088 epoch 12. train 401/469, loss=0.0034, acc=100.0000
+2021-02-28 02:25:47,088 Batch time: 0.375s, current epoch time: 153.724s
+2021-02-28 02:26:06,009 epoch 12. train 451/469, loss=0.0690, acc=96.8750
+2021-02-28 02:26:06,009 Batch time: 0.375s, current epoch time: 172.645s
+2021-02-28 02:26:12,770 Epoch time: 179.406s
+2021-02-28 02:26:12,770 epoch 12, loss=0.0408, category acc=98.746667
+2021-02-28 02:27:05,580 epoch 12, val acc=95.06666666666666
+2021-02-28 02:27:05,581 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:27:05,581 ETA:46m/6.5h
+2021-02-28 02:27:07,099 epoch 13. train 1/469, loss=0.1037, acc=96.8750
+2021-02-28 02:27:07,100 Batch time: 0.370s, current epoch time: 1.519s
+2021-02-28 02:27:25,178 epoch 13. train 51/469, loss=0.0126, acc=100.0000
+2021-02-28 02:27:25,179 Batch time: 0.375s, current epoch time: 19.598s
+2021-02-28 02:27:43,976 epoch 13. train 101/469, loss=0.0441, acc=96.8750
+2021-02-28 02:27:43,976 Batch time: 0.384s, current epoch time: 38.395s
+2021-02-28 02:28:03,388 epoch 13. train 151/469, loss=0.0351, acc=98.4375
+2021-02-28 02:28:03,388 Batch time: 0.393s, current epoch time: 57.808s
+2021-02-28 02:28:22,838 epoch 13. train 201/469, loss=0.1495, acc=96.8750
+2021-02-28 02:28:22,838 Batch time: 0.387s, current epoch time: 77.257s
+2021-02-28 02:28:42,261 epoch 13. train 251/469, loss=0.0123, acc=100.0000
+2021-02-28 02:28:42,261 Batch time: 0.387s, current epoch time: 96.680s
+2021-02-28 02:29:01,697 epoch 13. train 301/469, loss=0.0113, acc=100.0000
+2021-02-28 02:29:01,698 Batch time: 0.388s, current epoch time: 116.117s
+2021-02-28 02:29:21,081 epoch 13. train 351/469, loss=0.0923, acc=96.8750
+2021-02-28 02:29:21,082 Batch time: 0.388s, current epoch time: 135.501s
+2021-02-28 02:29:39,806 epoch 13. train 401/469, loss=0.0320, acc=100.0000
+2021-02-28 02:29:39,806 Batch time: 0.374s, current epoch time: 154.226s
+2021-02-28 02:29:58,732 epoch 13. train 451/469, loss=0.0035, acc=100.0000
+2021-02-28 02:29:58,733 Batch time: 0.379s, current epoch time: 173.152s
+2021-02-28 02:30:05,524 Epoch time: 179.943s
+2021-02-28 02:30:05,524 epoch 13, loss=0.0411, category acc=98.703333
+2021-02-28 02:30:57,772 epoch 13, val acc=98.65666665852865
+2021-02-28 02:30:57,773 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:30:57,773 ETA:50m/6.5h
+2021-02-28 02:30:58,892 epoch 14. train 1/469, loss=0.0082, acc=100.0000
+2021-02-28 02:30:58,893 Batch time: 0.368s, current epoch time: 1.120s
+2021-02-28 02:31:17,348 epoch 14. train 51/469, loss=0.0169, acc=98.4375
+2021-02-28 02:31:17,349 Batch time: 0.379s, current epoch time: 19.576s
+2021-02-28 02:31:36,157 epoch 14. train 101/469, loss=0.0358, acc=98.4375
+2021-02-28 02:31:36,157 Batch time: 0.389s, current epoch time: 38.384s
+2021-02-28 02:31:55,449 epoch 14. train 151/469, loss=0.0195, acc=100.0000
+2021-02-28 02:31:55,450 Batch time: 0.387s, current epoch time: 57.677s
+2021-02-28 02:32:14,825 epoch 14. train 201/469, loss=0.1018, acc=98.4375
+2021-02-28 02:32:14,825 Batch time: 0.387s, current epoch time: 77.052s
+2021-02-28 02:32:34,262 epoch 14. train 251/469, loss=0.0306, acc=98.4375
+2021-02-28 02:32:34,262 Batch time: 0.392s, current epoch time: 96.489s
+2021-02-28 02:32:53,663 epoch 14. train 301/469, loss=0.0167, acc=100.0000
+2021-02-28 02:32:53,664 Batch time: 0.389s, current epoch time: 115.890s
+2021-02-28 02:33:13,089 epoch 14. train 351/469, loss=0.0148, acc=100.0000
+2021-02-28 02:33:13,089 Batch time: 0.389s, current epoch time: 135.316s
+2021-02-28 02:33:31,963 epoch 14. train 401/469, loss=0.0148, acc=100.0000
+2021-02-28 02:33:31,964 Batch time: 0.372s, current epoch time: 154.191s
+2021-02-28 02:33:50,894 epoch 14. train 451/469, loss=0.0052, acc=100.0000
+2021-02-28 02:33:50,894 Batch time: 0.381s, current epoch time: 173.121s
+2021-02-28 02:33:57,614 Epoch time: 179.841s
+2021-02-28 02:33:57,615 epoch 14, loss=0.0354, category acc=98.986667
+2021-02-28 02:34:49,970 epoch 14, val acc=93.96666665852865
+2021-02-28 02:34:49,971 best epoch 8, best val acc=98.9800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:34:49,971 ETA:54m/6.5h
+2021-02-28 02:34:51,082 epoch 15. train 1/469, loss=0.0108, acc=100.0000
+2021-02-28 02:34:51,082 Batch time: 0.367s, current epoch time: 1.111s
+2021-02-28 02:35:09,479 epoch 15. train 51/469, loss=0.0109, acc=100.0000
+2021-02-28 02:35:09,480 Batch time: 0.379s, current epoch time: 19.509s
+2021-02-28 02:35:28,296 epoch 15. train 101/469, loss=0.0114, acc=100.0000
+2021-02-28 02:35:28,297 Batch time: 0.391s, current epoch time: 38.326s
+2021-02-28 02:35:47,738 epoch 15. train 151/469, loss=0.0107, acc=100.0000
+2021-02-28 02:35:47,739 Batch time: 0.387s, current epoch time: 57.768s
+2021-02-28 02:36:07,146 epoch 15. train 201/469, loss=0.0272, acc=98.4375
+2021-02-28 02:36:07,146 Batch time: 0.380s, current epoch time: 77.175s
+2021-02-28 02:36:26,484 epoch 15. train 251/469, loss=0.0063, acc=100.0000
+2021-02-28 02:36:26,484 Batch time: 0.382s, current epoch time: 96.513s
+2021-02-28 02:36:45,904 epoch 15. train 301/469, loss=0.0359, acc=98.4375
+2021-02-28 02:36:45,905 Batch time: 0.387s, current epoch time: 115.934s
+2021-02-28 02:37:05,316 epoch 15. train 351/469, loss=0.0057, acc=100.0000
+2021-02-28 02:37:05,316 Batch time: 0.389s, current epoch time: 135.345s
+2021-02-28 02:37:24,756 epoch 15. train 401/469, loss=0.0192, acc=100.0000
+2021-02-28 02:37:24,756 Batch time: 0.389s, current epoch time: 154.785s
+2021-02-28 02:37:43,458 epoch 15. train 451/469, loss=0.1179, acc=98.4375
+2021-02-28 02:37:43,458 Batch time: 0.379s, current epoch time: 173.487s
+2021-02-28 02:37:50,227 Epoch time: 180.256s
+2021-02-28 02:37:50,227 epoch 15, loss=0.0331, category acc=99.066667
+2021-02-28 02:38:42,372 epoch 15, val acc=99.34
+2021-02-28 02:38:42,376 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:38:42,376 ETA:58m/6.5h
+2021-02-28 02:38:43,916 epoch 16. train 1/469, loss=0.0495, acc=98.4375
+2021-02-28 02:38:43,917 Batch time: 0.370s, current epoch time: 1.541s
+2021-02-28 02:39:02,119 epoch 16. train 51/469, loss=0.0262, acc=100.0000
+2021-02-28 02:39:02,120 Batch time: 0.373s, current epoch time: 19.744s
+2021-02-28 02:39:20,890 epoch 16. train 101/469, loss=0.0783, acc=98.4375
+2021-02-28 02:39:20,891 Batch time: 0.386s, current epoch time: 38.515s
+2021-02-28 02:39:40,287 epoch 16. train 151/469, loss=0.0067, acc=100.0000
+2021-02-28 02:39:40,287 Batch time: 0.388s, current epoch time: 57.912s
+2021-02-28 02:39:59,756 epoch 16. train 201/469, loss=0.0159, acc=100.0000
+2021-02-28 02:39:59,757 Batch time: 0.389s, current epoch time: 77.381s
+2021-02-28 02:40:19,205 epoch 16. train 251/469, loss=0.0183, acc=100.0000
+2021-02-28 02:40:19,205 Batch time: 0.387s, current epoch time: 96.830s
+2021-02-28 02:40:38,636 epoch 16. train 301/469, loss=0.0756, acc=96.8750
+2021-02-28 02:40:38,637 Batch time: 0.397s, current epoch time: 116.261s
+2021-02-28 02:40:58,069 epoch 16. train 351/469, loss=0.0172, acc=98.4375
+2021-02-28 02:40:58,069 Batch time: 0.391s, current epoch time: 135.693s
+2021-02-28 02:41:17,469 epoch 16. train 401/469, loss=0.0088, acc=100.0000
+2021-02-28 02:41:17,470 Batch time: 0.390s, current epoch time: 155.094s
+2021-02-28 02:41:36,352 epoch 16. train 451/469, loss=0.0536, acc=98.4375
+2021-02-28 02:41:36,353 Batch time: 0.374s, current epoch time: 173.977s
+2021-02-28 02:41:43,074 Epoch time: 180.698s
+2021-02-28 02:41:43,074 epoch 16, loss=0.0307, category acc=99.066667
+2021-02-28 02:42:35,027 epoch 16, val acc=98.28666666259765
+2021-02-28 02:42:35,027 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:42:35,028 ETA:1.0h/6.5h
+2021-02-28 02:42:36,138 epoch 17. train 1/469, loss=0.0135, acc=100.0000
+2021-02-28 02:42:36,138 Batch time: 0.307s, current epoch time: 1.111s
+2021-02-28 02:42:54,584 epoch 17. train 51/469, loss=0.0645, acc=98.4375
+2021-02-28 02:42:54,585 Batch time: 0.378s, current epoch time: 19.557s
+2021-02-28 02:43:13,591 epoch 17. train 101/469, loss=0.0129, acc=100.0000
+2021-02-28 02:43:13,592 Batch time: 0.389s, current epoch time: 38.565s
+2021-02-28 02:43:33,013 epoch 17. train 151/469, loss=0.0861, acc=95.3125
+2021-02-28 02:43:33,014 Batch time: 0.391s, current epoch time: 57.986s
+2021-02-28 02:43:52,415 epoch 17. train 201/469, loss=0.1042, acc=96.8750
+2021-02-28 02:43:52,416 Batch time: 0.388s, current epoch time: 77.389s
+2021-02-28 02:44:11,836 epoch 17. train 251/469, loss=0.0026, acc=100.0000
+2021-02-28 02:44:11,836 Batch time: 0.389s, current epoch time: 96.809s
+2021-02-28 02:44:31,226 epoch 17. train 301/469, loss=0.0204, acc=100.0000
+2021-02-28 02:44:31,227 Batch time: 0.381s, current epoch time: 116.199s
+2021-02-28 02:44:50,612 epoch 17. train 351/469, loss=0.0389, acc=98.4375
+2021-02-28 02:44:50,612 Batch time: 0.386s, current epoch time: 135.585s
+2021-02-28 02:45:10,023 epoch 17. train 401/469, loss=0.0162, acc=100.0000
+2021-02-28 02:45:10,023 Batch time: 0.389s, current epoch time: 154.996s
+2021-02-28 02:45:29,080 epoch 17. train 451/469, loss=0.0249, acc=100.0000
+2021-02-28 02:45:29,081 Batch time: 0.377s, current epoch time: 174.053s
+2021-02-28 02:45:35,795 Epoch time: 180.767s
+2021-02-28 02:45:35,795 epoch 17, loss=0.0296, category acc=99.096667
+2021-02-28 02:46:27,726 epoch 17, val acc=99.19333332926432
+2021-02-28 02:46:27,727 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:46:27,727 ETA:1.1h/6.5h
+2021-02-28 02:46:29,006 epoch 18. train 1/469, loss=0.0034, acc=100.0000
+2021-02-28 02:46:29,007 Batch time: 0.378s, current epoch time: 1.280s
+2021-02-28 02:46:47,229 epoch 18. train 51/469, loss=0.0214, acc=98.4375
+2021-02-28 02:46:47,229 Batch time: 0.379s, current epoch time: 19.502s
+2021-02-28 02:47:06,095 epoch 18. train 101/469, loss=0.0093, acc=100.0000
+2021-02-28 02:47:06,096 Batch time: 0.379s, current epoch time: 38.369s
+2021-02-28 02:47:25,524 epoch 18. train 151/469, loss=0.0017, acc=100.0000
+2021-02-28 02:47:25,524 Batch time: 0.387s, current epoch time: 57.797s
+2021-02-28 02:47:44,947 epoch 18. train 201/469, loss=0.0081, acc=100.0000
+2021-02-28 02:47:44,947 Batch time: 0.388s, current epoch time: 77.220s
+2021-02-28 02:48:04,381 epoch 18. train 251/469, loss=0.0160, acc=100.0000
+2021-02-28 02:48:04,381 Batch time: 0.392s, current epoch time: 96.655s
+2021-02-28 02:48:23,834 epoch 18. train 301/469, loss=0.0024, acc=100.0000
+2021-02-28 02:48:23,834 Batch time: 0.392s, current epoch time: 116.107s
+2021-02-28 02:48:43,288 epoch 18. train 351/469, loss=0.0090, acc=100.0000
+2021-02-28 02:48:43,289 Batch time: 0.387s, current epoch time: 135.562s
+2021-02-28 02:49:02,705 epoch 18. train 401/469, loss=0.0744, acc=98.4375
+2021-02-28 02:49:02,705 Batch time: 0.385s, current epoch time: 154.978s
+2021-02-28 02:49:22,146 epoch 18. train 451/469, loss=0.0742, acc=95.3125
+2021-02-28 02:49:22,146 Batch time: 0.388s, current epoch time: 174.419s
+2021-02-28 02:49:28,721 Epoch time: 180.994s
+2021-02-28 02:49:28,722 epoch 18, loss=0.0291, category acc=99.080000
+2021-02-28 02:50:20,421 epoch 18, val acc=98.82333332926433
+2021-02-28 02:50:20,422 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:50:20,422 ETA:1.2h/6.5h
+2021-02-28 02:50:21,881 epoch 19. train 1/469, loss=0.0246, acc=98.4375
+2021-02-28 02:50:21,882 Batch time: 0.365s, current epoch time: 1.459s
+2021-02-28 02:50:39,954 epoch 19. train 51/469, loss=0.1337, acc=96.8750
+2021-02-28 02:50:39,955 Batch time: 0.374s, current epoch time: 19.532s
+2021-02-28 02:50:58,825 epoch 19. train 101/469, loss=0.0133, acc=100.0000
+2021-02-28 02:50:58,826 Batch time: 0.388s, current epoch time: 38.403s
+2021-02-28 02:51:18,299 epoch 19. train 151/469, loss=0.0280, acc=98.4375
+2021-02-28 02:51:18,299 Batch time: 0.393s, current epoch time: 57.877s
+2021-02-28 02:51:37,744 epoch 19. train 201/469, loss=0.0036, acc=100.0000
+2021-02-28 02:51:37,744 Batch time: 0.392s, current epoch time: 77.322s
+2021-02-28 02:51:57,154 epoch 19. train 251/469, loss=0.0236, acc=100.0000
+2021-02-28 02:51:57,155 Batch time: 0.394s, current epoch time: 96.732s
+2021-02-28 02:52:16,602 epoch 19. train 301/469, loss=0.1059, acc=98.4375
+2021-02-28 02:52:16,602 Batch time: 0.387s, current epoch time: 116.180s
+2021-02-28 02:52:36,041 epoch 19. train 351/469, loss=0.0067, acc=100.0000
+2021-02-28 02:52:36,041 Batch time: 0.392s, current epoch time: 135.619s
+2021-02-28 02:52:55,459 epoch 19. train 401/469, loss=0.0116, acc=100.0000
+2021-02-28 02:52:55,460 Batch time: 0.390s, current epoch time: 155.037s
+2021-02-28 02:53:14,920 epoch 19. train 451/469, loss=0.0567, acc=96.8750
+2021-02-28 02:53:14,920 Batch time: 0.390s, current epoch time: 174.498s
+2021-02-28 02:53:21,833 Epoch time: 181.410s
+2021-02-28 02:53:21,833 epoch 19, loss=0.0261, category acc=99.240000
+2021-02-28 02:54:13,139 epoch 19, val acc=99.22333333333333
+2021-02-28 02:54:13,140 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:54:13,140 ETA:1.2h/6.5h
+2021-02-28 02:54:14,637 epoch 20. train 1/469, loss=0.0168, acc=100.0000
+2021-02-28 02:54:14,638 Batch time: 0.350s, current epoch time: 1.498s
+2021-02-28 02:54:32,529 epoch 20. train 51/469, loss=0.0075, acc=100.0000
+2021-02-28 02:54:32,530 Batch time: 0.379s, current epoch time: 19.390s
+2021-02-28 02:54:51,527 epoch 20. train 101/469, loss=0.0033, acc=100.0000
+2021-02-28 02:54:51,528 Batch time: 0.390s, current epoch time: 38.388s
+2021-02-28 02:55:10,959 epoch 20. train 151/469, loss=0.0298, acc=98.4375
+2021-02-28 02:55:10,960 Batch time: 0.388s, current epoch time: 57.820s
+2021-02-28 02:55:30,405 epoch 20. train 201/469, loss=0.0191, acc=100.0000
+2021-02-28 02:55:30,405 Batch time: 0.388s, current epoch time: 77.265s
+2021-02-28 02:55:49,842 epoch 20. train 251/469, loss=0.0144, acc=98.4375
+2021-02-28 02:55:49,843 Batch time: 0.389s, current epoch time: 96.703s
+2021-02-28 02:56:09,282 epoch 20. train 301/469, loss=0.0069, acc=100.0000
+2021-02-28 02:56:09,283 Batch time: 0.386s, current epoch time: 116.143s
+2021-02-28 02:56:28,737 epoch 20. train 351/469, loss=0.1343, acc=93.7500
+2021-02-28 02:56:28,737 Batch time: 0.387s, current epoch time: 135.597s
+2021-02-28 02:56:48,174 epoch 20. train 401/469, loss=0.0185, acc=98.4375
+2021-02-28 02:56:48,174 Batch time: 0.391s, current epoch time: 155.035s
+2021-02-28 02:57:07,620 epoch 20. train 451/469, loss=0.0237, acc=100.0000
+2021-02-28 02:57:07,620 Batch time: 0.388s, current epoch time: 174.481s
+2021-02-28 02:57:14,497 Epoch time: 181.357s
+2021-02-28 02:57:14,497 epoch 20, loss=0.0208, category acc=99.330000
+2021-02-28 02:58:06,044 epoch 20, val acc=94.41666666259766
+2021-02-28 02:58:06,045 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 02:58:06,045 ETA:1.3h/6.5h
+2021-02-28 02:58:07,764 epoch 21. train 1/469, loss=0.0086, acc=100.0000
+2021-02-28 02:58:07,764 Batch time: 0.356s, current epoch time: 1.719s
+2021-02-28 02:58:24,943 epoch 21. train 51/469, loss=0.0129, acc=100.0000
+2021-02-28 02:58:24,944 Batch time: 0.381s, current epoch time: 18.899s
+2021-02-28 02:58:43,920 epoch 21. train 101/469, loss=0.0065, acc=100.0000
+2021-02-28 02:58:43,921 Batch time: 0.394s, current epoch time: 37.876s
+2021-02-28 02:59:03,378 epoch 21. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 02:59:03,378 Batch time: 0.387s, current epoch time: 57.334s
+2021-02-28 02:59:22,846 epoch 21. train 201/469, loss=0.0723, acc=98.4375
+2021-02-28 02:59:22,846 Batch time: 0.389s, current epoch time: 76.801s
+2021-02-28 02:59:42,286 epoch 21. train 251/469, loss=0.0029, acc=100.0000
+2021-02-28 02:59:42,287 Batch time: 0.387s, current epoch time: 96.242s
+2021-02-28 03:00:01,737 epoch 21. train 301/469, loss=0.0339, acc=98.4375
+2021-02-28 03:00:01,737 Batch time: 0.391s, current epoch time: 115.692s
+2021-02-28 03:00:21,210 epoch 21. train 351/469, loss=0.0289, acc=98.4375
+2021-02-28 03:00:21,210 Batch time: 0.388s, current epoch time: 135.165s
+2021-02-28 03:00:40,692 epoch 21. train 401/469, loss=0.0200, acc=100.0000
+2021-02-28 03:00:40,692 Batch time: 0.387s, current epoch time: 154.648s
+2021-02-28 03:01:00,151 epoch 21. train 451/469, loss=0.0821, acc=96.8750
+2021-02-28 03:01:00,151 Batch time: 0.391s, current epoch time: 174.106s
+2021-02-28 03:01:07,040 Epoch time: 180.996s
+2021-02-28 03:01:07,041 epoch 21, loss=0.0250, category acc=99.170000
+2021-02-28 03:01:59,062 epoch 21, val acc=99.09999999593099
+2021-02-28 03:01:59,063 best epoch 15, best val acc=99.3400, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:01:59,063 ETA:1.4h/6.5h
+2021-02-28 03:02:00,270 epoch 22. train 1/469, loss=0.0052, acc=100.0000
+2021-02-28 03:02:00,271 Batch time: 0.330s, current epoch time: 1.208s
+2021-02-28 03:02:17,894 epoch 22. train 51/469, loss=0.0055, acc=100.0000
+2021-02-28 03:02:17,894 Batch time: 0.279s, current epoch time: 18.831s
+2021-02-28 03:02:36,846 epoch 22. train 101/469, loss=0.0411, acc=98.4375
+2021-02-28 03:02:36,846 Batch time: 0.386s, current epoch time: 37.784s
+2021-02-28 03:02:56,308 epoch 22. train 151/469, loss=0.0187, acc=98.4375
+2021-02-28 03:02:56,308 Batch time: 0.391s, current epoch time: 57.245s
+2021-02-28 03:03:15,734 epoch 22. train 201/469, loss=0.0168, acc=100.0000
+2021-02-28 03:03:15,734 Batch time: 0.387s, current epoch time: 76.671s
+2021-02-28 03:03:35,179 epoch 22. train 251/469, loss=0.0055, acc=100.0000
+2021-02-28 03:03:35,179 Batch time: 0.385s, current epoch time: 96.116s
+2021-02-28 03:03:54,627 epoch 22. train 301/469, loss=0.0052, acc=100.0000
+2021-02-28 03:03:54,627 Batch time: 0.388s, current epoch time: 115.564s
+2021-02-28 03:04:14,101 epoch 22. train 351/469, loss=0.0280, acc=98.4375
+2021-02-28 03:04:14,101 Batch time: 0.391s, current epoch time: 135.039s
+2021-02-28 03:04:33,407 epoch 22. train 401/469, loss=0.0037, acc=100.0000
+2021-02-28 03:04:33,407 Batch time: 0.386s, current epoch time: 154.344s
+2021-02-28 03:04:52,838 epoch 22. train 451/469, loss=0.0274, acc=100.0000
+2021-02-28 03:04:52,838 Batch time: 0.385s, current epoch time: 173.776s
+2021-02-28 03:04:59,740 Epoch time: 180.677s
+2021-02-28 03:04:59,740 epoch 22, loss=0.0198, category acc=99.353333
+2021-02-28 03:05:51,747 epoch 22, val acc=99.73666666666666
+2021-02-28 03:05:51,751 best epoch 22, best val acc=99.7367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:05:51,751 ETA:1.4h/6.5h
+2021-02-28 03:05:52,877 epoch 23. train 1/469, loss=0.0013, acc=100.0000
+2021-02-28 03:05:52,877 Batch time: 0.360s, current epoch time: 1.126s
+2021-02-28 03:06:10,689 epoch 23. train 51/469, loss=0.0042, acc=100.0000
+2021-02-28 03:06:10,689 Batch time: 0.373s, current epoch time: 18.938s
+2021-02-28 03:06:28,870 epoch 23. train 101/469, loss=0.0027, acc=100.0000
+2021-02-28 03:06:28,871 Batch time: 0.391s, current epoch time: 37.120s
+2021-02-28 03:06:48,249 epoch 23. train 151/469, loss=0.0279, acc=98.4375
+2021-02-28 03:06:48,249 Batch time: 0.382s, current epoch time: 56.498s
+2021-02-28 03:07:07,570 epoch 23. train 201/469, loss=0.0071, acc=100.0000
+2021-02-28 03:07:07,571 Batch time: 0.390s, current epoch time: 75.820s
+2021-02-28 03:07:27,001 epoch 23. train 251/469, loss=0.0073, acc=100.0000
+2021-02-28 03:07:27,002 Batch time: 0.387s, current epoch time: 95.251s
+2021-02-28 03:07:46,462 epoch 23. train 301/469, loss=0.0132, acc=100.0000
+2021-02-28 03:07:46,462 Batch time: 0.387s, current epoch time: 114.711s
+2021-02-28 03:08:05,914 epoch 23. train 351/469, loss=0.0073, acc=100.0000
+2021-02-28 03:08:05,915 Batch time: 0.390s, current epoch time: 134.164s
+2021-02-28 03:08:25,382 epoch 23. train 401/469, loss=0.0022, acc=100.0000
+2021-02-28 03:08:25,382 Batch time: 0.389s, current epoch time: 153.631s
+2021-02-28 03:08:44,694 epoch 23. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 03:08:44,694 Batch time: 0.387s, current epoch time: 172.943s
+2021-02-28 03:08:51,651 Epoch time: 179.900s
+2021-02-28 03:08:51,652 epoch 23, loss=0.0176, category acc=99.470000
+2021-02-28 03:09:44,121 epoch 23, val acc=99.73666666666666
+2021-02-28 03:09:44,122 best epoch 22, best val acc=99.7367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:09:44,122 ETA:1.5h/6.5h
+2021-02-28 03:09:45,216 epoch 24. train 1/469, loss=0.0033, acc=100.0000
+2021-02-28 03:09:45,217 Batch time: 0.363s, current epoch time: 1.095s
+2021-02-28 03:10:02,794 epoch 24. train 51/469, loss=0.0056, acc=100.0000
+2021-02-28 03:10:02,794 Batch time: 0.370s, current epoch time: 18.672s
+2021-02-28 03:10:20,847 epoch 24. train 101/469, loss=0.0041, acc=100.0000
+2021-02-28 03:10:20,847 Batch time: 0.383s, current epoch time: 36.725s
+2021-02-28 03:10:40,248 epoch 24. train 151/469, loss=0.0003, acc=100.0000
+2021-02-28 03:10:40,248 Batch time: 0.384s, current epoch time: 56.126s
+2021-02-28 03:10:59,679 epoch 24. train 201/469, loss=0.0196, acc=100.0000
+2021-02-28 03:10:59,679 Batch time: 0.382s, current epoch time: 75.557s
+2021-02-28 03:11:19,085 epoch 24. train 251/469, loss=0.0165, acc=100.0000
+2021-02-28 03:11:19,086 Batch time: 0.389s, current epoch time: 94.964s
+2021-02-28 03:11:38,319 epoch 24. train 301/469, loss=0.0089, acc=100.0000
+2021-02-28 03:11:38,319 Batch time: 0.382s, current epoch time: 114.197s
+2021-02-28 03:11:57,696 epoch 24. train 351/469, loss=0.0043, acc=100.0000
+2021-02-28 03:11:57,697 Batch time: 0.388s, current epoch time: 133.575s
+2021-02-28 03:12:17,126 epoch 24. train 401/469, loss=0.0052, acc=100.0000
+2021-02-28 03:12:17,127 Batch time: 0.387s, current epoch time: 153.005s
+2021-02-28 03:12:36,530 epoch 24. train 451/469, loss=0.0020, acc=100.0000
+2021-02-28 03:12:36,531 Batch time: 0.392s, current epoch time: 172.408s
+2021-02-28 03:12:43,523 Epoch time: 179.401s
+2021-02-28 03:12:43,523 epoch 24, loss=0.0149, category acc=99.570000
+2021-02-28 03:13:35,980 epoch 24, val acc=99.68
+2021-02-28 03:13:35,981 best epoch 22, best val acc=99.7367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:13:35,981 ETA:1.6h/6.5h
+2021-02-28 03:13:37,472 epoch 25. train 1/469, loss=0.0059, acc=100.0000
+2021-02-28 03:13:37,472 Batch time: 0.355s, current epoch time: 1.491s
+2021-02-28 03:13:54,878 epoch 25. train 51/469, loss=0.0028, acc=100.0000
+2021-02-28 03:13:54,878 Batch time: 0.355s, current epoch time: 18.897s
+2021-02-28 03:14:13,362 epoch 25. train 101/469, loss=0.0030, acc=100.0000
+2021-02-28 03:14:13,363 Batch time: 0.382s, current epoch time: 37.382s
+2021-02-28 03:14:32,176 epoch 25. train 151/469, loss=0.0117, acc=100.0000
+2021-02-28 03:14:32,176 Batch time: 0.389s, current epoch time: 56.195s
+2021-02-28 03:14:51,567 epoch 25. train 201/469, loss=0.0041, acc=100.0000
+2021-02-28 03:14:51,568 Batch time: 0.386s, current epoch time: 75.587s
+2021-02-28 03:15:10,897 epoch 25. train 251/469, loss=0.0144, acc=100.0000
+2021-02-28 03:15:10,897 Batch time: 0.388s, current epoch time: 94.916s
+2021-02-28 03:15:30,250 epoch 25. train 301/469, loss=0.0037, acc=100.0000
+2021-02-28 03:15:30,250 Batch time: 0.389s, current epoch time: 114.269s
+2021-02-28 03:15:49,681 epoch 25. train 351/469, loss=0.0147, acc=100.0000
+2021-02-28 03:15:49,681 Batch time: 0.389s, current epoch time: 133.700s
+2021-02-28 03:16:09,129 epoch 25. train 401/469, loss=0.0059, acc=100.0000
+2021-02-28 03:16:09,129 Batch time: 0.385s, current epoch time: 153.148s
+2021-02-28 03:16:28,556 epoch 25. train 451/469, loss=0.0075, acc=100.0000
+2021-02-28 03:16:28,556 Batch time: 0.387s, current epoch time: 172.575s
+2021-02-28 03:16:35,457 Epoch time: 179.476s
+2021-02-28 03:16:35,458 epoch 25, loss=0.0150, category acc=99.550000
+2021-02-28 03:17:28,023 epoch 25, val acc=99.50333333333333
+2021-02-28 03:17:28,024 best epoch 22, best val acc=99.7367, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:17:28,024 ETA:1.6h/6.5h
+2021-02-28 03:17:29,347 epoch 26. train 1/469, loss=0.0055, acc=100.0000
+2021-02-28 03:17:29,347 Batch time: 0.382s, current epoch time: 1.323s
+2021-02-28 03:17:46,993 epoch 26. train 51/469, loss=0.0183, acc=100.0000
+2021-02-28 03:17:46,993 Batch time: 0.274s, current epoch time: 18.969s
+2021-02-28 03:18:05,323 epoch 26. train 101/469, loss=0.0335, acc=98.4375
+2021-02-28 03:18:05,323 Batch time: 0.382s, current epoch time: 37.299s
+2021-02-28 03:18:23,818 epoch 26. train 151/469, loss=0.0473, acc=98.4375
+2021-02-28 03:18:23,819 Batch time: 0.395s, current epoch time: 55.795s
+2021-02-28 03:18:43,171 epoch 26. train 201/469, loss=0.0030, acc=100.0000
+2021-02-28 03:18:43,171 Batch time: 0.394s, current epoch time: 75.147s
+2021-02-28 03:19:02,533 epoch 26. train 251/469, loss=0.0093, acc=100.0000
+2021-02-28 03:19:02,533 Batch time: 0.381s, current epoch time: 94.510s
+2021-02-28 03:19:21,938 epoch 26. train 301/469, loss=0.0197, acc=98.4375
+2021-02-28 03:19:21,938 Batch time: 0.391s, current epoch time: 113.915s
+2021-02-28 03:19:41,369 epoch 26. train 351/469, loss=0.0121, acc=100.0000
+2021-02-28 03:19:41,369 Batch time: 0.391s, current epoch time: 133.345s
+2021-02-28 03:20:00,805 epoch 26. train 401/469, loss=0.0141, acc=100.0000
+2021-02-28 03:20:00,805 Batch time: 0.385s, current epoch time: 152.781s
+2021-02-28 03:20:20,222 epoch 26. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 03:20:20,222 Batch time: 0.389s, current epoch time: 172.198s
+2021-02-28 03:20:27,129 Epoch time: 179.105s
+2021-02-28 03:20:27,129 epoch 26, loss=0.0149, category acc=99.570000
+2021-02-28 03:21:20,215 epoch 26, val acc=99.779999995931
+2021-02-28 03:21:20,219 best epoch 26, best val acc=99.7800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:21:20,219 ETA:1.7h/6.5h
+2021-02-28 03:21:21,695 epoch 27. train 1/469, loss=0.0036, acc=100.0000
+2021-02-28 03:21:21,696 Batch time: 0.368s, current epoch time: 1.477s
+2021-02-28 03:21:38,916 epoch 27. train 51/469, loss=0.0069, acc=100.0000
+2021-02-28 03:21:38,917 Batch time: 0.305s, current epoch time: 18.698s
+2021-02-28 03:21:56,826 epoch 27. train 101/469, loss=0.0038, acc=100.0000
+2021-02-28 03:21:56,826 Batch time: 0.380s, current epoch time: 36.607s
+2021-02-28 03:22:15,829 epoch 27. train 151/469, loss=0.0076, acc=100.0000
+2021-02-28 03:22:15,830 Batch time: 0.378s, current epoch time: 55.611s
+2021-02-28 03:22:34,739 epoch 27. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 03:22:34,740 Batch time: 0.390s, current epoch time: 74.521s
+2021-02-28 03:22:54,203 epoch 27. train 251/469, loss=0.0096, acc=100.0000
+2021-02-28 03:22:54,203 Batch time: 0.390s, current epoch time: 93.985s
+2021-02-28 03:23:13,633 epoch 27. train 301/469, loss=0.0018, acc=100.0000
+2021-02-28 03:23:13,633 Batch time: 0.386s, current epoch time: 113.414s
+2021-02-28 03:23:33,047 epoch 27. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 03:23:33,048 Batch time: 0.386s, current epoch time: 132.829s
+2021-02-28 03:23:52,462 epoch 27. train 401/469, loss=0.0016, acc=100.0000
+2021-02-28 03:23:52,463 Batch time: 0.388s, current epoch time: 152.244s
+2021-02-28 03:24:11,898 epoch 27. train 451/469, loss=0.0015, acc=100.0000
+2021-02-28 03:24:11,898 Batch time: 0.388s, current epoch time: 171.679s
+2021-02-28 03:24:18,783 Epoch time: 178.564s
+2021-02-28 03:24:18,783 epoch 27, loss=0.0130, category acc=99.630000
+2021-02-28 03:25:12,226 epoch 27, val acc=99.74
+2021-02-28 03:25:12,227 best epoch 26, best val acc=99.7800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:25:12,227 ETA:1.7h/6.5h
+2021-02-28 03:25:13,343 epoch 28. train 1/469, loss=0.0009, acc=100.0000
+2021-02-28 03:25:13,343 Batch time: 0.377s, current epoch time: 1.116s
+2021-02-28 03:25:31,072 epoch 28. train 51/469, loss=0.0010, acc=100.0000
+2021-02-28 03:25:31,072 Batch time: 0.270s, current epoch time: 18.845s
+2021-02-28 03:25:48,960 epoch 28. train 101/469, loss=0.0036, acc=100.0000
+2021-02-28 03:25:48,961 Batch time: 0.382s, current epoch time: 36.734s
+2021-02-28 03:26:07,810 epoch 28. train 151/469, loss=0.0095, acc=100.0000
+2021-02-28 03:26:07,811 Batch time: 0.376s, current epoch time: 55.583s
+2021-02-28 03:26:26,481 epoch 28. train 201/469, loss=0.0068, acc=100.0000
+2021-02-28 03:26:26,481 Batch time: 0.392s, current epoch time: 74.254s
+2021-02-28 03:26:45,875 epoch 28. train 251/469, loss=0.0134, acc=100.0000
+2021-02-28 03:26:45,875 Batch time: 0.386s, current epoch time: 93.648s
+2021-02-28 03:27:05,224 epoch 28. train 301/469, loss=0.0164, acc=100.0000
+2021-02-28 03:27:05,225 Batch time: 0.391s, current epoch time: 112.997s
+2021-02-28 03:27:24,593 epoch 28. train 351/469, loss=0.0012, acc=100.0000
+2021-02-28 03:27:24,593 Batch time: 0.392s, current epoch time: 132.366s
+2021-02-28 03:27:43,933 epoch 28. train 401/469, loss=0.0013, acc=100.0000
+2021-02-28 03:27:43,933 Batch time: 0.389s, current epoch time: 151.706s
+2021-02-28 03:28:03,268 epoch 28. train 451/469, loss=0.0232, acc=100.0000
+2021-02-28 03:28:03,268 Batch time: 0.382s, current epoch time: 171.041s
+2021-02-28 03:28:10,148 Epoch time: 177.921s
+2021-02-28 03:28:10,148 epoch 28, loss=0.0117, category acc=99.643333
+2021-02-28 03:29:02,918 epoch 28, val acc=98.04
+2021-02-28 03:29:02,918 best epoch 26, best val acc=99.7800, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:29:02,918 ETA:1.8h/6.5h
+2021-02-28 03:29:04,420 epoch 29. train 1/469, loss=0.0054, acc=100.0000
+2021-02-28 03:29:04,421 Batch time: 0.373s, current epoch time: 1.502s
+2021-02-28 03:29:22,710 epoch 29. train 51/469, loss=0.0049, acc=100.0000
+2021-02-28 03:29:22,710 Batch time: 0.276s, current epoch time: 19.791s
+2021-02-28 03:29:39,769 epoch 29. train 101/469, loss=0.0027, acc=100.0000
+2021-02-28 03:29:39,769 Batch time: 0.377s, current epoch time: 36.851s
+2021-02-28 03:29:58,582 epoch 29. train 151/469, loss=0.0020, acc=100.0000
+2021-02-28 03:29:58,582 Batch time: 0.371s, current epoch time: 55.664s
+2021-02-28 03:30:17,373 epoch 29. train 201/469, loss=0.0061, acc=100.0000
+2021-02-28 03:30:17,374 Batch time: 0.376s, current epoch time: 74.455s
+2021-02-28 03:30:36,253 epoch 29. train 251/469, loss=0.0365, acc=98.4375
+2021-02-28 03:30:36,254 Batch time: 0.386s, current epoch time: 93.335s
+2021-02-28 03:30:55,579 epoch 29. train 301/469, loss=0.0438, acc=96.8750
+2021-02-28 03:30:55,579 Batch time: 0.388s, current epoch time: 112.661s
+2021-02-28 03:31:14,948 epoch 29. train 351/469, loss=0.0047, acc=100.0000
+2021-02-28 03:31:14,948 Batch time: 0.390s, current epoch time: 132.029s
+2021-02-28 03:31:34,300 epoch 29. train 401/469, loss=0.0015, acc=100.0000
+2021-02-28 03:31:34,300 Batch time: 0.386s, current epoch time: 151.382s
+2021-02-28 03:31:53,642 epoch 29. train 451/469, loss=0.0326, acc=98.4375
+2021-02-28 03:31:53,643 Batch time: 0.386s, current epoch time: 170.724s
+2021-02-28 03:32:00,467 Epoch time: 177.549s
+2021-02-28 03:32:00,467 epoch 29, loss=0.0103, category acc=99.670000
+2021-02-28 03:32:53,359 epoch 29, val acc=99.96
+2021-02-28 03:32:53,363 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:32:53,363 ETA:1.9h/6.5h
+2021-02-28 03:32:54,946 epoch 30. train 1/469, loss=0.0026, acc=100.0000
+2021-02-28 03:32:54,946 Batch time: 0.364s, current epoch time: 1.583s
+2021-02-28 03:33:13,278 epoch 30. train 51/469, loss=0.0027, acc=100.0000
+2021-02-28 03:33:13,278 Batch time: 0.371s, current epoch time: 19.915s
+2021-02-28 03:33:30,566 epoch 30. train 101/469, loss=0.0018, acc=100.0000
+2021-02-28 03:33:30,566 Batch time: 0.374s, current epoch time: 37.203s
+2021-02-28 03:33:49,420 epoch 30. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 03:33:49,421 Batch time: 0.378s, current epoch time: 56.058s
+2021-02-28 03:34:08,247 epoch 30. train 201/469, loss=0.0094, acc=100.0000
+2021-02-28 03:34:08,247 Batch time: 0.377s, current epoch time: 74.884s
+2021-02-28 03:34:26,830 epoch 30. train 251/469, loss=0.0055, acc=100.0000
+2021-02-28 03:34:26,831 Batch time: 0.386s, current epoch time: 93.468s
+2021-02-28 03:34:46,156 epoch 30. train 301/469, loss=0.0030, acc=100.0000
+2021-02-28 03:34:46,157 Batch time: 0.386s, current epoch time: 112.793s
+2021-02-28 03:35:05,479 epoch 30. train 351/469, loss=0.0007, acc=100.0000
+2021-02-28 03:35:05,479 Batch time: 0.382s, current epoch time: 132.116s
+2021-02-28 03:35:24,810 epoch 30. train 401/469, loss=0.0161, acc=100.0000
+2021-02-28 03:35:24,810 Batch time: 0.391s, current epoch time: 151.447s
+2021-02-28 03:35:44,150 epoch 30. train 451/469, loss=0.0149, acc=98.4375
+2021-02-28 03:35:44,151 Batch time: 0.386s, current epoch time: 170.788s
+2021-02-28 03:35:51,075 Epoch time: 177.712s
+2021-02-28 03:35:51,075 epoch 30, loss=0.0095, category acc=99.743333
+2021-02-28 03:36:43,790 epoch 30, val acc=99.96
+2021-02-28 03:36:43,791 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:36:43,791 ETA:1.9h/6.5h
+2021-02-28 03:36:45,385 epoch 31. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 03:36:45,386 Batch time: 0.376s, current epoch time: 1.595s
+2021-02-28 03:37:03,749 epoch 31. train 51/469, loss=0.0060, acc=100.0000
+2021-02-28 03:37:03,749 Batch time: 0.370s, current epoch time: 19.958s
+2021-02-28 03:37:21,465 epoch 31. train 101/469, loss=0.0020, acc=100.0000
+2021-02-28 03:37:21,466 Batch time: 0.372s, current epoch time: 37.675s
+2021-02-28 03:37:40,358 epoch 31. train 151/469, loss=0.0006, acc=100.0000
+2021-02-28 03:37:40,358 Batch time: 0.381s, current epoch time: 56.567s
+2021-02-28 03:37:59,207 epoch 31. train 201/469, loss=0.0070, acc=100.0000
+2021-02-28 03:37:59,207 Batch time: 0.374s, current epoch time: 75.416s
+2021-02-28 03:38:17,682 epoch 31. train 251/469, loss=0.0056, acc=100.0000
+2021-02-28 03:38:17,683 Batch time: 0.383s, current epoch time: 93.892s
+2021-02-28 03:38:36,987 epoch 31. train 301/469, loss=0.0016, acc=100.0000
+2021-02-28 03:38:36,988 Batch time: 0.386s, current epoch time: 113.197s
+2021-02-28 03:38:56,328 epoch 31. train 351/469, loss=0.0049, acc=100.0000
+2021-02-28 03:38:56,328 Batch time: 0.388s, current epoch time: 132.537s
+2021-02-28 03:39:15,688 epoch 31. train 401/469, loss=0.0409, acc=96.8750
+2021-02-28 03:39:15,688 Batch time: 0.387s, current epoch time: 151.897s
+2021-02-28 03:39:34,985 epoch 31. train 451/469, loss=0.0037, acc=100.0000
+2021-02-28 03:39:34,985 Batch time: 0.379s, current epoch time: 171.194s
+2021-02-28 03:39:41,823 Epoch time: 178.032s
+2021-02-28 03:39:41,824 epoch 31, loss=0.0077, category acc=99.773333
+2021-02-28 03:40:35,030 epoch 31, val acc=99.65666666666667
+2021-02-28 03:40:35,031 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:40:35,031 ETA:2.0h/6.5h
+2021-02-28 03:40:36,602 epoch 32. train 1/469, loss=0.0031, acc=100.0000
+2021-02-28 03:40:36,603 Batch time: 0.363s, current epoch time: 1.572s
+2021-02-28 03:40:54,985 epoch 32. train 51/469, loss=0.0048, acc=100.0000
+2021-02-28 03:40:54,985 Batch time: 0.374s, current epoch time: 19.955s
+2021-02-28 03:41:13,287 epoch 32. train 101/469, loss=0.0026, acc=100.0000
+2021-02-28 03:41:13,287 Batch time: 0.391s, current epoch time: 38.257s
+2021-02-28 03:41:32,014 epoch 32. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 03:41:32,015 Batch time: 0.379s, current epoch time: 56.984s
+2021-02-28 03:41:50,795 epoch 32. train 201/469, loss=0.0036, acc=100.0000
+2021-02-28 03:41:50,795 Batch time: 0.375s, current epoch time: 75.765s
+2021-02-28 03:42:09,627 epoch 32. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 03:42:09,627 Batch time: 0.378s, current epoch time: 94.597s
+2021-02-28 03:42:28,455 epoch 32. train 301/469, loss=0.0033, acc=100.0000
+2021-02-28 03:42:28,455 Batch time: 0.391s, current epoch time: 113.424s
+2021-02-28 03:42:47,828 epoch 32. train 351/469, loss=0.0875, acc=96.8750
+2021-02-28 03:42:47,829 Batch time: 0.382s, current epoch time: 132.798s
+2021-02-28 03:43:07,192 epoch 32. train 401/469, loss=0.0026, acc=100.0000
+2021-02-28 03:43:07,192 Batch time: 0.388s, current epoch time: 152.162s
+2021-02-28 03:43:26,523 epoch 32. train 451/469, loss=0.0244, acc=98.4375
+2021-02-28 03:43:26,524 Batch time: 0.385s, current epoch time: 171.493s
+2021-02-28 03:43:33,390 Epoch time: 178.360s
+2021-02-28 03:43:33,391 epoch 32, loss=0.0087, category acc=99.720000
+2021-02-28 03:44:26,420 epoch 32, val acc=96.15999999186198
+2021-02-28 03:44:26,421 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:44:26,421 ETA:2.1h/6.5h
+2021-02-28 03:44:27,932 epoch 33. train 1/469, loss=0.0060, acc=100.0000
+2021-02-28 03:44:27,933 Batch time: 0.362s, current epoch time: 1.512s
+2021-02-28 03:44:46,207 epoch 33. train 51/469, loss=0.0052, acc=100.0000
+2021-02-28 03:44:46,207 Batch time: 0.367s, current epoch time: 19.786s
+2021-02-28 03:45:04,397 epoch 33. train 101/469, loss=0.0037, acc=100.0000
+2021-02-28 03:45:04,397 Batch time: 0.390s, current epoch time: 37.976s
+2021-02-28 03:45:23,202 epoch 33. train 151/469, loss=0.0094, acc=100.0000
+2021-02-28 03:45:23,203 Batch time: 0.378s, current epoch time: 56.782s
+2021-02-28 03:45:42,012 epoch 33. train 201/469, loss=0.0024, acc=100.0000
+2021-02-28 03:45:42,012 Batch time: 0.382s, current epoch time: 75.591s
+2021-02-28 03:46:00,829 epoch 33. train 251/469, loss=0.0112, acc=100.0000
+2021-02-28 03:46:00,830 Batch time: 0.380s, current epoch time: 94.409s
+2021-02-28 03:46:19,462 epoch 33. train 301/469, loss=0.0030, acc=100.0000
+2021-02-28 03:46:19,462 Batch time: 0.390s, current epoch time: 113.041s
+2021-02-28 03:46:38,724 epoch 33. train 351/469, loss=0.0024, acc=100.0000
+2021-02-28 03:46:38,725 Batch time: 0.378s, current epoch time: 132.304s
+2021-02-28 03:46:57,996 epoch 33. train 401/469, loss=0.0017, acc=100.0000
+2021-02-28 03:46:57,997 Batch time: 0.386s, current epoch time: 151.576s
+2021-02-28 03:47:17,363 epoch 33. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 03:47:17,363 Batch time: 0.386s, current epoch time: 170.942s
+2021-02-28 03:47:24,283 Epoch time: 177.862s
+2021-02-28 03:47:24,283 epoch 33, loss=0.0066, category acc=99.840000
+2021-02-28 03:48:17,340 epoch 33, val acc=99.75333333333333
+2021-02-28 03:48:17,340 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:48:17,340 ETA:2.1h/6.4h
+2021-02-28 03:48:18,816 epoch 34. train 1/469, loss=0.0014, acc=100.0000
+2021-02-28 03:48:18,816 Batch time: 0.364s, current epoch time: 1.476s
+2021-02-28 03:48:37,278 epoch 34. train 51/469, loss=0.0069, acc=100.0000
+2021-02-28 03:48:37,279 Batch time: 0.373s, current epoch time: 19.938s
+2021-02-28 03:48:55,561 epoch 34. train 101/469, loss=0.0361, acc=96.8750
+2021-02-28 03:48:55,562 Batch time: 0.388s, current epoch time: 38.221s
+2021-02-28 03:49:14,929 epoch 34. train 151/469, loss=0.0485, acc=96.8750
+2021-02-28 03:49:14,929 Batch time: 0.388s, current epoch time: 57.588s
+2021-02-28 03:49:33,432 epoch 34. train 201/469, loss=0.0012, acc=100.0000
+2021-02-28 03:49:33,433 Batch time: 0.377s, current epoch time: 76.092s
+2021-02-28 03:49:52,239 epoch 34. train 251/469, loss=0.0008, acc=100.0000
+2021-02-28 03:49:52,240 Batch time: 0.370s, current epoch time: 94.899s
+2021-02-28 03:50:11,051 epoch 34. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 03:50:11,051 Batch time: 0.373s, current epoch time: 113.711s
+2021-02-28 03:50:29,798 epoch 34. train 351/469, loss=0.0041, acc=100.0000
+2021-02-28 03:50:29,799 Batch time: 0.379s, current epoch time: 132.458s
+2021-02-28 03:50:49,000 epoch 34. train 401/469, loss=0.0021, acc=100.0000
+2021-02-28 03:50:49,000 Batch time: 0.388s, current epoch time: 151.660s
+2021-02-28 03:51:08,277 epoch 34. train 451/469, loss=0.0035, acc=100.0000
+2021-02-28 03:51:08,278 Batch time: 0.388s, current epoch time: 170.937s
+2021-02-28 03:51:15,127 Epoch time: 177.787s
+2021-02-28 03:51:15,128 epoch 34, loss=0.0068, category acc=99.823333
+2021-02-28 03:52:08,276 epoch 34, val acc=99.87
+2021-02-28 03:52:08,277 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:52:08,277 ETA:2.2h/6.4h
+2021-02-28 03:52:09,843 epoch 35. train 1/469, loss=0.0039, acc=100.0000
+2021-02-28 03:52:09,844 Batch time: 0.368s, current epoch time: 1.567s
+2021-02-28 03:52:28,155 epoch 35. train 51/469, loss=0.0012, acc=100.0000
+2021-02-28 03:52:28,155 Batch time: 0.369s, current epoch time: 19.879s
+2021-02-28 03:52:46,367 epoch 35. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 03:52:46,368 Batch time: 0.388s, current epoch time: 38.091s
+2021-02-28 03:53:05,669 epoch 35. train 151/469, loss=0.0140, acc=100.0000
+2021-02-28 03:53:05,669 Batch time: 0.392s, current epoch time: 57.392s
+2021-02-28 03:53:24,408 epoch 35. train 201/469, loss=0.0045, acc=100.0000
+2021-02-28 03:53:24,408 Batch time: 0.381s, current epoch time: 76.131s
+2021-02-28 03:53:43,231 epoch 35. train 251/469, loss=0.0045, acc=100.0000
+2021-02-28 03:53:43,232 Batch time: 0.372s, current epoch time: 94.955s
+2021-02-28 03:54:02,046 epoch 35. train 301/469, loss=0.0033, acc=100.0000
+2021-02-28 03:54:02,046 Batch time: 0.374s, current epoch time: 113.770s
+2021-02-28 03:54:20,733 epoch 35. train 351/469, loss=0.0029, acc=100.0000
+2021-02-28 03:54:20,733 Batch time: 0.385s, current epoch time: 132.456s
+2021-02-28 03:54:40,073 epoch 35. train 401/469, loss=0.0024, acc=100.0000
+2021-02-28 03:54:40,074 Batch time: 0.391s, current epoch time: 151.797s
+2021-02-28 03:54:59,406 epoch 35. train 451/469, loss=0.0037, acc=100.0000
+2021-02-28 03:54:59,406 Batch time: 0.386s, current epoch time: 171.130s
+2021-02-28 03:55:06,240 Epoch time: 177.963s
+2021-02-28 03:55:06,240 epoch 35, loss=0.0092, category acc=99.740000
+2021-02-28 03:55:59,434 epoch 35, val acc=99.61333332926432
+2021-02-28 03:55:59,435 best epoch 29, best val acc=99.9600, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:55:59,435 ETA:2.3h/6.4h
+2021-02-28 03:56:01,061 epoch 36. train 1/469, loss=0.0119, acc=100.0000
+2021-02-28 03:56:01,061 Batch time: 0.370s, current epoch time: 1.626s
+2021-02-28 03:56:19,418 epoch 36. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 03:56:19,419 Batch time: 0.365s, current epoch time: 19.984s
+2021-02-28 03:56:37,669 epoch 36. train 101/469, loss=0.0002, acc=100.0000
+2021-02-28 03:56:37,669 Batch time: 0.385s, current epoch time: 38.234s
+2021-02-28 03:56:57,006 epoch 36. train 151/469, loss=0.0018, acc=100.0000
+2021-02-28 03:56:57,007 Batch time: 0.386s, current epoch time: 57.572s
+2021-02-28 03:57:15,943 epoch 36. train 201/469, loss=0.0065, acc=100.0000
+2021-02-28 03:57:15,943 Batch time: 0.376s, current epoch time: 76.508s
+2021-02-28 03:57:34,850 epoch 36. train 251/469, loss=0.0008, acc=100.0000
+2021-02-28 03:57:34,851 Batch time: 0.383s, current epoch time: 95.415s
+2021-02-28 03:57:53,683 epoch 36. train 301/469, loss=0.0016, acc=100.0000
+2021-02-28 03:57:53,683 Batch time: 0.379s, current epoch time: 114.248s
+2021-02-28 03:58:12,305 epoch 36. train 351/469, loss=0.0009, acc=100.0000
+2021-02-28 03:58:12,305 Batch time: 0.390s, current epoch time: 132.870s
+2021-02-28 03:58:31,629 epoch 36. train 401/469, loss=0.0014, acc=100.0000
+2021-02-28 03:58:31,629 Batch time: 0.388s, current epoch time: 152.194s
+2021-02-28 03:58:51,028 epoch 36. train 451/469, loss=0.0017, acc=100.0000
+2021-02-28 03:58:51,028 Batch time: 0.387s, current epoch time: 171.593s
+2021-02-28 03:58:57,893 Epoch time: 178.457s
+2021-02-28 03:58:57,893 epoch 36, loss=0.0033, category acc=99.960000
+2021-02-28 03:59:50,818 epoch 36, val acc=99.97666666666667
+2021-02-28 03:59:50,821 best epoch 36, best val acc=99.9767, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 03:59:50,821 ETA:2.3h/6.4h
+2021-02-28 03:59:52,342 epoch 37. train 1/469, loss=0.0034, acc=100.0000
+2021-02-28 03:59:52,343 Batch time: 0.369s, current epoch time: 1.521s
+2021-02-28 04:00:10,727 epoch 37. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 04:00:10,727 Batch time: 0.362s, current epoch time: 19.905s
+2021-02-28 04:00:28,443 epoch 37. train 101/469, loss=0.0081, acc=100.0000
+2021-02-28 04:00:28,443 Batch time: 0.374s, current epoch time: 37.622s
+2021-02-28 04:00:47,222 epoch 37. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 04:00:47,223 Batch time: 0.378s, current epoch time: 56.401s
+2021-02-28 04:01:06,023 epoch 37. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 04:01:06,024 Batch time: 0.379s, current epoch time: 75.202s
+2021-02-28 04:01:19,945 epoch 37. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 04:01:19,945 Batch time: 0.260s, current epoch time: 89.123s
+2021-02-28 04:01:33,724 epoch 37. train 301/469, loss=0.0100, acc=100.0000
+2021-02-28 04:01:33,725 Batch time: 0.276s, current epoch time: 102.903s
+2021-02-28 04:01:47,529 epoch 37. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 04:01:47,529 Batch time: 0.270s, current epoch time: 116.708s
+2021-02-28 04:02:01,274 epoch 37. train 401/469, loss=0.0018, acc=100.0000
+2021-02-28 04:02:01,275 Batch time: 0.289s, current epoch time: 130.453s
+2021-02-28 04:02:15,778 epoch 37. train 451/469, loss=0.0077, acc=100.0000
+2021-02-28 04:02:15,779 Batch time: 0.289s, current epoch time: 144.957s
+2021-02-28 04:02:20,968 Epoch time: 150.147s
+2021-02-28 04:02:20,969 epoch 37, loss=0.0029, category acc=99.970000
+2021-02-28 04:03:00,702 epoch 37, val acc=99.99333333333334
+2021-02-28 04:03:00,706 best epoch 37, best val acc=99.9933, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:03:00,706 ETA:2.4h/6.4h
+2021-02-28 04:03:01,966 epoch 38. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 04:03:01,966 Batch time: 0.260s, current epoch time: 1.260s
+2021-02-28 04:03:15,870 epoch 38. train 51/469, loss=0.0015, acc=100.0000
+2021-02-28 04:03:15,870 Batch time: 0.272s, current epoch time: 15.164s
+2021-02-28 04:03:29,452 epoch 38. train 101/469, loss=0.0005, acc=100.0000
+2021-02-28 04:03:29,452 Batch time: 0.289s, current epoch time: 28.746s
+2021-02-28 04:03:43,913 epoch 38. train 151/469, loss=0.0023, acc=100.0000
+2021-02-28 04:03:43,913 Batch time: 0.289s, current epoch time: 43.207s
+2021-02-28 04:03:58,373 epoch 38. train 201/469, loss=0.0036, acc=100.0000
+2021-02-28 04:03:58,373 Batch time: 0.284s, current epoch time: 57.667s
+2021-02-28 04:04:12,118 epoch 38. train 251/469, loss=0.0140, acc=100.0000
+2021-02-28 04:04:12,119 Batch time: 0.279s, current epoch time: 71.413s
+2021-02-28 04:04:26,008 epoch 38. train 301/469, loss=0.0045, acc=100.0000
+2021-02-28 04:04:26,008 Batch time: 0.279s, current epoch time: 85.302s
+2021-02-28 04:04:39,911 epoch 38. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 04:04:39,912 Batch time: 0.272s, current epoch time: 99.206s
+2021-02-28 04:04:53,171 epoch 38. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 04:04:53,171 Batch time: 0.286s, current epoch time: 112.465s
+2021-02-28 04:05:07,698 epoch 38. train 451/469, loss=0.0012, acc=100.0000
+2021-02-28 04:05:07,698 Batch time: 0.297s, current epoch time: 126.992s
+2021-02-28 04:05:12,910 Epoch time: 132.204s
+2021-02-28 04:05:12,911 epoch 38, loss=0.0031, category acc=99.950000
+2021-02-28 04:05:53,104 epoch 38, val acc=99.99
+2021-02-28 04:05:53,105 best epoch 37, best val acc=99.9933, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:05:53,105 ETA:2.4h/6.4h
+2021-02-28 04:05:54,352 epoch 39. train 1/469, loss=0.0023, acc=100.0000
+2021-02-28 04:05:54,353 Batch time: 0.279s, current epoch time: 1.248s
+2021-02-28 04:06:08,342 epoch 39. train 51/469, loss=0.0020, acc=100.0000
+2021-02-28 04:06:08,342 Batch time: 0.275s, current epoch time: 15.237s
+2021-02-28 04:06:22,078 epoch 39. train 101/469, loss=0.0011, acc=100.0000
+2021-02-28 04:06:22,078 Batch time: 0.289s, current epoch time: 28.973s
+2021-02-28 04:06:36,552 epoch 39. train 151/469, loss=0.0011, acc=100.0000
+2021-02-28 04:06:36,552 Batch time: 0.299s, current epoch time: 43.447s
+2021-02-28 04:06:51,068 epoch 39. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 04:06:51,068 Batch time: 0.287s, current epoch time: 57.963s
+2021-02-28 04:07:05,630 epoch 39. train 251/469, loss=0.0110, acc=100.0000
+2021-02-28 04:07:05,630 Batch time: 0.291s, current epoch time: 72.525s
+2021-02-28 04:07:19,091 epoch 39. train 301/469, loss=0.0015, acc=100.0000
+2021-02-28 04:07:19,091 Batch time: 0.271s, current epoch time: 85.986s
+2021-02-28 04:07:32,937 epoch 39. train 351/469, loss=0.0008, acc=100.0000
+2021-02-28 04:07:32,937 Batch time: 0.277s, current epoch time: 99.832s
+2021-02-28 04:07:46,812 epoch 39. train 401/469, loss=0.0033, acc=100.0000
+2021-02-28 04:07:46,812 Batch time: 0.276s, current epoch time: 113.707s
+2021-02-28 04:08:00,619 epoch 39. train 451/469, loss=0.0029, acc=100.0000
+2021-02-28 04:08:00,619 Batch time: 0.287s, current epoch time: 127.514s
+2021-02-28 04:08:05,817 Epoch time: 132.712s
+2021-02-28 04:08:05,817 epoch 39, loss=0.0025, category acc=99.976667
+2021-02-28 04:08:45,814 epoch 39, val acc=99.99666666666667
+2021-02-28 04:08:45,817 best epoch 39, best val acc=99.9967, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:08:45,817 ETA:2.5h/6.3h
+2021-02-28 04:08:46,800 epoch 40. train 1/469, loss=0.0014, acc=100.0000
+2021-02-28 04:08:46,801 Batch time: 0.282s, current epoch time: 0.983s
+2021-02-28 04:09:00,996 epoch 40. train 51/469, loss=0.0038, acc=100.0000
+2021-02-28 04:09:00,996 Batch time: 0.276s, current epoch time: 15.179s
+2021-02-28 04:09:14,570 epoch 40. train 101/469, loss=0.0019, acc=100.0000
+2021-02-28 04:09:14,570 Batch time: 0.285s, current epoch time: 28.753s
+2021-02-28 04:09:28,971 epoch 40. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 04:09:28,972 Batch time: 0.291s, current epoch time: 43.154s
+2021-02-28 04:09:43,486 epoch 40. train 201/469, loss=0.0008, acc=100.0000
+2021-02-28 04:09:43,487 Batch time: 0.295s, current epoch time: 57.669s
+2021-02-28 04:09:58,108 epoch 40. train 251/469, loss=0.0010, acc=100.0000
+2021-02-28 04:09:58,109 Batch time: 0.288s, current epoch time: 72.291s
+2021-02-28 04:10:11,785 epoch 40. train 301/469, loss=0.0018, acc=100.0000
+2021-02-28 04:10:11,785 Batch time: 0.278s, current epoch time: 85.968s
+2021-02-28 04:10:25,558 epoch 40. train 351/469, loss=0.0029, acc=100.0000
+2021-02-28 04:10:25,558 Batch time: 0.276s, current epoch time: 99.741s
+2021-02-28 04:10:39,350 epoch 40. train 401/469, loss=0.0011, acc=100.0000
+2021-02-28 04:10:39,350 Batch time: 0.276s, current epoch time: 113.533s
+2021-02-28 04:10:52,851 epoch 40. train 451/469, loss=0.0006, acc=100.0000
+2021-02-28 04:10:52,851 Batch time: 0.290s, current epoch time: 127.033s
+2021-02-28 04:10:58,056 Epoch time: 132.238s
+2021-02-28 04:10:58,056 epoch 40, loss=0.0031, category acc=99.940000
+2021-02-28 04:11:38,265 epoch 40, val acc=99.87666666666667
+2021-02-28 04:11:38,266 best epoch 39, best val acc=99.9967, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:11:38,266 ETA:2.5h/6.3h
+2021-02-28 04:11:39,575 epoch 41. train 1/469, loss=0.0019, acc=100.0000
+2021-02-28 04:11:39,575 Batch time: 0.286s, current epoch time: 1.309s
+2021-02-28 04:11:53,482 epoch 41. train 51/469, loss=0.0020, acc=100.0000
+2021-02-28 04:11:53,482 Batch time: 0.281s, current epoch time: 15.216s
+2021-02-28 04:12:06,996 epoch 41. train 101/469, loss=0.0175, acc=100.0000
+2021-02-28 04:12:06,996 Batch time: 0.295s, current epoch time: 28.730s
+2021-02-28 04:12:21,452 epoch 41. train 151/469, loss=0.0049, acc=100.0000
+2021-02-28 04:12:21,452 Batch time: 0.289s, current epoch time: 43.186s
+2021-02-28 04:12:35,883 epoch 41. train 201/469, loss=0.0057, acc=100.0000
+2021-02-28 04:12:35,884 Batch time: 0.289s, current epoch time: 57.618s
+2021-02-28 04:12:50,361 epoch 41. train 251/469, loss=0.0017, acc=100.0000
+2021-02-28 04:12:50,362 Batch time: 0.289s, current epoch time: 72.096s
+2021-02-28 04:13:04,910 epoch 41. train 301/469, loss=0.0017, acc=100.0000
+2021-02-28 04:13:04,910 Batch time: 0.293s, current epoch time: 86.644s
+2021-02-28 04:13:18,236 epoch 41. train 351/469, loss=0.0015, acc=100.0000
+2021-02-28 04:13:18,236 Batch time: 0.276s, current epoch time: 99.971s
+2021-02-28 04:13:32,074 epoch 41. train 401/469, loss=0.0008, acc=100.0000
+2021-02-28 04:13:32,074 Batch time: 0.253s, current epoch time: 113.809s
+2021-02-28 04:13:45,811 epoch 41. train 451/469, loss=0.0019, acc=100.0000
+2021-02-28 04:13:45,811 Batch time: 0.275s, current epoch time: 127.545s
+2021-02-28 04:13:50,170 Epoch time: 131.904s
+2021-02-28 04:13:50,170 epoch 41, loss=0.0028, category acc=99.963333
+2021-02-28 04:14:30,309 epoch 41, val acc=99.98666666666666
+2021-02-28 04:14:30,310 best epoch 39, best val acc=99.9967, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:14:30,310 ETA:2.6h/6.3h
+2021-02-28 04:14:31,609 epoch 42. train 1/469, loss=0.0009, acc=100.0000
+2021-02-28 04:14:31,609 Batch time: 0.282s, current epoch time: 1.299s
+2021-02-28 04:14:45,551 epoch 42. train 51/469, loss=0.0010, acc=100.0000
+2021-02-28 04:14:45,551 Batch time: 0.276s, current epoch time: 15.241s
+2021-02-28 04:14:59,029 epoch 42. train 101/469, loss=0.0034, acc=100.0000
+2021-02-28 04:14:59,029 Batch time: 0.289s, current epoch time: 28.719s
+2021-02-28 04:15:13,464 epoch 42. train 151/469, loss=0.0039, acc=100.0000
+2021-02-28 04:15:13,465 Batch time: 0.289s, current epoch time: 43.155s
+2021-02-28 04:15:27,916 epoch 42. train 201/469, loss=0.0152, acc=98.4375
+2021-02-28 04:15:27,917 Batch time: 0.287s, current epoch time: 57.607s
+2021-02-28 04:15:42,418 epoch 42. train 251/469, loss=0.0021, acc=100.0000
+2021-02-28 04:15:42,419 Batch time: 0.289s, current epoch time: 72.109s
+2021-02-28 04:15:56,900 epoch 42. train 301/469, loss=0.0009, acc=100.0000
+2021-02-28 04:15:56,900 Batch time: 0.289s, current epoch time: 86.590s
+2021-02-28 04:16:10,518 epoch 42. train 351/469, loss=0.0028, acc=100.0000
+2021-02-28 04:16:10,519 Batch time: 0.278s, current epoch time: 100.209s
+2021-02-28 04:16:24,338 epoch 42. train 401/469, loss=0.0048, acc=100.0000
+2021-02-28 04:16:24,338 Batch time: 0.273s, current epoch time: 114.028s
+2021-02-28 04:16:38,190 epoch 42. train 451/469, loss=0.0026, acc=100.0000
+2021-02-28 04:16:38,191 Batch time: 0.279s, current epoch time: 127.881s
+2021-02-28 04:16:43,100 Epoch time: 132.789s
+2021-02-28 04:16:43,100 epoch 42, loss=0.0074, category acc=99.806667
+2021-02-28 04:17:22,637 epoch 42, val acc=100.0
+2021-02-28 04:17:22,640 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:17:22,641 ETA:2.6h/6.2h
+2021-02-28 04:17:23,856 epoch 43. train 1/469, loss=0.0018, acc=100.0000
+2021-02-28 04:17:23,856 Batch time: 0.278s, current epoch time: 1.216s
+2021-02-28 04:17:37,895 epoch 43. train 51/469, loss=0.0016, acc=100.0000
+2021-02-28 04:17:37,896 Batch time: 0.278s, current epoch time: 15.255s
+2021-02-28 04:17:51,271 epoch 43. train 101/469, loss=0.0024, acc=100.0000
+2021-02-28 04:17:51,271 Batch time: 0.289s, current epoch time: 28.631s
+2021-02-28 04:18:05,717 epoch 43. train 151/469, loss=0.0131, acc=100.0000
+2021-02-28 04:18:05,717 Batch time: 0.284s, current epoch time: 43.077s
+2021-02-28 04:18:20,183 epoch 43. train 201/469, loss=0.0014, acc=100.0000
+2021-02-28 04:18:20,183 Batch time: 0.290s, current epoch time: 57.542s
+2021-02-28 04:18:34,657 epoch 43. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 04:18:34,657 Batch time: 0.289s, current epoch time: 72.017s
+2021-02-28 04:18:49,116 epoch 43. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 04:18:49,116 Batch time: 0.289s, current epoch time: 86.476s
+2021-02-28 04:19:03,591 epoch 43. train 351/469, loss=0.0032, acc=100.0000
+2021-02-28 04:19:03,591 Batch time: 0.289s, current epoch time: 100.951s
+2021-02-28 04:19:16,965 epoch 43. train 401/469, loss=0.0031, acc=100.0000
+2021-02-28 04:19:16,965 Batch time: 0.280s, current epoch time: 114.325s
+2021-02-28 04:19:30,859 epoch 43. train 451/469, loss=0.0002, acc=100.0000
+2021-02-28 04:19:30,859 Batch time: 0.277s, current epoch time: 128.219s
+2021-02-28 04:19:35,795 Epoch time: 133.154s
+2021-02-28 04:19:35,795 epoch 43, loss=0.0033, category acc=99.950000
+2021-02-28 04:20:14,905 epoch 43, val acc=99.52333333333333
+2021-02-28 04:20:14,906 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:20:14,906 ETA:2.7h/6.2h
+2021-02-28 04:20:15,875 epoch 44. train 1/469, loss=0.0019, acc=100.0000
+2021-02-28 04:20:15,876 Batch time: 0.297s, current epoch time: 0.970s
+2021-02-28 04:20:30,130 epoch 44. train 51/469, loss=0.0056, acc=100.0000
+2021-02-28 04:20:30,130 Batch time: 0.275s, current epoch time: 15.225s
+2021-02-28 04:20:43,509 epoch 44. train 101/469, loss=0.0009, acc=100.0000
+2021-02-28 04:20:43,510 Batch time: 0.289s, current epoch time: 28.604s
+2021-02-28 04:20:57,972 epoch 44. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 04:20:57,972 Batch time: 0.290s, current epoch time: 43.067s
+2021-02-28 04:21:12,543 epoch 44. train 201/469, loss=0.0011, acc=100.0000
+2021-02-28 04:21:12,543 Batch time: 0.297s, current epoch time: 57.638s
+2021-02-28 04:21:27,045 epoch 44. train 251/469, loss=0.0037, acc=100.0000
+2021-02-28 04:21:27,046 Batch time: 0.274s, current epoch time: 72.140s
+2021-02-28 04:21:41,570 epoch 44. train 301/469, loss=0.0001, acc=100.0000
+2021-02-28 04:21:41,571 Batch time: 0.291s, current epoch time: 86.665s
+2021-02-28 04:21:56,058 epoch 44. train 351/469, loss=0.0001, acc=100.0000
+2021-02-28 04:21:56,059 Batch time: 0.289s, current epoch time: 101.153s
+2021-02-28 04:22:09,694 epoch 44. train 401/469, loss=0.0106, acc=100.0000
+2021-02-28 04:22:09,694 Batch time: 0.273s, current epoch time: 114.788s
+2021-02-28 04:22:23,528 epoch 44. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 04:22:23,528 Batch time: 0.276s, current epoch time: 128.622s
+2021-02-28 04:22:28,479 Epoch time: 133.573s
+2021-02-28 04:22:28,479 epoch 44, loss=0.0017, category acc=99.993333
+2021-02-28 04:23:07,578 epoch 44, val acc=100.0
+2021-02-28 04:23:07,579 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:23:07,579 ETA:2.7h/6.2h
+2021-02-28 04:23:08,988 epoch 45. train 1/469, loss=0.0011, acc=100.0000
+2021-02-28 04:23:08,989 Batch time: 0.282s, current epoch time: 1.409s
+2021-02-28 04:23:22,805 epoch 45. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 04:23:22,805 Batch time: 0.274s, current epoch time: 15.226s
+2021-02-28 04:23:36,152 epoch 45. train 101/469, loss=0.0001, acc=100.0000
+2021-02-28 04:23:36,153 Batch time: 0.287s, current epoch time: 28.573s
+2021-02-28 04:23:50,578 epoch 45. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 04:23:50,579 Batch time: 0.289s, current epoch time: 42.999s
+2021-02-28 04:24:05,060 epoch 45. train 201/469, loss=0.0017, acc=100.0000
+2021-02-28 04:24:05,060 Batch time: 0.292s, current epoch time: 57.481s
+2021-02-28 04:24:19,626 epoch 45. train 251/469, loss=0.0001, acc=100.0000
+2021-02-28 04:24:19,627 Batch time: 0.289s, current epoch time: 72.047s
+2021-02-28 04:24:34,094 epoch 45. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 04:24:34,094 Batch time: 0.289s, current epoch time: 86.515s
+2021-02-28 04:24:48,564 epoch 45. train 351/469, loss=0.0009, acc=100.0000
+2021-02-28 04:24:48,565 Batch time: 0.289s, current epoch time: 100.985s
+2021-02-28 04:25:02,992 epoch 45. train 401/469, loss=0.0008, acc=100.0000
+2021-02-28 04:25:02,992 Batch time: 0.199s, current epoch time: 115.413s
+2021-02-28 04:25:16,450 epoch 45. train 451/469, loss=0.0129, acc=100.0000
+2021-02-28 04:25:16,451 Batch time: 0.277s, current epoch time: 128.871s
+2021-02-28 04:25:21,424 Epoch time: 133.844s
+2021-02-28 04:25:21,424 epoch 45, loss=0.0017, category acc=99.990000
+2021-02-28 04:26:00,361 epoch 45, val acc=99.99666666666667
+2021-02-28 04:26:00,362 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:26:00,362 ETA:2.8h/6.1h
+2021-02-28 04:26:01,665 epoch 46. train 1/469, loss=0.0049, acc=100.0000
+2021-02-28 04:26:01,665 Batch time: 0.278s, current epoch time: 1.304s
+2021-02-28 04:26:15,563 epoch 46. train 51/469, loss=0.0011, acc=100.0000
+2021-02-28 04:26:15,564 Batch time: 0.272s, current epoch time: 15.203s
+2021-02-28 04:26:28,992 epoch 46. train 101/469, loss=0.0001, acc=100.0000
+2021-02-28 04:26:28,993 Batch time: 0.188s, current epoch time: 28.631s
+2021-02-28 04:26:43,391 epoch 46. train 151/469, loss=0.0010, acc=100.0000
+2021-02-28 04:26:43,392 Batch time: 0.291s, current epoch time: 43.030s
+2021-02-28 04:26:57,852 epoch 46. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 04:26:57,852 Batch time: 0.289s, current epoch time: 57.490s
+2021-02-28 04:27:12,343 epoch 46. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 04:27:12,343 Batch time: 0.291s, current epoch time: 71.982s
+2021-02-28 04:27:26,803 epoch 46. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 04:27:26,803 Batch time: 0.289s, current epoch time: 86.442s
+2021-02-28 04:27:41,308 epoch 46. train 351/469, loss=0.0014, acc=100.0000
+2021-02-28 04:27:41,308 Batch time: 0.289s, current epoch time: 100.946s
+2021-02-28 04:27:55,798 epoch 46. train 401/469, loss=0.0016, acc=100.0000
+2021-02-28 04:27:55,798 Batch time: 0.289s, current epoch time: 115.437s
+2021-02-28 04:28:09,444 epoch 46. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 04:28:09,444 Batch time: 0.277s, current epoch time: 129.083s
+2021-02-28 04:28:14,385 Epoch time: 134.023s
+2021-02-28 04:28:14,385 epoch 46, loss=0.0015, category acc=99.986667
+2021-02-28 04:28:52,116 epoch 46, val acc=99.89666666666666
+2021-02-28 04:28:52,117 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:28:52,117 ETA:2.8h/6.1h
+2021-02-28 04:28:53,453 epoch 47. train 1/469, loss=0.0046, acc=100.0000
+2021-02-28 04:28:53,454 Batch time: 0.284s, current epoch time: 1.336s
+2021-02-28 04:29:07,321 epoch 47. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 04:29:07,322 Batch time: 0.275s, current epoch time: 15.204s
+2021-02-28 04:29:21,212 epoch 47. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 04:29:21,213 Batch time: 0.281s, current epoch time: 29.096s
+2021-02-28 04:29:35,109 epoch 47. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 04:29:35,110 Batch time: 0.288s, current epoch time: 42.992s
+2021-02-28 04:29:49,539 epoch 47. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 04:29:49,539 Batch time: 0.297s, current epoch time: 57.422s
+2021-02-28 04:30:04,022 epoch 47. train 251/469, loss=0.0054, acc=100.0000
+2021-02-28 04:30:04,023 Batch time: 0.295s, current epoch time: 71.905s
+2021-02-28 04:30:18,547 epoch 47. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 04:30:18,547 Batch time: 0.289s, current epoch time: 86.430s
+2021-02-28 04:30:33,080 epoch 47. train 351/469, loss=0.0010, acc=100.0000
+2021-02-28 04:30:33,081 Batch time: 0.296s, current epoch time: 100.963s
+2021-02-28 04:30:47,500 epoch 47. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 04:30:47,500 Batch time: 0.290s, current epoch time: 115.383s
+2021-02-28 04:31:01,743 epoch 47. train 451/469, loss=0.0037, acc=100.0000
+2021-02-28 04:31:01,743 Batch time: 0.189s, current epoch time: 129.626s
+2021-02-28 04:31:06,256 Epoch time: 134.138s
+2021-02-28 04:31:06,256 epoch 47, loss=0.0013, category acc=99.996667
+2021-02-28 04:31:44,548 epoch 47, val acc=100.0
+2021-02-28 04:31:44,549 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:31:44,549 ETA:2.9h/6.1h
+2021-02-28 04:31:45,949 epoch 48. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 04:31:45,950 Batch time: 0.235s, current epoch time: 1.401s
+2021-02-28 04:31:59,836 epoch 48. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 04:31:59,837 Batch time: 0.282s, current epoch time: 15.288s
+2021-02-28 04:32:13,728 epoch 48. train 101/469, loss=0.0008, acc=100.0000
+2021-02-28 04:32:13,729 Batch time: 0.281s, current epoch time: 29.180s
+2021-02-28 04:32:27,560 epoch 48. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 04:32:27,561 Batch time: 0.285s, current epoch time: 43.012s
+2021-02-28 04:32:41,941 epoch 48. train 201/469, loss=0.0022, acc=100.0000
+2021-02-28 04:32:41,941 Batch time: 0.274s, current epoch time: 57.393s
+2021-02-28 04:32:56,391 epoch 48. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 04:32:56,392 Batch time: 0.290s, current epoch time: 71.843s
+2021-02-28 04:33:10,845 epoch 48. train 301/469, loss=0.0007, acc=100.0000
+2021-02-28 04:33:10,845 Batch time: 0.289s, current epoch time: 86.297s
+2021-02-28 04:33:25,349 epoch 48. train 351/469, loss=0.0007, acc=100.0000
+2021-02-28 04:33:25,350 Batch time: 0.289s, current epoch time: 100.801s
+2021-02-28 04:33:39,841 epoch 48. train 401/469, loss=0.0009, acc=100.0000
+2021-02-28 04:33:39,842 Batch time: 0.289s, current epoch time: 115.293s
+2021-02-28 04:33:54,331 epoch 48. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 04:33:54,331 Batch time: 0.289s, current epoch time: 129.782s
+2021-02-28 04:33:59,491 Epoch time: 134.942s
+2021-02-28 04:33:59,491 epoch 48, loss=0.0012, category acc=99.996667
+2021-02-28 04:34:38,000 epoch 48, val acc=100.0
+2021-02-28 04:34:38,001 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:34:38,001 ETA:2.9h/6.0h
+2021-02-28 04:34:39,356 epoch 49. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 04:34:39,357 Batch time: 0.177s, current epoch time: 1.356s
+2021-02-28 04:34:52,595 epoch 49. train 51/469, loss=0.0008, acc=100.0000
+2021-02-28 04:34:52,595 Batch time: 0.261s, current epoch time: 14.594s
+2021-02-28 04:35:06,440 epoch 49. train 101/469, loss=0.0023, acc=100.0000
+2021-02-28 04:35:06,440 Batch time: 0.273s, current epoch time: 28.439s
+2021-02-28 04:35:20,299 epoch 49. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 04:35:20,299 Batch time: 0.294s, current epoch time: 42.298s
+2021-02-28 04:35:34,760 epoch 49. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 04:35:34,761 Batch time: 0.289s, current epoch time: 56.760s
+2021-02-28 04:35:49,213 epoch 49. train 251/469, loss=0.0013, acc=100.0000
+2021-02-28 04:35:49,213 Batch time: 0.291s, current epoch time: 71.212s
+2021-02-28 04:36:03,679 epoch 49. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 04:36:03,679 Batch time: 0.289s, current epoch time: 85.678s
+2021-02-28 04:36:18,114 epoch 49. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 04:36:18,114 Batch time: 0.290s, current epoch time: 100.113s
+2021-02-28 04:36:32,547 epoch 49. train 401/469, loss=0.0038, acc=100.0000
+2021-02-28 04:36:32,547 Batch time: 0.290s, current epoch time: 114.546s
+2021-02-28 04:36:47,014 epoch 49. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 04:36:47,014 Batch time: 0.294s, current epoch time: 129.013s
+2021-02-28 04:36:52,137 Epoch time: 134.135s
+2021-02-28 04:36:52,137 epoch 49, loss=0.0015, category acc=99.983333
+2021-02-28 04:37:30,767 epoch 49, val acc=100.0
+2021-02-28 04:37:30,768 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:37:30,768 ETA:2.9h/6.0h
+2021-02-28 04:37:32,258 epoch 50. train 1/469, loss=0.0008, acc=100.0000
+2021-02-28 04:37:32,258 Batch time: 0.266s, current epoch time: 1.490s
+2021-02-28 04:37:45,181 epoch 50. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 04:37:45,181 Batch time: 0.177s, current epoch time: 14.413s
+2021-02-28 04:37:59,086 epoch 50. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 04:37:59,086 Batch time: 0.282s, current epoch time: 28.318s
+2021-02-28 04:38:12,903 epoch 50. train 151/469, loss=0.0006, acc=100.0000
+2021-02-28 04:38:12,903 Batch time: 0.301s, current epoch time: 42.135s
+2021-02-28 04:38:27,399 epoch 50. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 04:38:27,399 Batch time: 0.289s, current epoch time: 56.631s
+2021-02-28 04:38:41,931 epoch 50. train 251/469, loss=0.0001, acc=100.0000
+2021-02-28 04:38:41,931 Batch time: 0.287s, current epoch time: 71.163s
+2021-02-28 04:38:56,383 epoch 50. train 301/469, loss=0.0024, acc=100.0000
+2021-02-28 04:38:56,383 Batch time: 0.289s, current epoch time: 85.615s
+2021-02-28 04:39:10,861 epoch 50. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 04:39:10,862 Batch time: 0.288s, current epoch time: 100.094s
+2021-02-28 04:39:25,362 epoch 50. train 401/469, loss=0.0002, acc=100.0000
+2021-02-28 04:39:25,363 Batch time: 0.282s, current epoch time: 114.594s
+2021-02-28 04:39:39,859 epoch 50. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 04:39:39,859 Batch time: 0.287s, current epoch time: 129.091s
+2021-02-28 04:39:45,010 Epoch time: 134.242s
+2021-02-28 04:39:45,011 epoch 50, loss=0.0012, category acc=100.000000
+2021-02-28 04:40:23,799 epoch 50, val acc=100.0
+2021-02-28 04:40:23,800 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:40:23,800 ETA:3.0h/6.0h
+2021-02-28 04:40:25,014 epoch 51. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 04:40:25,015 Batch time: 0.266s, current epoch time: 1.215s
+2021-02-28 04:40:38,390 epoch 51. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 04:40:38,391 Batch time: 0.175s, current epoch time: 14.590s
+2021-02-28 04:40:51,844 epoch 51. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 04:40:51,845 Batch time: 0.275s, current epoch time: 28.045s
+2021-02-28 04:41:05,708 epoch 51. train 151/469, loss=0.0022, acc=100.0000
+2021-02-28 04:41:05,709 Batch time: 0.291s, current epoch time: 41.909s
+2021-02-28 04:41:20,199 epoch 51. train 201/469, loss=0.0012, acc=100.0000
+2021-02-28 04:41:20,199 Batch time: 0.289s, current epoch time: 56.399s
+2021-02-28 04:41:34,676 epoch 51. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 04:41:34,676 Batch time: 0.290s, current epoch time: 70.876s
+2021-02-28 04:41:49,129 epoch 51. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 04:41:49,130 Batch time: 0.289s, current epoch time: 85.329s
+2021-02-28 04:42:03,578 epoch 51. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 04:42:03,579 Batch time: 0.289s, current epoch time: 99.779s
+2021-02-28 04:42:18,017 epoch 51. train 401/469, loss=0.0002, acc=100.0000
+2021-02-28 04:42:18,017 Batch time: 0.289s, current epoch time: 114.217s
+2021-02-28 04:42:32,483 epoch 51. train 451/469, loss=0.0001, acc=100.0000
+2021-02-28 04:42:32,484 Batch time: 0.289s, current epoch time: 128.683s
+2021-02-28 04:42:37,634 Epoch time: 133.833s
+2021-02-28 04:42:37,634 epoch 51, loss=0.0011, category acc=99.993333
+2021-02-28 04:43:16,995 epoch 51, val acc=99.99666666666667
+2021-02-28 04:43:16,995 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:43:16,995 ETA:3.0h/6.0h
+2021-02-28 04:43:18,211 epoch 52. train 1/469, loss=0.0008, acc=100.0000
+2021-02-28 04:43:18,211 Batch time: 0.271s, current epoch time: 1.216s
+2021-02-28 04:43:32,110 epoch 52. train 51/469, loss=0.0024, acc=100.0000
+2021-02-28 04:43:32,110 Batch time: 0.277s, current epoch time: 15.115s
+2021-02-28 04:43:45,261 epoch 52. train 101/469, loss=0.0011, acc=100.0000
+2021-02-28 04:43:45,261 Batch time: 0.284s, current epoch time: 28.266s
+2021-02-28 04:43:59,130 epoch 52. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 04:43:59,131 Batch time: 0.289s, current epoch time: 42.135s
+2021-02-28 04:44:13,586 epoch 52. train 201/469, loss=0.0011, acc=100.0000
+2021-02-28 04:44:13,586 Batch time: 0.289s, current epoch time: 56.591s
+2021-02-28 04:44:28,043 epoch 52. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 04:44:28,044 Batch time: 0.292s, current epoch time: 71.048s
+2021-02-28 04:44:42,518 epoch 52. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 04:44:42,518 Batch time: 0.295s, current epoch time: 85.523s
+2021-02-28 04:44:57,005 epoch 52. train 351/469, loss=0.0011, acc=100.0000
+2021-02-28 04:44:57,006 Batch time: 0.294s, current epoch time: 100.010s
+2021-02-28 04:45:11,491 epoch 52. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 04:45:11,492 Batch time: 0.295s, current epoch time: 114.496s
+2021-02-28 04:45:25,964 epoch 52. train 451/469, loss=0.0009, acc=100.0000
+2021-02-28 04:45:25,965 Batch time: 0.289s, current epoch time: 128.969s
+2021-02-28 04:45:31,149 Epoch time: 134.154s
+2021-02-28 04:45:31,149 epoch 52, loss=0.0010, category acc=100.000000
+2021-02-28 04:46:10,480 epoch 52, val acc=100.0
+2021-02-28 04:46:10,481 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:46:10,481 ETA:3.1h/5.9h
+2021-02-28 04:46:11,821 epoch 53. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 04:46:11,821 Batch time: 0.271s, current epoch time: 1.340s
+2021-02-28 04:46:25,241 epoch 53. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 04:46:25,242 Batch time: 0.271s, current epoch time: 14.761s
+2021-02-28 04:46:38,114 epoch 53. train 101/469, loss=0.0024, acc=100.0000
+2021-02-28 04:46:38,114 Batch time: 0.280s, current epoch time: 27.633s
+2021-02-28 04:46:51,905 epoch 53. train 151/469, loss=0.0015, acc=100.0000
+2021-02-28 04:46:51,905 Batch time: 0.295s, current epoch time: 41.424s
+2021-02-28 04:47:06,359 epoch 53. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 04:47:06,360 Batch time: 0.294s, current epoch time: 55.878s
+2021-02-28 04:47:20,764 epoch 53. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 04:47:20,765 Batch time: 0.289s, current epoch time: 70.284s
+2021-02-28 04:47:35,157 epoch 53. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 04:47:35,158 Batch time: 0.291s, current epoch time: 84.676s
+2021-02-28 04:47:49,590 epoch 53. train 351/469, loss=0.0031, acc=100.0000
+2021-02-28 04:47:49,591 Batch time: 0.298s, current epoch time: 99.110s
+2021-02-28 04:48:03,999 epoch 53. train 401/469, loss=0.0010, acc=100.0000
+2021-02-28 04:48:04,000 Batch time: 0.289s, current epoch time: 113.519s
+2021-02-28 04:48:18,507 epoch 53. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 04:48:18,507 Batch time: 0.291s, current epoch time: 128.026s
+2021-02-28 04:48:23,670 Epoch time: 133.188s
+2021-02-28 04:48:23,670 epoch 53, loss=0.0008, category acc=100.000000
+2021-02-28 04:49:02,265 epoch 53, val acc=100.0
+2021-02-28 04:49:02,266 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:49:02,266 ETA:3.1h/5.9h
+2021-02-28 04:49:03,214 epoch 54. train 1/469, loss=0.0187, acc=100.0000
+2021-02-28 04:49:03,215 Batch time: 0.186s, current epoch time: 0.949s
+2021-02-28 04:49:17,068 epoch 54. train 51/469, loss=0.0072, acc=100.0000
+2021-02-28 04:49:17,068 Batch time: 0.270s, current epoch time: 14.803s
+2021-02-28 04:49:30,528 epoch 54. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 04:49:30,528 Batch time: 0.272s, current epoch time: 28.262s
+2021-02-28 04:49:42,840 epoch 54. train 151/469, loss=0.0018, acc=100.0000
+2021-02-28 04:49:42,840 Batch time: 0.282s, current epoch time: 40.574s
+2021-02-28 04:49:57,268 epoch 54. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 04:49:57,268 Batch time: 0.298s, current epoch time: 55.002s
+2021-02-28 04:50:11,731 epoch 54. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 04:50:11,731 Batch time: 0.289s, current epoch time: 69.465s
+2021-02-28 04:50:26,168 epoch 54. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 04:50:26,169 Batch time: 0.289s, current epoch time: 83.903s
+2021-02-28 04:50:40,677 epoch 54. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 04:50:40,677 Batch time: 0.289s, current epoch time: 98.412s
+2021-02-28 04:50:55,157 epoch 54. train 401/469, loss=0.0025, acc=100.0000
+2021-02-28 04:50:55,157 Batch time: 0.289s, current epoch time: 112.892s
+2021-02-28 04:51:09,599 epoch 54. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 04:51:09,599 Batch time: 0.291s, current epoch time: 127.334s
+2021-02-28 04:51:14,819 Epoch time: 132.553s
+2021-02-28 04:51:14,819 epoch 54, loss=0.0015, category acc=99.990000
+2021-02-28 04:51:55,317 epoch 54, val acc=99.99666666666667
+2021-02-28 04:51:55,321 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:51:55,321 ETA:3.2h/5.9h
+2021-02-28 04:51:56,787 epoch 55. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 04:51:56,788 Batch time: 0.271s, current epoch time: 1.467s
+2021-02-28 04:52:10,497 epoch 55. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 04:52:10,498 Batch time: 0.272s, current epoch time: 15.177s
+2021-02-28 04:52:23,987 epoch 55. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 04:52:23,988 Batch time: 0.267s, current epoch time: 28.667s
+2021-02-28 04:52:36,523 epoch 55. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 04:52:36,523 Batch time: 0.289s, current epoch time: 41.203s
+2021-02-28 04:52:50,829 epoch 55. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 04:52:50,830 Batch time: 0.289s, current epoch time: 55.509s
+2021-02-28 04:53:05,332 epoch 55. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 04:53:05,333 Batch time: 0.287s, current epoch time: 70.012s
+2021-02-28 04:53:19,852 epoch 55. train 301/469, loss=0.0013, acc=100.0000
+2021-02-28 04:53:19,853 Batch time: 0.289s, current epoch time: 84.532s
+2021-02-28 04:53:34,357 epoch 55. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 04:53:34,358 Batch time: 0.287s, current epoch time: 99.037s
+2021-02-28 04:53:48,803 epoch 55. train 401/469, loss=0.0018, acc=100.0000
+2021-02-28 04:53:48,804 Batch time: 0.289s, current epoch time: 113.483s
+2021-02-28 04:54:03,263 epoch 55. train 451/469, loss=0.0007, acc=100.0000
+2021-02-28 04:54:03,263 Batch time: 0.291s, current epoch time: 127.942s
+2021-02-28 04:54:08,436 Epoch time: 133.116s
+2021-02-28 04:54:08,437 epoch 55, loss=0.0011, category acc=99.993333
+2021-02-28 04:54:48,774 epoch 55, val acc=100.0
+2021-02-28 04:54:48,775 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:54:48,775 ETA:3.2h/5.9h
+2021-02-28 04:54:50,020 epoch 56. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 04:54:50,021 Batch time: 0.277s, current epoch time: 1.245s
+2021-02-28 04:55:03,020 epoch 56. train 51/469, loss=0.0007, acc=100.0000
+2021-02-28 04:55:03,020 Batch time: 0.267s, current epoch time: 14.245s
+2021-02-28 04:55:16,448 epoch 56. train 101/469, loss=0.0011, acc=100.0000
+2021-02-28 04:55:16,448 Batch time: 0.269s, current epoch time: 27.673s
+2021-02-28 04:55:29,563 epoch 56. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 04:55:29,563 Batch time: 0.277s, current epoch time: 40.788s
+2021-02-28 04:55:43,265 epoch 56. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 04:55:43,265 Batch time: 0.284s, current epoch time: 54.490s
+2021-02-28 04:55:57,700 epoch 56. train 251/469, loss=0.0012, acc=100.0000
+2021-02-28 04:55:57,701 Batch time: 0.286s, current epoch time: 68.926s
+2021-02-28 04:56:12,171 epoch 56. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 04:56:12,171 Batch time: 0.289s, current epoch time: 83.396s
+2021-02-28 04:56:26,614 epoch 56. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 04:56:26,614 Batch time: 0.284s, current epoch time: 97.839s
+2021-02-28 04:56:41,177 epoch 56. train 401/469, loss=0.0002, acc=100.0000
+2021-02-28 04:56:41,177 Batch time: 0.289s, current epoch time: 112.402s
+2021-02-28 04:56:55,646 epoch 56. train 451/469, loss=0.0012, acc=100.0000
+2021-02-28 04:56:55,646 Batch time: 0.289s, current epoch time: 126.871s
+2021-02-28 04:57:00,852 Epoch time: 132.076s
+2021-02-28 04:57:00,852 epoch 56, loss=0.0010, category acc=100.000000
+2021-02-28 04:57:41,454 epoch 56, val acc=99.99666666666667
+2021-02-28 04:57:41,455 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 04:57:41,455 ETA:3.3h/5.9h
+2021-02-28 04:57:42,694 epoch 57. train 1/469, loss=0.0011, acc=100.0000
+2021-02-28 04:57:42,694 Batch time: 0.277s, current epoch time: 1.239s
+2021-02-28 04:57:56,099 epoch 57. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 04:57:56,099 Batch time: 0.272s, current epoch time: 14.644s
+2021-02-28 04:58:09,519 epoch 57. train 101/469, loss=0.0019, acc=100.0000
+2021-02-28 04:58:09,520 Batch time: 0.269s, current epoch time: 28.065s
+2021-02-28 04:58:22,513 epoch 57. train 151/469, loss=0.0014, acc=100.0000
+2021-02-28 04:58:22,514 Batch time: 0.277s, current epoch time: 41.059s
+2021-02-28 04:58:35,811 epoch 57. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 04:58:35,812 Batch time: 0.285s, current epoch time: 54.357s
+2021-02-28 04:58:50,253 epoch 57. train 251/469, loss=0.0027, acc=100.0000
+2021-02-28 04:58:50,253 Batch time: 0.287s, current epoch time: 68.799s
+2021-02-28 04:59:04,663 epoch 57. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 04:59:04,664 Batch time: 0.287s, current epoch time: 83.209s
+2021-02-28 04:59:19,088 epoch 57. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 04:59:19,088 Batch time: 0.292s, current epoch time: 97.634s
+2021-02-28 04:59:33,603 epoch 57. train 401/469, loss=0.0011, acc=100.0000
+2021-02-28 04:59:33,603 Batch time: 0.286s, current epoch time: 112.148s
+2021-02-28 04:59:48,111 epoch 57. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 04:59:48,111 Batch time: 0.282s, current epoch time: 126.657s
+2021-02-28 04:59:53,166 Epoch time: 131.711s
+2021-02-28 04:59:53,166 epoch 57, loss=0.0010, category acc=100.000000
+2021-02-28 05:00:33,921 epoch 57, val acc=100.0
+2021-02-28 05:00:33,921 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:00:33,921 ETA:3.3h/5.8h
+2021-02-28 05:00:35,313 epoch 58. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 05:00:35,313 Batch time: 0.278s, current epoch time: 1.392s
+2021-02-28 05:00:49,180 epoch 58. train 51/469, loss=0.0038, acc=100.0000
+2021-02-28 05:00:49,181 Batch time: 0.278s, current epoch time: 15.259s
+2021-02-28 05:01:02,066 epoch 58. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 05:01:02,066 Batch time: 0.272s, current epoch time: 28.144s
+2021-02-28 05:01:14,949 epoch 58. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 05:01:14,949 Batch time: 0.274s, current epoch time: 41.028s
+2021-02-28 05:01:28,859 epoch 58. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 05:01:28,860 Batch time: 0.281s, current epoch time: 54.938s
+2021-02-28 05:01:42,653 epoch 58. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 05:01:42,653 Batch time: 0.294s, current epoch time: 68.731s
+2021-02-28 05:01:57,135 epoch 58. train 301/469, loss=0.0010, acc=100.0000
+2021-02-28 05:01:57,136 Batch time: 0.294s, current epoch time: 83.214s
+2021-02-28 05:02:11,563 epoch 58. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 05:02:11,564 Batch time: 0.289s, current epoch time: 97.642s
+2021-02-28 05:02:26,041 epoch 58. train 401/469, loss=0.0011, acc=100.0000
+2021-02-28 05:02:26,042 Batch time: 0.289s, current epoch time: 112.120s
+2021-02-28 05:02:40,502 epoch 58. train 451/469, loss=0.0019, acc=100.0000
+2021-02-28 05:02:40,503 Batch time: 0.289s, current epoch time: 126.581s
+2021-02-28 05:02:45,627 Epoch time: 131.706s
+2021-02-28 05:02:45,628 epoch 58, loss=0.0010, category acc=100.000000
+2021-02-28 05:03:26,617 epoch 58, val acc=100.0
+2021-02-28 05:03:26,618 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:03:26,618 ETA:3.4h/5.8h
+2021-02-28 05:03:27,655 epoch 59. train 1/469, loss=0.0016, acc=100.0000
+2021-02-28 05:03:27,656 Batch time: 0.282s, current epoch time: 1.038s
+2021-02-28 05:03:41,869 epoch 59. train 51/469, loss=0.0011, acc=100.0000
+2021-02-28 05:03:41,870 Batch time: 0.286s, current epoch time: 15.251s
+2021-02-28 05:03:54,991 epoch 59. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 05:03:54,991 Batch time: 0.279s, current epoch time: 28.373s
+2021-02-28 05:04:08,058 epoch 59. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 05:04:08,058 Batch time: 0.249s, current epoch time: 41.440s
+2021-02-28 05:04:21,935 epoch 59. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 05:04:21,935 Batch time: 0.279s, current epoch time: 55.317s
+2021-02-28 05:04:35,391 epoch 59. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 05:04:35,391 Batch time: 0.289s, current epoch time: 68.773s
+2021-02-28 05:04:49,802 epoch 59. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 05:04:49,802 Batch time: 0.293s, current epoch time: 83.184s
+2021-02-28 05:05:04,238 epoch 59. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 05:05:04,238 Batch time: 0.289s, current epoch time: 97.620s
+2021-02-28 05:05:18,696 epoch 59. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 05:05:18,696 Batch time: 0.286s, current epoch time: 112.078s
+2021-02-28 05:05:33,141 epoch 59. train 451/469, loss=0.0014, acc=100.0000
+2021-02-28 05:05:33,142 Batch time: 0.294s, current epoch time: 126.524s
+2021-02-28 05:05:38,282 Epoch time: 131.663s
+2021-02-28 05:05:38,282 epoch 59, loss=0.0012, category acc=99.990000
+2021-02-28 05:06:19,143 epoch 59, val acc=100.0
+2021-02-28 05:06:19,144 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:06:19,144 ETA:3.4h/5.8h
+2021-02-28 05:06:20,185 epoch 60. train 1/469, loss=0.0023, acc=100.0000
+2021-02-28 05:06:20,186 Batch time: 0.322s, current epoch time: 1.042s
+2021-02-28 05:06:34,510 epoch 60. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 05:06:34,511 Batch time: 0.281s, current epoch time: 15.367s
+2021-02-28 05:06:48,410 epoch 60. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 05:06:48,410 Batch time: 0.281s, current epoch time: 29.267s
+2021-02-28 05:07:00,773 epoch 60. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 05:07:00,774 Batch time: 0.280s, current epoch time: 41.630s
+2021-02-28 05:07:14,663 epoch 60. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 05:07:14,663 Batch time: 0.275s, current epoch time: 55.519s
+2021-02-28 05:07:28,604 epoch 60. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 05:07:28,604 Batch time: 0.282s, current epoch time: 69.460s
+2021-02-28 05:07:42,289 epoch 60. train 301/469, loss=0.0010, acc=100.0000
+2021-02-28 05:07:42,290 Batch time: 0.288s, current epoch time: 83.146s
+2021-02-28 05:07:56,713 epoch 60. train 351/469, loss=0.0040, acc=100.0000
+2021-02-28 05:07:56,714 Batch time: 0.296s, current epoch time: 97.570s
+2021-02-28 05:08:11,176 epoch 60. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 05:08:11,177 Batch time: 0.287s, current epoch time: 112.033s
+2021-02-28 05:08:25,596 epoch 60. train 451/469, loss=0.0006, acc=100.0000
+2021-02-28 05:08:25,596 Batch time: 0.287s, current epoch time: 126.453s
+2021-02-28 05:08:30,791 Epoch time: 131.647s
+2021-02-28 05:08:30,792 epoch 60, loss=0.0009, category acc=100.000000
+2021-02-28 05:09:11,470 epoch 60, val acc=100.0
+2021-02-28 05:09:11,471 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:09:11,471 ETA:3.5h/5.8h
+2021-02-28 05:09:12,928 epoch 61. train 1/469, loss=0.0009, acc=100.0000
+2021-02-28 05:09:12,929 Batch time: 0.276s, current epoch time: 1.458s
+2021-02-28 05:09:26,773 epoch 61. train 51/469, loss=0.0001, acc=100.0000
+2021-02-28 05:09:26,773 Batch time: 0.272s, current epoch time: 15.302s
+2021-02-28 05:09:40,602 epoch 61. train 101/469, loss=0.0005, acc=100.0000
+2021-02-28 05:09:40,602 Batch time: 0.278s, current epoch time: 29.131s
+2021-02-28 05:09:52,237 epoch 61. train 151/469, loss=0.0017, acc=100.0000
+2021-02-28 05:09:52,238 Batch time: 0.275s, current epoch time: 40.767s
+2021-02-28 05:10:06,122 epoch 61. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 05:10:06,123 Batch time: 0.282s, current epoch time: 54.651s
+2021-02-28 05:10:19,995 epoch 61. train 251/469, loss=0.0004, acc=100.0000
+2021-02-28 05:10:19,996 Batch time: 0.282s, current epoch time: 68.524s
+2021-02-28 05:10:33,383 epoch 61. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 05:10:33,384 Batch time: 0.282s, current epoch time: 81.912s
+2021-02-28 05:10:47,819 epoch 61. train 351/469, loss=0.0014, acc=100.0000
+2021-02-28 05:10:47,819 Batch time: 0.287s, current epoch time: 96.348s
+2021-02-28 05:11:02,289 epoch 61. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 05:11:02,290 Batch time: 0.287s, current epoch time: 110.819s
+2021-02-28 05:11:16,829 epoch 61. train 451/469, loss=0.0005, acc=100.0000
+2021-02-28 05:11:16,830 Batch time: 0.289s, current epoch time: 125.359s
+2021-02-28 05:11:21,966 Epoch time: 130.495s
+2021-02-28 05:11:21,967 epoch 61, loss=0.0012, category acc=100.000000
+2021-02-28 05:12:02,595 epoch 61, val acc=100.0
+2021-02-28 05:12:02,595 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:12:02,596 ETA:3.5h/5.8h
+2021-02-28 05:12:03,990 epoch 62. train 1/469, loss=0.0004, acc=100.0000
+2021-02-28 05:12:03,990 Batch time: 0.272s, current epoch time: 1.395s
+2021-02-28 05:12:18,113 epoch 62. train 51/469, loss=0.0013, acc=100.0000
+2021-02-28 05:12:18,114 Batch time: 0.274s, current epoch time: 15.518s
+2021-02-28 05:12:32,086 epoch 62. train 101/469, loss=0.0013, acc=100.0000
+2021-02-28 05:12:32,087 Batch time: 0.292s, current epoch time: 29.492s
+2021-02-28 05:12:45,566 epoch 62. train 151/469, loss=0.0016, acc=100.0000
+2021-02-28 05:12:45,567 Batch time: 0.289s, current epoch time: 42.972s
+2021-02-28 05:12:58,940 epoch 62. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 05:12:58,940 Batch time: 0.274s, current epoch time: 56.345s
+2021-02-28 05:13:12,817 epoch 62. train 251/469, loss=0.0004, acc=100.0000
+2021-02-28 05:13:12,818 Batch time: 0.274s, current epoch time: 70.222s
+2021-02-28 05:13:26,625 epoch 62. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 05:13:26,626 Batch time: 0.280s, current epoch time: 84.030s
+2021-02-28 05:13:40,144 epoch 62. train 351/469, loss=0.0007, acc=100.0000
+2021-02-28 05:13:40,144 Batch time: 0.287s, current epoch time: 97.549s
+2021-02-28 05:13:54,538 epoch 62. train 401/469, loss=0.0022, acc=100.0000
+2021-02-28 05:13:54,538 Batch time: 0.286s, current epoch time: 111.943s
+2021-02-28 05:14:08,979 epoch 62. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 05:14:08,979 Batch time: 0.289s, current epoch time: 126.383s
+2021-02-28 05:14:14,115 Epoch time: 131.520s
+2021-02-28 05:14:14,116 epoch 62, loss=0.0009, category acc=100.000000
+2021-02-28 05:14:54,990 epoch 62, val acc=100.0
+2021-02-28 05:14:54,991 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:14:54,991 ETA:3.6h/5.8h
+2021-02-28 05:14:56,484 epoch 63. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 05:14:56,484 Batch time: 0.269s, current epoch time: 1.493s
+2021-02-28 05:15:10,322 epoch 63. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 05:15:10,322 Batch time: 0.286s, current epoch time: 15.331s
+2021-02-28 05:15:24,164 epoch 63. train 101/469, loss=0.0004, acc=100.0000
+2021-02-28 05:15:24,164 Batch time: 0.278s, current epoch time: 29.173s
+2021-02-28 05:15:37,643 epoch 63. train 151/469, loss=0.0003, acc=100.0000
+2021-02-28 05:15:37,643 Batch time: 0.291s, current epoch time: 42.652s
+2021-02-28 05:15:51,433 epoch 63. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 05:15:51,434 Batch time: 0.277s, current epoch time: 56.442s
+2021-02-28 05:16:05,319 epoch 63. train 251/469, loss=0.0009, acc=100.0000
+2021-02-28 05:16:05,319 Batch time: 0.282s, current epoch time: 70.328s
+2021-02-28 05:16:19,216 epoch 63. train 301/469, loss=0.0020, acc=100.0000
+2021-02-28 05:16:19,216 Batch time: 0.269s, current epoch time: 84.225s
+2021-02-28 05:16:32,598 epoch 63. train 351/469, loss=0.0008, acc=100.0000
+2021-02-28 05:16:32,598 Batch time: 0.284s, current epoch time: 97.607s
+2021-02-28 05:16:47,002 epoch 63. train 401/469, loss=0.0005, acc=100.0000
+2021-02-28 05:16:47,002 Batch time: 0.289s, current epoch time: 112.011s
+2021-02-28 05:17:01,478 epoch 63. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 05:17:01,479 Batch time: 0.289s, current epoch time: 126.487s
+2021-02-28 05:17:06,584 Epoch time: 131.593s
+2021-02-28 05:17:06,585 epoch 63, loss=0.0008, category acc=100.000000
+2021-02-28 05:17:47,842 epoch 63, val acc=100.0
+2021-02-28 05:17:47,843 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:17:47,843 ETA:3.6h/5.7h
+2021-02-28 05:17:49,317 epoch 64. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 05:17:49,318 Batch time: 0.279s, current epoch time: 1.475s
+2021-02-28 05:18:03,214 epoch 64. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 05:18:03,214 Batch time: 0.285s, current epoch time: 15.371s
+2021-02-28 05:18:17,124 epoch 64. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 05:18:17,124 Batch time: 0.283s, current epoch time: 29.281s
+2021-02-28 05:18:30,580 epoch 64. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 05:18:30,580 Batch time: 0.216s, current epoch time: 42.737s
+2021-02-28 05:18:45,065 epoch 64. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 05:18:45,065 Batch time: 0.292s, current epoch time: 57.222s
+2021-02-28 05:18:58,307 epoch 64. train 251/469, loss=0.0002, acc=100.0000
+2021-02-28 05:18:58,308 Batch time: 0.279s, current epoch time: 70.464s
+2021-02-28 05:19:12,089 epoch 64. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 05:19:12,089 Batch time: 0.274s, current epoch time: 84.246s
+2021-02-28 05:19:25,925 epoch 64. train 351/469, loss=0.0009, acc=100.0000
+2021-02-28 05:19:25,926 Batch time: 0.280s, current epoch time: 98.082s
+2021-02-28 05:19:39,681 epoch 64. train 401/469, loss=0.0008, acc=100.0000
+2021-02-28 05:19:39,682 Batch time: 0.291s, current epoch time: 111.838s
+2021-02-28 05:19:54,150 epoch 64. train 451/469, loss=0.0006, acc=100.0000
+2021-02-28 05:19:54,150 Batch time: 0.291s, current epoch time: 126.307s
+2021-02-28 05:19:59,293 Epoch time: 131.450s
+2021-02-28 05:19:59,293 epoch 64, loss=0.0008, category acc=100.000000
+2021-02-28 05:20:40,345 epoch 64, val acc=100.0
+2021-02-28 05:20:40,346 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:20:40,346 ETA:3.7h/5.7h
+2021-02-28 05:20:41,646 epoch 65. train 1/469, loss=0.0011, acc=100.0000
+2021-02-28 05:20:41,647 Batch time: 0.277s, current epoch time: 1.301s
+2021-02-28 05:20:55,521 epoch 65. train 51/469, loss=0.0007, acc=100.0000
+2021-02-28 05:20:55,521 Batch time: 0.273s, current epoch time: 15.175s
+2021-02-28 05:21:09,298 epoch 65. train 101/469, loss=0.0004, acc=100.0000
+2021-02-28 05:21:09,299 Batch time: 0.270s, current epoch time: 28.953s
+2021-02-28 05:21:22,851 epoch 65. train 151/469, loss=0.0009, acc=100.0000
+2021-02-28 05:21:22,852 Batch time: 0.287s, current epoch time: 42.506s
+2021-02-28 05:21:37,178 epoch 65. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 05:21:37,179 Batch time: 0.286s, current epoch time: 56.833s
+2021-02-28 05:21:50,870 epoch 65. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 05:21:50,871 Batch time: 0.278s, current epoch time: 70.525s
+2021-02-28 05:22:04,775 epoch 65. train 301/469, loss=0.0009, acc=100.0000
+2021-02-28 05:22:04,776 Batch time: 0.276s, current epoch time: 84.430s
+2021-02-28 05:22:18,687 epoch 65. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 05:22:18,688 Batch time: 0.276s, current epoch time: 98.342s
+2021-02-28 05:22:32,208 epoch 65. train 401/469, loss=0.0009, acc=100.0000
+2021-02-28 05:22:32,209 Batch time: 0.289s, current epoch time: 111.863s
+2021-02-28 05:22:46,654 epoch 65. train 451/469, loss=0.0005, acc=100.0000
+2021-02-28 05:22:46,654 Batch time: 0.287s, current epoch time: 126.309s
+2021-02-28 05:22:51,841 Epoch time: 131.495s
+2021-02-28 05:22:51,841 epoch 65, loss=0.0009, category acc=99.996667
+2021-02-28 05:23:33,242 epoch 65, val acc=100.0
+2021-02-28 05:23:33,243 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:23:33,243 ETA:3.7h/5.7h
+2021-02-28 05:23:34,314 epoch 66. train 1/469, loss=0.0008, acc=100.0000
+2021-02-28 05:23:34,315 Batch time: 0.270s, current epoch time: 1.072s
+2021-02-28 05:23:48,574 epoch 66. train 51/469, loss=0.0008, acc=100.0000
+2021-02-28 05:23:48,575 Batch time: 0.273s, current epoch time: 15.332s
+2021-02-28 05:24:02,442 epoch 66. train 101/469, loss=0.0008, acc=100.0000
+2021-02-28 05:24:02,442 Batch time: 0.274s, current epoch time: 29.199s
+2021-02-28 05:24:16,034 epoch 66. train 151/469, loss=0.0009, acc=100.0000
+2021-02-28 05:24:16,035 Batch time: 0.248s, current epoch time: 42.792s
+2021-02-28 05:24:30,326 epoch 66. train 201/469, loss=0.0007, acc=100.0000
+2021-02-28 05:24:30,326 Batch time: 0.287s, current epoch time: 57.083s
+2021-02-28 05:24:44,058 epoch 66. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 05:24:44,059 Batch time: 0.261s, current epoch time: 70.816s
+2021-02-28 05:24:57,872 epoch 66. train 301/469, loss=0.0017, acc=100.0000
+2021-02-28 05:24:57,873 Batch time: 0.270s, current epoch time: 84.630s
+2021-02-28 05:25:11,700 epoch 66. train 351/469, loss=0.0008, acc=100.0000
+2021-02-28 05:25:11,700 Batch time: 0.279s, current epoch time: 98.457s
+2021-02-28 05:25:25,306 epoch 66. train 401/469, loss=0.0022, acc=100.0000
+2021-02-28 05:25:25,306 Batch time: 0.190s, current epoch time: 112.063s
+2021-02-28 05:25:39,429 epoch 66. train 451/469, loss=0.0006, acc=100.0000
+2021-02-28 05:25:39,430 Batch time: 0.291s, current epoch time: 126.187s
+2021-02-28 05:25:44,589 Epoch time: 131.346s
+2021-02-28 05:25:44,590 epoch 66, loss=0.0010, category acc=100.000000
+2021-02-28 05:26:25,861 epoch 66, val acc=100.0
+2021-02-28 05:26:25,862 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:26:25,862 ETA:3.8h/5.7h
+2021-02-28 05:26:26,927 epoch 67. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 05:26:26,928 Batch time: 0.192s, current epoch time: 1.066s
+2021-02-28 05:26:40,939 epoch 67. train 51/469, loss=0.0011, acc=100.0000
+2021-02-28 05:26:40,940 Batch time: 0.280s, current epoch time: 15.078s
+2021-02-28 05:26:54,776 epoch 67. train 101/469, loss=0.0005, acc=100.0000
+2021-02-28 05:26:54,777 Batch time: 0.282s, current epoch time: 28.914s
+2021-02-28 05:27:08,479 epoch 67. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 05:27:08,479 Batch time: 0.190s, current epoch time: 42.617s
+2021-02-28 05:27:22,420 epoch 67. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 05:27:22,421 Batch time: 0.291s, current epoch time: 56.558s
+2021-02-28 05:27:36,891 epoch 67. train 251/469, loss=0.0004, acc=100.0000
+2021-02-28 05:27:36,891 Batch time: 0.289s, current epoch time: 71.029s
+2021-02-28 05:27:50,359 epoch 67. train 301/469, loss=0.0007, acc=100.0000
+2021-02-28 05:27:50,360 Batch time: 0.263s, current epoch time: 84.497s
+2021-02-28 05:28:04,261 epoch 67. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 05:28:04,261 Batch time: 0.270s, current epoch time: 98.399s
+2021-02-28 05:28:18,137 epoch 67. train 401/469, loss=0.0009, acc=100.0000
+2021-02-28 05:28:18,137 Batch time: 0.276s, current epoch time: 112.275s
+2021-02-28 05:28:31,863 epoch 67. train 451/469, loss=0.0018, acc=100.0000
+2021-02-28 05:28:31,863 Batch time: 0.278s, current epoch time: 126.001s
+2021-02-28 05:28:37,066 Epoch time: 131.203s
+2021-02-28 05:28:37,066 epoch 67, loss=0.0008, category acc=100.000000
+2021-02-28 05:29:18,452 epoch 67, val acc=100.0
+2021-02-28 05:29:18,453 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:29:18,453 ETA:3.8h/5.7h
+2021-02-28 05:29:19,715 epoch 68. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 05:29:19,715 Batch time: 0.227s, current epoch time: 1.262s
+2021-02-28 05:29:33,215 epoch 68. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 05:29:33,216 Batch time: 0.283s, current epoch time: 14.763s
+2021-02-28 05:29:47,064 epoch 68. train 101/469, loss=0.0022, acc=100.0000
+2021-02-28 05:29:47,064 Batch time: 0.274s, current epoch time: 28.611s
+2021-02-28 05:30:00,892 epoch 68. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 05:30:00,892 Batch time: 0.289s, current epoch time: 42.439s
+2021-02-28 05:30:14,720 epoch 68. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 05:30:14,720 Batch time: 0.289s, current epoch time: 56.268s
+2021-02-28 05:30:29,152 epoch 68. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 05:30:29,152 Batch time: 0.289s, current epoch time: 70.699s
+2021-02-28 05:30:43,008 epoch 68. train 301/469, loss=0.0002, acc=100.0000
+2021-02-28 05:30:43,008 Batch time: 0.286s, current epoch time: 84.555s
+2021-02-28 05:30:56,926 epoch 68. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 05:30:56,926 Batch time: 0.275s, current epoch time: 98.473s
+2021-02-28 05:31:10,830 epoch 68. train 401/469, loss=0.0005, acc=100.0000
+2021-02-28 05:31:10,831 Batch time: 0.277s, current epoch time: 112.378s
+2021-02-28 05:31:24,203 epoch 68. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 05:31:24,204 Batch time: 0.279s, current epoch time: 125.751s
+2021-02-28 05:31:29,244 Epoch time: 130.791s
+2021-02-28 05:31:29,244 epoch 68, loss=0.0008, category acc=100.000000
+2021-02-28 05:32:10,592 epoch 68, val acc=100.0
+2021-02-28 05:32:10,593 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:32:10,593 ETA:3.9h/5.7h
+2021-02-28 05:32:11,603 epoch 69. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 05:32:11,604 Batch time: 0.319s, current epoch time: 1.010s
+2021-02-28 05:32:25,174 epoch 69. train 51/469, loss=0.0020, acc=100.0000
+2021-02-28 05:32:25,174 Batch time: 0.269s, current epoch time: 14.581s
+2021-02-28 05:32:39,014 epoch 69. train 101/469, loss=0.0009, acc=100.0000
+2021-02-28 05:32:39,014 Batch time: 0.288s, current epoch time: 28.421s
+2021-02-28 05:32:52,857 epoch 69. train 151/469, loss=0.0015, acc=100.0000
+2021-02-28 05:32:52,857 Batch time: 0.285s, current epoch time: 42.264s
+2021-02-28 05:33:06,688 epoch 69. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 05:33:06,688 Batch time: 0.288s, current epoch time: 56.095s
+2021-02-28 05:33:21,083 epoch 69. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 05:33:21,083 Batch time: 0.287s, current epoch time: 70.490s
+2021-02-28 05:33:35,551 epoch 69. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 05:33:35,552 Batch time: 0.284s, current epoch time: 84.959s
+2021-02-28 05:33:49,082 epoch 69. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 05:33:49,082 Batch time: 0.280s, current epoch time: 98.489s
+2021-02-28 05:34:02,947 epoch 69. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 05:34:02,948 Batch time: 0.280s, current epoch time: 112.354s
+2021-02-28 05:34:16,856 epoch 69. train 451/469, loss=0.0007, acc=100.0000
+2021-02-28 05:34:16,856 Batch time: 0.277s, current epoch time: 126.263s
+2021-02-28 05:34:21,809 Epoch time: 131.216s
+2021-02-28 05:34:21,809 epoch 69, loss=0.0009, category acc=100.000000
+2021-02-28 05:35:03,000 epoch 69, val acc=100.0
+2021-02-28 05:35:03,001 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:35:03,001 ETA:3.9h/5.7h
+2021-02-28 05:35:04,378 epoch 70. train 1/469, loss=0.0015, acc=100.0000
+2021-02-28 05:35:04,378 Batch time: 0.296s, current epoch time: 1.378s
+2021-02-28 05:35:17,799 epoch 70. train 51/469, loss=0.0009, acc=100.0000
+2021-02-28 05:35:17,799 Batch time: 0.276s, current epoch time: 14.798s
+2021-02-28 05:35:31,613 epoch 70. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 05:35:31,613 Batch time: 0.277s, current epoch time: 28.612s
+2021-02-28 05:35:45,449 epoch 70. train 151/469, loss=0.0016, acc=100.0000
+2021-02-28 05:35:45,449 Batch time: 0.281s, current epoch time: 42.448s
+2021-02-28 05:35:59,318 epoch 70. train 201/469, loss=0.0011, acc=100.0000
+2021-02-28 05:35:59,318 Batch time: 0.289s, current epoch time: 56.317s
+2021-02-28 05:36:13,736 epoch 70. train 251/469, loss=0.0005, acc=100.0000
+2021-02-28 05:36:13,737 Batch time: 0.283s, current epoch time: 70.736s
+2021-02-28 05:36:28,175 epoch 70. train 301/469, loss=0.0015, acc=100.0000
+2021-02-28 05:36:28,175 Batch time: 0.288s, current epoch time: 85.174s
+2021-02-28 05:36:41,987 epoch 70. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 05:36:41,987 Batch time: 0.279s, current epoch time: 98.986s
+2021-02-28 05:36:55,772 epoch 70. train 401/469, loss=0.0003, acc=100.0000
+2021-02-28 05:36:55,773 Batch time: 0.282s, current epoch time: 112.772s
+2021-02-28 05:37:09,605 epoch 70. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 05:37:09,606 Batch time: 0.277s, current epoch time: 126.605s
+2021-02-28 05:37:14,539 Epoch time: 131.538s
+2021-02-28 05:37:14,539 epoch 70, loss=0.0007, category acc=100.000000
+2021-02-28 05:37:55,072 epoch 70, val acc=100.0
+2021-02-28 05:37:55,073 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:37:55,073 ETA:4.0h/5.7h
+2021-02-28 05:37:56,103 epoch 71. train 1/469, loss=0.0008, acc=100.0000
+2021-02-28 05:37:56,104 Batch time: 0.323s, current epoch time: 1.031s
+2021-02-28 05:38:09,895 epoch 71. train 51/469, loss=0.0006, acc=100.0000
+2021-02-28 05:38:09,895 Batch time: 0.280s, current epoch time: 14.822s
+2021-02-28 05:38:23,670 epoch 71. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 05:38:23,670 Batch time: 0.273s, current epoch time: 28.597s
+2021-02-28 05:38:37,490 epoch 71. train 151/469, loss=0.0014, acc=100.0000
+2021-02-28 05:38:37,491 Batch time: 0.275s, current epoch time: 42.418s
+2021-02-28 05:38:51,177 epoch 71. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 05:38:51,177 Batch time: 0.290s, current epoch time: 56.104s
+2021-02-28 05:39:05,577 epoch 71. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 05:39:05,578 Batch time: 0.289s, current epoch time: 70.505s
+2021-02-28 05:39:20,030 epoch 71. train 301/469, loss=0.0018, acc=100.0000
+2021-02-28 05:39:20,030 Batch time: 0.284s, current epoch time: 84.957s
+2021-02-28 05:39:34,401 epoch 71. train 351/469, loss=0.0041, acc=100.0000
+2021-02-28 05:39:34,401 Batch time: 0.296s, current epoch time: 99.328s
+2021-02-28 05:39:48,034 epoch 71. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 05:39:48,034 Batch time: 0.276s, current epoch time: 112.961s
+2021-02-28 05:40:01,936 epoch 71. train 451/469, loss=0.0002, acc=100.0000
+2021-02-28 05:40:01,937 Batch time: 0.277s, current epoch time: 126.863s
+2021-02-28 05:40:06,879 Epoch time: 131.806s
+2021-02-28 05:40:06,880 epoch 71, loss=0.0008, category acc=100.000000
+2021-02-28 05:40:46,768 epoch 71, val acc=100.0
+2021-02-28 05:40:46,769 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:40:46,769 ETA:4.0h/5.6h
+2021-02-28 05:40:47,863 epoch 72. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 05:40:47,864 Batch time: 0.299s, current epoch time: 1.095s
+2021-02-28 05:41:01,703 epoch 72. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 05:41:01,704 Batch time: 0.281s, current epoch time: 14.935s
+2021-02-28 05:41:15,483 epoch 72. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 05:41:15,483 Batch time: 0.269s, current epoch time: 28.714s
+2021-02-28 05:41:29,287 epoch 72. train 151/469, loss=0.0003, acc=100.0000
+2021-02-28 05:41:29,287 Batch time: 0.267s, current epoch time: 42.518s
+2021-02-28 05:41:42,818 epoch 72. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 05:41:42,818 Batch time: 0.279s, current epoch time: 56.049s
+2021-02-28 05:41:57,297 epoch 72. train 251/469, loss=0.0008, acc=100.0000
+2021-02-28 05:41:57,298 Batch time: 0.289s, current epoch time: 70.528s
+2021-02-28 05:42:11,809 epoch 72. train 301/469, loss=0.0002, acc=100.0000
+2021-02-28 05:42:11,810 Batch time: 0.289s, current epoch time: 85.040s
+2021-02-28 05:42:26,374 epoch 72. train 351/469, loss=0.0014, acc=100.0000
+2021-02-28 05:42:26,374 Batch time: 0.296s, current epoch time: 99.605s
+2021-02-28 05:42:40,203 epoch 72. train 401/469, loss=0.0003, acc=100.0000
+2021-02-28 05:42:40,203 Batch time: 0.284s, current epoch time: 113.434s
+2021-02-28 05:42:54,083 epoch 72. train 451/469, loss=0.0014, acc=100.0000
+2021-02-28 05:42:54,084 Batch time: 0.280s, current epoch time: 127.314s
+2021-02-28 05:42:59,034 Epoch time: 132.264s
+2021-02-28 05:42:59,034 epoch 72, loss=0.0009, category acc=99.996667
+2021-02-28 05:43:38,917 epoch 72, val acc=100.0
+2021-02-28 05:43:38,919 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:43:38,919 ETA:4.1h/5.6h
+2021-02-28 05:43:39,923 epoch 73. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 05:43:39,923 Batch time: 0.285s, current epoch time: 1.004s
+2021-02-28 05:43:53,763 epoch 73. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 05:43:53,764 Batch time: 0.273s, current epoch time: 14.845s
+2021-02-28 05:44:07,602 epoch 73. train 101/469, loss=0.0005, acc=100.0000
+2021-02-28 05:44:07,602 Batch time: 0.285s, current epoch time: 28.683s
+2021-02-28 05:44:21,458 epoch 73. train 151/469, loss=0.0006, acc=100.0000
+2021-02-28 05:44:21,459 Batch time: 0.285s, current epoch time: 42.540s
+2021-02-28 05:44:35,135 epoch 73. train 201/469, loss=0.0013, acc=100.0000
+2021-02-28 05:44:35,136 Batch time: 0.267s, current epoch time: 56.216s
+2021-02-28 05:44:49,572 epoch 73. train 251/469, loss=0.0010, acc=100.0000
+2021-02-28 05:44:49,572 Batch time: 0.291s, current epoch time: 70.653s
+2021-02-28 05:45:04,027 epoch 73. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 05:45:04,027 Batch time: 0.289s, current epoch time: 85.108s
+2021-02-28 05:45:18,520 epoch 73. train 351/469, loss=0.0031, acc=100.0000
+2021-02-28 05:45:18,520 Batch time: 0.289s, current epoch time: 99.601s
+2021-02-28 05:45:33,010 epoch 73. train 401/469, loss=0.0003, acc=100.0000
+2021-02-28 05:45:33,010 Batch time: 0.290s, current epoch time: 114.091s
+2021-02-28 05:45:46,510 epoch 73. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 05:45:46,511 Batch time: 0.279s, current epoch time: 127.591s
+2021-02-28 05:45:51,492 Epoch time: 132.573s
+2021-02-28 05:45:51,493 epoch 73, loss=0.0007, category acc=100.000000
+2021-02-28 05:46:31,089 epoch 73, val acc=100.0
+2021-02-28 05:46:31,090 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:46:31,090 ETA:4.1h/5.6h
+2021-02-28 05:46:32,372 epoch 74. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 05:46:32,373 Batch time: 0.289s, current epoch time: 1.283s
+2021-02-28 05:46:45,979 epoch 74. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 05:46:45,980 Batch time: 0.273s, current epoch time: 14.890s
+2021-02-28 05:46:59,797 epoch 74. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 05:46:59,797 Batch time: 0.269s, current epoch time: 28.707s
+2021-02-28 05:47:13,604 epoch 74. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 05:47:13,605 Batch time: 0.277s, current epoch time: 42.515s
+2021-02-28 05:47:27,204 epoch 74. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 05:47:27,204 Batch time: 0.289s, current epoch time: 56.114s
+2021-02-28 05:47:41,619 epoch 74. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 05:47:41,619 Batch time: 0.293s, current epoch time: 70.529s
+2021-02-28 05:47:56,026 epoch 74. train 301/469, loss=0.0007, acc=100.0000
+2021-02-28 05:47:56,027 Batch time: 0.285s, current epoch time: 84.937s
+2021-02-28 05:48:10,446 epoch 74. train 351/469, loss=0.0001, acc=100.0000
+2021-02-28 05:48:10,446 Batch time: 0.287s, current epoch time: 99.356s
+2021-02-28 05:48:24,881 epoch 74. train 401/469, loss=0.0003, acc=100.0000
+2021-02-28 05:48:24,881 Batch time: 0.291s, current epoch time: 113.791s
+2021-02-28 05:48:38,771 epoch 74. train 451/469, loss=0.0007, acc=100.0000
+2021-02-28 05:48:38,771 Batch time: 0.250s, current epoch time: 127.681s
+2021-02-28 05:48:43,815 Epoch time: 132.725s
+2021-02-28 05:48:43,815 epoch 74, loss=0.0008, category acc=100.000000
+2021-02-28 05:49:23,305 epoch 74, val acc=100.0
+2021-02-28 05:49:23,305 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:49:23,306 ETA:4.1h/5.6h
+2021-02-28 05:49:24,247 epoch 75. train 1/469, loss=0.0004, acc=100.0000
+2021-02-28 05:49:24,247 Batch time: 0.293s, current epoch time: 0.942s
+2021-02-28 05:49:38,282 epoch 75. train 51/469, loss=0.0008, acc=100.0000
+2021-02-28 05:49:38,282 Batch time: 0.275s, current epoch time: 14.977s
+2021-02-28 05:49:52,149 epoch 75. train 101/469, loss=0.0009, acc=100.0000
+2021-02-28 05:49:52,150 Batch time: 0.264s, current epoch time: 28.844s
+2021-02-28 05:50:05,904 epoch 75. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 05:50:05,904 Batch time: 0.276s, current epoch time: 42.598s
+2021-02-28 05:50:19,455 epoch 75. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 05:50:19,455 Batch time: 0.289s, current epoch time: 56.149s
+2021-02-28 05:50:34,008 epoch 75. train 251/469, loss=0.0012, acc=100.0000
+2021-02-28 05:50:34,008 Batch time: 0.287s, current epoch time: 70.703s
+2021-02-28 05:50:48,421 epoch 75. train 301/469, loss=0.0022, acc=100.0000
+2021-02-28 05:50:48,421 Batch time: 0.279s, current epoch time: 85.116s
+2021-02-28 05:51:02,788 epoch 75. train 351/469, loss=0.0014, acc=100.0000
+2021-02-28 05:51:02,789 Batch time: 0.289s, current epoch time: 99.483s
+2021-02-28 05:51:17,263 epoch 75. train 401/469, loss=0.0011, acc=100.0000
+2021-02-28 05:51:17,263 Batch time: 0.296s, current epoch time: 113.958s
+2021-02-28 05:51:31,756 epoch 75. train 451/469, loss=0.0011, acc=100.0000
+2021-02-28 05:51:31,757 Batch time: 0.296s, current epoch time: 128.451s
+2021-02-28 05:51:36,622 Epoch time: 133.316s
+2021-02-28 05:51:36,622 epoch 75, loss=0.0008, category acc=100.000000
+2021-02-28 05:52:16,258 epoch 75, val acc=100.0
+2021-02-28 05:52:16,259 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:52:16,259 ETA:4.2h/5.6h
+2021-02-28 05:52:17,799 epoch 76. train 1/469, loss=0.0012, acc=100.0000
+2021-02-28 05:52:17,800 Batch time: 0.297s, current epoch time: 1.541s
+2021-02-28 05:52:31,476 epoch 76. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 05:52:31,476 Batch time: 0.261s, current epoch time: 15.217s
+2021-02-28 05:52:45,225 epoch 76. train 101/469, loss=0.0006, acc=100.0000
+2021-02-28 05:52:45,226 Batch time: 0.269s, current epoch time: 28.967s
+2021-02-28 05:52:59,069 epoch 76. train 151/469, loss=0.0023, acc=100.0000
+2021-02-28 05:52:59,069 Batch time: 0.278s, current epoch time: 42.810s
+2021-02-28 05:53:12,592 epoch 76. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 05:53:12,592 Batch time: 0.289s, current epoch time: 56.334s
+2021-02-28 05:53:27,077 epoch 76. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 05:53:27,077 Batch time: 0.291s, current epoch time: 70.818s
+2021-02-28 05:53:41,553 epoch 76. train 301/469, loss=0.0019, acc=100.0000
+2021-02-28 05:53:41,553 Batch time: 0.288s, current epoch time: 85.294s
+2021-02-28 05:53:56,044 epoch 76. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 05:53:56,045 Batch time: 0.298s, current epoch time: 99.786s
+2021-02-28 05:54:10,510 epoch 76. train 401/469, loss=0.0003, acc=100.0000
+2021-02-28 05:54:10,510 Batch time: 0.289s, current epoch time: 114.252s
+2021-02-28 05:54:24,999 epoch 76. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 05:54:24,999 Batch time: 0.289s, current epoch time: 128.740s
+2021-02-28 05:54:30,161 Epoch time: 133.902s
+2021-02-28 05:54:30,161 epoch 76, loss=0.0007, category acc=100.000000
+2021-02-28 05:55:09,381 epoch 76, val acc=100.0
+2021-02-28 05:55:09,382 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:55:09,382 ETA:4.2h/5.6h
+2021-02-28 05:55:10,428 epoch 77. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 05:55:10,429 Batch time: 0.277s, current epoch time: 1.047s
+2021-02-28 05:55:23,753 epoch 77. train 51/469, loss=0.0012, acc=100.0000
+2021-02-28 05:55:23,753 Batch time: 0.281s, current epoch time: 14.371s
+2021-02-28 05:55:37,682 epoch 77. train 101/469, loss=0.0008, acc=100.0000
+2021-02-28 05:55:37,683 Batch time: 0.277s, current epoch time: 28.301s
+2021-02-28 05:55:51,641 epoch 77. train 151/469, loss=0.0010, acc=100.0000
+2021-02-28 05:55:51,641 Batch time: 0.275s, current epoch time: 42.259s
+2021-02-28 05:56:05,170 epoch 77. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 05:56:05,171 Batch time: 0.289s, current epoch time: 55.789s
+2021-02-28 05:56:19,652 epoch 77. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 05:56:19,652 Batch time: 0.289s, current epoch time: 70.270s
+2021-02-28 05:56:34,064 epoch 77. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 05:56:34,065 Batch time: 0.289s, current epoch time: 84.682s
+2021-02-28 05:56:48,543 epoch 77. train 351/469, loss=0.0011, acc=100.0000
+2021-02-28 05:56:48,543 Batch time: 0.287s, current epoch time: 99.161s
+2021-02-28 05:57:03,053 epoch 77. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 05:57:03,053 Batch time: 0.287s, current epoch time: 113.671s
+2021-02-28 05:57:17,556 epoch 77. train 451/469, loss=0.0013, acc=100.0000
+2021-02-28 05:57:17,556 Batch time: 0.289s, current epoch time: 128.174s
+2021-02-28 05:57:22,756 Epoch time: 133.374s
+2021-02-28 05:57:22,756 epoch 77, loss=0.0007, category acc=100.000000
+2021-02-28 05:58:02,482 epoch 77, val acc=100.0
+2021-02-28 05:58:02,483 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 05:58:02,483 ETA:4.3h/5.6h
+2021-02-28 05:58:03,477 epoch 78. train 1/469, loss=0.0018, acc=100.0000
+2021-02-28 05:58:03,478 Batch time: 0.237s, current epoch time: 0.995s
+2021-02-28 05:58:16,312 epoch 78. train 51/469, loss=0.0006, acc=100.0000
+2021-02-28 05:58:16,313 Batch time: 0.277s, current epoch time: 13.830s
+2021-02-28 05:58:30,179 epoch 78. train 101/469, loss=0.0002, acc=100.0000
+2021-02-28 05:58:30,179 Batch time: 0.280s, current epoch time: 27.697s
+2021-02-28 05:58:44,005 epoch 78. train 151/469, loss=0.0006, acc=100.0000
+2021-02-28 05:58:44,006 Batch time: 0.276s, current epoch time: 41.523s
+2021-02-28 05:58:57,467 epoch 78. train 201/469, loss=0.0008, acc=100.0000
+2021-02-28 05:58:57,467 Batch time: 0.286s, current epoch time: 54.984s
+2021-02-28 05:59:11,915 epoch 78. train 251/469, loss=0.0010, acc=100.0000
+2021-02-28 05:59:11,915 Batch time: 0.289s, current epoch time: 69.433s
+2021-02-28 05:59:26,379 epoch 78. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 05:59:26,379 Batch time: 0.287s, current epoch time: 83.896s
+2021-02-28 05:59:40,811 epoch 78. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 05:59:40,811 Batch time: 0.284s, current epoch time: 98.328s
+2021-02-28 05:59:55,211 epoch 78. train 401/469, loss=0.0005, acc=100.0000
+2021-02-28 05:59:55,212 Batch time: 0.279s, current epoch time: 112.729s
+2021-02-28 06:00:09,699 epoch 78. train 451/469, loss=0.0007, acc=100.0000
+2021-02-28 06:00:09,700 Batch time: 0.288s, current epoch time: 127.217s
+2021-02-28 06:00:14,903 Epoch time: 132.420s
+2021-02-28 06:00:14,903 epoch 78, loss=0.0007, category acc=100.000000
+2021-02-28 06:00:54,938 epoch 78, val acc=100.0
+2021-02-28 06:00:54,939 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:00:54,939 ETA:4.3h/5.6h
+2021-02-28 06:00:55,992 epoch 79. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 06:00:55,992 Batch time: 0.324s, current epoch time: 1.053s
+2021-02-28 06:01:09,442 epoch 79. train 51/469, loss=0.0012, acc=100.0000
+2021-02-28 06:01:09,443 Batch time: 0.271s, current epoch time: 14.503s
+2021-02-28 06:01:22,633 epoch 79. train 101/469, loss=0.0015, acc=100.0000
+2021-02-28 06:01:22,633 Batch time: 0.281s, current epoch time: 27.694s
+2021-02-28 06:01:36,496 epoch 79. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 06:01:36,497 Batch time: 0.278s, current epoch time: 41.557s
+2021-02-28 06:01:49,965 epoch 79. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 06:01:49,965 Batch time: 0.289s, current epoch time: 55.026s
+2021-02-28 06:02:04,392 epoch 79. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:02:04,392 Batch time: 0.289s, current epoch time: 69.452s
+2021-02-28 06:02:18,801 epoch 79. train 301/469, loss=0.0002, acc=100.0000
+2021-02-28 06:02:18,801 Batch time: 0.289s, current epoch time: 83.862s
+2021-02-28 06:02:33,312 epoch 79. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 06:02:33,312 Batch time: 0.294s, current epoch time: 98.373s
+2021-02-28 06:02:47,764 epoch 79. train 401/469, loss=0.0002, acc=100.0000
+2021-02-28 06:02:47,764 Batch time: 0.289s, current epoch time: 112.825s
+2021-02-28 06:03:02,220 epoch 79. train 451/469, loss=0.0002, acc=100.0000
+2021-02-28 06:03:02,220 Batch time: 0.289s, current epoch time: 127.281s
+2021-02-28 06:03:07,352 Epoch time: 132.412s
+2021-02-28 06:03:07,352 epoch 79, loss=0.0007, category acc=100.000000
+2021-02-28 06:03:47,473 epoch 79, val acc=100.0
+2021-02-28 06:03:47,473 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:03:47,473 ETA:4.4h/5.6h
+2021-02-28 06:03:48,909 epoch 80. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:03:48,909 Batch time: 0.285s, current epoch time: 1.436s
+2021-02-28 06:04:02,188 epoch 80. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 06:04:02,189 Batch time: 0.270s, current epoch time: 14.715s
+2021-02-28 06:04:15,142 epoch 80. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:04:15,142 Batch time: 0.278s, current epoch time: 27.669s
+2021-02-28 06:04:28,939 epoch 80. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 06:04:28,940 Batch time: 0.259s, current epoch time: 41.466s
+2021-02-28 06:04:42,324 epoch 80. train 201/469, loss=0.0010, acc=100.0000
+2021-02-28 06:04:42,324 Batch time: 0.293s, current epoch time: 54.851s
+2021-02-28 06:04:56,756 epoch 80. train 251/469, loss=0.0005, acc=100.0000
+2021-02-28 06:04:56,757 Batch time: 0.295s, current epoch time: 69.283s
+2021-02-28 06:05:11,173 epoch 80. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 06:05:11,173 Batch time: 0.289s, current epoch time: 83.700s
+2021-02-28 06:05:25,596 epoch 80. train 351/469, loss=0.0007, acc=100.0000
+2021-02-28 06:05:25,597 Batch time: 0.289s, current epoch time: 98.123s
+2021-02-28 06:05:40,061 epoch 80. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 06:05:40,062 Batch time: 0.289s, current epoch time: 112.588s
+2021-02-28 06:05:54,557 epoch 80. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 06:05:54,557 Batch time: 0.293s, current epoch time: 127.084s
+2021-02-28 06:05:59,717 Epoch time: 132.243s
+2021-02-28 06:05:59,717 epoch 80, loss=0.0007, category acc=100.000000
+2021-02-28 06:06:40,140 epoch 80, val acc=100.0
+2021-02-28 06:06:40,142 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:06:40,142 ETA:4.4h/5.5h
+2021-02-28 06:06:41,310 epoch 81. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 06:06:41,311 Batch time: 0.278s, current epoch time: 1.169s
+2021-02-28 06:06:54,710 epoch 81. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 06:06:54,711 Batch time: 0.271s, current epoch time: 14.568s
+2021-02-28 06:07:08,171 epoch 81. train 101/469, loss=0.0002, acc=100.0000
+2021-02-28 06:07:08,172 Batch time: 0.273s, current epoch time: 28.030s
+2021-02-28 06:07:21,313 epoch 81. train 151/469, loss=0.0009, acc=100.0000
+2021-02-28 06:07:21,313 Batch time: 0.267s, current epoch time: 41.171s
+2021-02-28 06:07:34,862 epoch 81. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 06:07:34,863 Batch time: 0.282s, current epoch time: 54.720s
+2021-02-28 06:07:49,245 epoch 81. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:07:49,246 Batch time: 0.289s, current epoch time: 69.103s
+2021-02-28 06:08:03,770 epoch 81. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 06:08:03,770 Batch time: 0.289s, current epoch time: 83.628s
+2021-02-28 06:08:18,227 epoch 81. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:08:18,228 Batch time: 0.289s, current epoch time: 98.085s
+2021-02-28 06:08:32,737 epoch 81. train 401/469, loss=0.0024, acc=100.0000
+2021-02-28 06:08:32,737 Batch time: 0.287s, current epoch time: 112.595s
+2021-02-28 06:08:47,218 epoch 81. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 06:08:47,220 Batch time: 0.291s, current epoch time: 127.077s
+2021-02-28 06:08:52,380 Epoch time: 132.237s
+2021-02-28 06:08:52,380 epoch 81, loss=0.0007, category acc=100.000000
+2021-02-28 06:09:33,205 epoch 81, val acc=100.0
+2021-02-28 06:09:33,206 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:09:33,206 ETA:4.5h/5.5h
+2021-02-28 06:09:34,367 epoch 82. train 1/469, loss=0.0011, acc=100.0000
+2021-02-28 06:09:34,368 Batch time: 0.286s, current epoch time: 1.162s
+2021-02-28 06:09:47,700 epoch 82. train 51/469, loss=0.0025, acc=100.0000
+2021-02-28 06:09:47,700 Batch time: 0.268s, current epoch time: 14.494s
+2021-02-28 06:10:01,139 epoch 82. train 101/469, loss=0.0004, acc=100.0000
+2021-02-28 06:10:01,140 Batch time: 0.265s, current epoch time: 27.934s
+2021-02-28 06:10:14,074 epoch 82. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 06:10:14,075 Batch time: 0.269s, current epoch time: 40.869s
+2021-02-28 06:10:27,480 epoch 82. train 201/469, loss=0.0014, acc=100.0000
+2021-02-28 06:10:27,481 Batch time: 0.289s, current epoch time: 54.275s
+2021-02-28 06:10:41,823 epoch 82. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:10:41,823 Batch time: 0.284s, current epoch time: 68.617s
+2021-02-28 06:10:56,252 epoch 82. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 06:10:56,253 Batch time: 0.285s, current epoch time: 83.047s
+2021-02-28 06:11:10,717 epoch 82. train 351/469, loss=0.0014, acc=100.0000
+2021-02-28 06:11:10,717 Batch time: 0.289s, current epoch time: 97.511s
+2021-02-28 06:11:25,169 epoch 82. train 401/469, loss=0.0019, acc=100.0000
+2021-02-28 06:11:25,169 Batch time: 0.284s, current epoch time: 111.963s
+2021-02-28 06:11:39,645 epoch 82. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 06:11:39,645 Batch time: 0.286s, current epoch time: 126.439s
+2021-02-28 06:11:44,858 Epoch time: 131.652s
+2021-02-28 06:11:44,858 epoch 82, loss=0.0007, category acc=100.000000
+2021-02-28 06:12:26,093 epoch 82, val acc=100.0
+2021-02-28 06:12:26,094 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:12:26,094 ETA:4.5h/5.5h
+2021-02-28 06:12:27,469 epoch 83. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:12:27,469 Batch time: 0.292s, current epoch time: 1.375s
+2021-02-28 06:12:40,258 epoch 83. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 06:12:40,258 Batch time: 0.269s, current epoch time: 14.164s
+2021-02-28 06:12:53,665 epoch 83. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:12:53,665 Batch time: 0.271s, current epoch time: 27.572s
+2021-02-28 06:13:07,126 epoch 83. train 151/469, loss=0.0010, acc=100.0000
+2021-02-28 06:13:07,127 Batch time: 0.272s, current epoch time: 41.033s
+2021-02-28 06:13:19,953 epoch 83. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 06:13:19,954 Batch time: 0.238s, current epoch time: 53.860s
+2021-02-28 06:13:34,132 epoch 83. train 251/469, loss=0.0008, acc=100.0000
+2021-02-28 06:13:34,132 Batch time: 0.289s, current epoch time: 68.038s
+2021-02-28 06:13:48,596 epoch 83. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 06:13:48,596 Batch time: 0.290s, current epoch time: 82.503s
+2021-02-28 06:14:03,062 epoch 83. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 06:14:03,063 Batch time: 0.289s, current epoch time: 96.969s
+2021-02-28 06:14:17,529 epoch 83. train 401/469, loss=0.0009, acc=100.0000
+2021-02-28 06:14:17,530 Batch time: 0.289s, current epoch time: 111.436s
+2021-02-28 06:14:32,022 epoch 83. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 06:14:32,022 Batch time: 0.289s, current epoch time: 125.929s
+2021-02-28 06:14:37,140 Epoch time: 131.047s
+2021-02-28 06:14:37,141 epoch 83, loss=0.0008, category acc=100.000000
+2021-02-28 06:15:18,535 epoch 83, val acc=100.0
+2021-02-28 06:15:18,535 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:15:18,536 ETA:4.6h/5.5h
+2021-02-28 06:15:19,941 epoch 84. train 1/469, loss=0.0006, acc=100.0000
+2021-02-28 06:15:19,941 Batch time: 0.287s, current epoch time: 1.406s
+2021-02-28 06:15:33,121 epoch 84. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 06:15:33,122 Batch time: 0.175s, current epoch time: 14.586s
+2021-02-28 06:15:46,379 epoch 84. train 101/469, loss=0.0013, acc=100.0000
+2021-02-28 06:15:46,380 Batch time: 0.267s, current epoch time: 27.844s
+2021-02-28 06:15:59,832 epoch 84. train 151/469, loss=0.0001, acc=100.0000
+2021-02-28 06:15:59,833 Batch time: 0.265s, current epoch time: 41.297s
+2021-02-28 06:16:12,378 epoch 84. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 06:16:12,378 Batch time: 0.190s, current epoch time: 53.843s
+2021-02-28 06:16:26,582 epoch 84. train 251/469, loss=0.0002, acc=100.0000
+2021-02-28 06:16:26,582 Batch time: 0.289s, current epoch time: 68.047s
+2021-02-28 06:16:41,152 epoch 84. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 06:16:41,152 Batch time: 0.291s, current epoch time: 82.616s
+2021-02-28 06:16:55,747 epoch 84. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 06:16:55,747 Batch time: 0.293s, current epoch time: 97.212s
+2021-02-28 06:17:10,282 epoch 84. train 401/469, loss=0.0005, acc=100.0000
+2021-02-28 06:17:10,282 Batch time: 0.293s, current epoch time: 111.747s
+2021-02-28 06:17:24,747 epoch 84. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 06:17:24,748 Batch time: 0.292s, current epoch time: 126.212s
+2021-02-28 06:17:29,851 Epoch time: 131.316s
+2021-02-28 06:17:29,851 epoch 84, loss=0.0007, category acc=100.000000
+2021-02-28 06:18:11,005 epoch 84, val acc=100.0
+2021-02-28 06:18:11,006 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:18:11,006 ETA:4.6h/5.5h
+2021-02-28 06:18:11,955 epoch 85. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:18:11,955 Batch time: 0.296s, current epoch time: 0.949s
+2021-02-28 06:18:26,504 epoch 85. train 51/469, loss=0.0001, acc=100.0000
+2021-02-28 06:18:26,504 Batch time: 0.090s, current epoch time: 15.498s
+2021-02-28 06:18:37,783 epoch 85. train 101/469, loss=0.0005, acc=100.0000
+2021-02-28 06:18:37,784 Batch time: 0.275s, current epoch time: 26.777s
+2021-02-28 06:18:51,259 epoch 85. train 151/469, loss=0.0004, acc=100.0000
+2021-02-28 06:18:51,260 Batch time: 0.247s, current epoch time: 40.254s
+2021-02-28 06:19:04,758 epoch 85. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 06:19:04,758 Batch time: 0.268s, current epoch time: 53.752s
+2021-02-28 06:19:16,488 epoch 85. train 251/469, loss=0.0005, acc=100.0000
+2021-02-28 06:19:16,488 Batch time: 0.288s, current epoch time: 65.482s
+2021-02-28 06:19:31,056 epoch 85. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 06:19:31,057 Batch time: 0.289s, current epoch time: 80.050s
+2021-02-28 06:19:45,518 epoch 85. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:19:45,518 Batch time: 0.289s, current epoch time: 94.512s
+2021-02-28 06:20:00,046 epoch 85. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:20:00,046 Batch time: 0.296s, current epoch time: 109.040s
+2021-02-28 06:20:14,640 epoch 85. train 451/469, loss=0.0009, acc=100.0000
+2021-02-28 06:20:14,640 Batch time: 0.296s, current epoch time: 123.634s
+2021-02-28 06:20:19,824 Epoch time: 128.818s
+2021-02-28 06:20:19,824 epoch 85, loss=0.0007, category acc=100.000000
+2021-02-28 06:21:01,461 epoch 85, val acc=100.0
+2021-02-28 06:21:01,462 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:21:01,462 ETA:4.7h/5.5h
+2021-02-28 06:21:02,712 epoch 86. train 1/469, loss=0.0002, acc=100.0000
+2021-02-28 06:21:02,712 Batch time: 0.288s, current epoch time: 1.251s
+2021-02-28 06:21:17,333 epoch 86. train 51/469, loss=0.0017, acc=100.0000
+2021-02-28 06:21:17,333 Batch time: 0.289s, current epoch time: 15.871s
+2021-02-28 06:21:30,113 epoch 86. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 06:21:30,113 Batch time: 0.275s, current epoch time: 28.652s
+2021-02-28 06:21:43,598 epoch 86. train 151/469, loss=0.0023, acc=100.0000
+2021-02-28 06:21:43,599 Batch time: 0.271s, current epoch time: 42.137s
+2021-02-28 06:21:57,066 epoch 86. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 06:21:57,066 Batch time: 0.269s, current epoch time: 55.604s
+2021-02-28 06:22:09,687 epoch 86. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:22:09,687 Batch time: 0.287s, current epoch time: 68.226s
+2021-02-28 06:22:24,081 epoch 86. train 301/469, loss=0.0019, acc=100.0000
+2021-02-28 06:22:24,082 Batch time: 0.289s, current epoch time: 82.620s
+2021-02-28 06:22:38,548 epoch 86. train 351/469, loss=0.0005, acc=100.0000
+2021-02-28 06:22:38,549 Batch time: 0.299s, current epoch time: 97.087s
+2021-02-28 06:22:53,023 epoch 86. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:22:53,024 Batch time: 0.299s, current epoch time: 111.562s
+2021-02-28 06:23:07,490 epoch 86. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 06:23:07,490 Batch time: 0.288s, current epoch time: 126.028s
+2021-02-28 06:23:12,572 Epoch time: 131.111s
+2021-02-28 06:23:12,573 epoch 86, loss=0.0007, category acc=100.000000
+2021-02-28 06:23:53,787 epoch 86, val acc=100.0
+2021-02-28 06:23:53,788 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:23:53,788 ETA:4.7h/5.5h
+2021-02-28 06:23:55,105 epoch 87. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:23:55,105 Batch time: 0.286s, current epoch time: 1.317s
+2021-02-28 06:24:09,536 epoch 87. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 06:24:09,536 Batch time: 0.286s, current epoch time: 15.748s
+2021-02-28 06:24:23,096 epoch 87. train 101/469, loss=0.0004, acc=100.0000
+2021-02-28 06:24:23,097 Batch time: 0.273s, current epoch time: 29.309s
+2021-02-28 06:24:36,052 epoch 87. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 06:24:36,053 Batch time: 0.270s, current epoch time: 42.265s
+2021-02-28 06:24:49,458 epoch 87. train 201/469, loss=0.0010, acc=100.0000
+2021-02-28 06:24:49,459 Batch time: 0.265s, current epoch time: 55.671s
+2021-02-28 06:25:02,368 epoch 87. train 251/469, loss=0.0001, acc=100.0000
+2021-02-28 06:25:02,369 Batch time: 0.283s, current epoch time: 68.581s
+2021-02-28 06:25:16,088 epoch 87. train 301/469, loss=0.0002, acc=100.0000
+2021-02-28 06:25:16,089 Batch time: 0.280s, current epoch time: 82.301s
+2021-02-28 06:25:30,514 epoch 87. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 06:25:30,515 Batch time: 0.291s, current epoch time: 96.727s
+2021-02-28 06:25:44,912 epoch 87. train 401/469, loss=0.0021, acc=100.0000
+2021-02-28 06:25:44,912 Batch time: 0.277s, current epoch time: 111.124s
+2021-02-28 06:25:59,395 epoch 87. train 451/469, loss=0.0006, acc=100.0000
+2021-02-28 06:25:59,395 Batch time: 0.294s, current epoch time: 125.607s
+2021-02-28 06:26:04,577 Epoch time: 130.789s
+2021-02-28 06:26:04,577 epoch 87, loss=0.0007, category acc=100.000000
+2021-02-28 06:26:46,039 epoch 87, val acc=100.0
+2021-02-28 06:26:46,040 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:26:46,040 ETA:4.8h/5.5h
+2021-02-28 06:26:47,137 epoch 88. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:26:47,138 Batch time: 0.290s, current epoch time: 1.098s
+2021-02-28 06:27:01,934 epoch 88. train 51/469, loss=0.0005, acc=100.0000
+2021-02-28 06:27:01,935 Batch time: 0.291s, current epoch time: 15.895s
+2021-02-28 06:27:15,459 epoch 88. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:27:15,459 Batch time: 0.274s, current epoch time: 29.419s
+2021-02-28 06:27:28,525 epoch 88. train 151/469, loss=0.0003, acc=100.0000
+2021-02-28 06:27:28,525 Batch time: 0.273s, current epoch time: 42.485s
+2021-02-28 06:27:42,030 epoch 88. train 201/469, loss=0.0011, acc=100.0000
+2021-02-28 06:27:42,030 Batch time: 0.274s, current epoch time: 55.990s
+2021-02-28 06:27:55,147 epoch 88. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 06:27:55,147 Batch time: 0.279s, current epoch time: 69.108s
+2021-02-28 06:28:08,577 epoch 88. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 06:28:08,577 Batch time: 0.286s, current epoch time: 82.537s
+2021-02-28 06:28:23,084 epoch 88. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 06:28:23,085 Batch time: 0.290s, current epoch time: 97.045s
+2021-02-28 06:28:37,573 epoch 88. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:28:37,573 Batch time: 0.290s, current epoch time: 111.533s
+2021-02-28 06:28:52,049 epoch 88. train 451/469, loss=0.0019, acc=100.0000
+2021-02-28 06:28:52,049 Batch time: 0.289s, current epoch time: 126.010s
+2021-02-28 06:28:57,152 Epoch time: 131.112s
+2021-02-28 06:28:57,152 epoch 88, loss=0.0007, category acc=100.000000
+2021-02-28 06:29:38,597 epoch 88, val acc=100.0
+2021-02-28 06:29:38,598 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:29:38,598 ETA:4.8h/5.5h
+2021-02-28 06:29:39,591 epoch 89. train 1/469, loss=0.0002, acc=100.0000
+2021-02-28 06:29:39,591 Batch time: 0.327s, current epoch time: 0.993s
+2021-02-28 06:29:54,253 epoch 89. train 51/469, loss=0.0001, acc=100.0000
+2021-02-28 06:29:54,254 Batch time: 0.281s, current epoch time: 15.655s
+2021-02-28 06:30:07,858 epoch 89. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:30:07,858 Batch time: 0.279s, current epoch time: 29.260s
+2021-02-28 06:30:21,669 epoch 89. train 151/469, loss=0.0012, acc=100.0000
+2021-02-28 06:30:21,669 Batch time: 0.267s, current epoch time: 43.071s
+2021-02-28 06:30:34,562 epoch 89. train 201/469, loss=0.0019, acc=100.0000
+2021-02-28 06:30:34,562 Batch time: 0.268s, current epoch time: 55.964s
+2021-02-28 06:30:47,653 epoch 89. train 251/469, loss=0.0010, acc=100.0000
+2021-02-28 06:30:47,654 Batch time: 0.277s, current epoch time: 69.055s
+2021-02-28 06:31:01,482 epoch 89. train 301/469, loss=0.0008, acc=100.0000
+2021-02-28 06:31:01,482 Batch time: 0.284s, current epoch time: 82.884s
+2021-02-28 06:31:15,117 epoch 89. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:31:15,118 Batch time: 0.289s, current epoch time: 96.519s
+2021-02-28 06:31:29,529 epoch 89. train 401/469, loss=0.0007, acc=100.0000
+2021-02-28 06:31:29,529 Batch time: 0.289s, current epoch time: 110.931s
+2021-02-28 06:31:44,001 epoch 89. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 06:31:44,001 Batch time: 0.289s, current epoch time: 125.403s
+2021-02-28 06:31:49,193 Epoch time: 130.594s
+2021-02-28 06:31:49,193 epoch 89, loss=0.0006, category acc=100.000000
+2021-02-28 06:32:30,583 epoch 89, val acc=100.0
+2021-02-28 06:32:30,583 best epoch 42, best val acc=100.0000, best val acc last10 epoch=0, val acc last10=0.0000
+2021-02-28 06:32:30,583 ETA:4.9h/5.5h
+2021-02-28 06:32:32,006 epoch 90. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 06:32:32,006 Batch time: 0.290s, current epoch time: 1.423s
+2021-02-28 06:32:46,467 epoch 90. train 51/469, loss=0.0009, acc=100.0000
+2021-02-28 06:32:46,467 Batch time: 0.289s, current epoch time: 15.884s
+2021-02-28 06:33:00,097 epoch 90. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 06:33:00,098 Batch time: 0.282s, current epoch time: 29.514s
+2021-02-28 06:33:13,992 epoch 90. train 151/469, loss=0.0011, acc=100.0000
+2021-02-28 06:33:13,993 Batch time: 0.284s, current epoch time: 43.409s
+2021-02-28 06:33:27,027 epoch 90. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 06:33:27,028 Batch time: 0.268s, current epoch time: 56.444s
+2021-02-28 06:33:40,057 epoch 90. train 251/469, loss=0.0005, acc=100.0000
+2021-02-28 06:33:40,057 Batch time: 0.279s, current epoch time: 69.474s
+2021-02-28 06:33:53,974 epoch 90. train 301/469, loss=0.0005, acc=100.0000
+2021-02-28 06:33:53,975 Batch time: 0.277s, current epoch time: 83.391s
+2021-02-28 06:34:07,443 epoch 90. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 06:34:07,443 Batch time: 0.301s, current epoch time: 96.860s
+2021-02-28 06:34:21,863 epoch 90. train 401/469, loss=0.0006, acc=100.0000
+2021-02-28 06:34:21,864 Batch time: 0.287s, current epoch time: 111.280s
+2021-02-28 06:34:36,302 epoch 90. train 451/469, loss=0.0005, acc=100.0000
+2021-02-28 06:34:36,303 Batch time: 0.288s, current epoch time: 125.719s
+2021-02-28 06:34:41,507 Epoch time: 130.923s
+2021-02-28 06:34:41,507 epoch 90, loss=0.0007, category acc=100.000000
+2021-02-28 06:35:22,936 epoch 90, val acc=100.0
+2021-02-28 06:35:22,938 best epoch 42, best val acc=100.0000, best val acc last10 epoch=90, val acc last10=100.0000
+2021-02-28 06:35:22,938 ETA:4.9h/5.5h
+2021-02-28 06:35:24,366 epoch 91. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:35:24,367 Batch time: 0.293s, current epoch time: 1.429s
+2021-02-28 06:35:38,803 epoch 91. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 06:35:38,803 Batch time: 0.283s, current epoch time: 15.865s
+2021-02-28 06:35:52,378 epoch 91. train 101/469, loss=0.0002, acc=100.0000
+2021-02-28 06:35:52,379 Batch time: 0.275s, current epoch time: 29.441s
+2021-02-28 06:36:06,235 epoch 91. train 151/469, loss=0.0007, acc=100.0000
+2021-02-28 06:36:06,235 Batch time: 0.285s, current epoch time: 43.297s
+2021-02-28 06:36:20,115 epoch 91. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 06:36:20,115 Batch time: 0.269s, current epoch time: 57.177s
+2021-02-28 06:36:32,518 epoch 91. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:36:32,519 Batch time: 0.282s, current epoch time: 69.580s
+2021-02-28 06:36:46,371 epoch 91. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 06:36:46,371 Batch time: 0.272s, current epoch time: 83.433s
+2021-02-28 06:37:00,236 epoch 91. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:37:00,237 Batch time: 0.275s, current epoch time: 97.299s
+2021-02-28 06:37:14,013 epoch 91. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:37:14,014 Batch time: 0.288s, current epoch time: 111.076s
+2021-02-28 06:37:28,502 epoch 91. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 06:37:28,503 Batch time: 0.288s, current epoch time: 125.564s
+2021-02-28 06:37:33,716 Epoch time: 130.778s
+2021-02-28 06:37:33,716 epoch 91, loss=0.0006, category acc=100.000000
+2021-02-28 06:38:14,920 epoch 91, val acc=100.0
+2021-02-28 06:38:14,921 best epoch 42, best val acc=100.0000, best val acc last10 epoch=91, val acc last10=100.0000
+2021-02-28 06:38:14,921 ETA:5.0h/5.5h
+2021-02-28 06:38:16,353 epoch 92. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 06:38:16,353 Batch time: 0.298s, current epoch time: 1.432s
+2021-02-28 06:38:30,760 epoch 92. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 06:38:30,761 Batch time: 0.289s, current epoch time: 15.840s
+2021-02-28 06:38:44,511 epoch 92. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:38:44,512 Batch time: 0.279s, current epoch time: 29.591s
+2021-02-28 06:38:58,286 epoch 92. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 06:38:58,286 Batch time: 0.271s, current epoch time: 43.365s
+2021-02-28 06:39:12,119 epoch 92. train 201/469, loss=0.0006, acc=100.0000
+2021-02-28 06:39:12,119 Batch time: 0.278s, current epoch time: 57.198s
+2021-02-28 06:39:23,600 epoch 92. train 251/469, loss=0.0006, acc=100.0000
+2021-02-28 06:39:23,601 Batch time: 0.277s, current epoch time: 68.680s
+2021-02-28 06:39:37,447 epoch 92. train 301/469, loss=0.0012, acc=100.0000
+2021-02-28 06:39:37,448 Batch time: 0.270s, current epoch time: 82.527s
+2021-02-28 06:39:51,347 epoch 92. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:39:51,347 Batch time: 0.277s, current epoch time: 96.426s
+2021-02-28 06:40:04,717 epoch 92. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:40:04,717 Batch time: 0.292s, current epoch time: 109.796s
+2021-02-28 06:40:19,112 epoch 92. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 06:40:19,113 Batch time: 0.296s, current epoch time: 124.192s
+2021-02-28 06:40:24,297 Epoch time: 129.376s
+2021-02-28 06:40:24,297 epoch 92, loss=0.0006, category acc=100.000000
+2021-02-28 06:41:05,719 epoch 92, val acc=100.0
+2021-02-28 06:41:05,720 best epoch 42, best val acc=100.0000, best val acc last10 epoch=92, val acc last10=100.0000
+2021-02-28 06:41:05,720 ETA:5.0h/5.4h
+2021-02-28 06:41:06,804 epoch 93. train 1/469, loss=0.0015, acc=100.0000
+2021-02-28 06:41:06,804 Batch time: 0.323s, current epoch time: 1.084s
+2021-02-28 06:41:21,591 epoch 93. train 51/469, loss=0.0007, acc=100.0000
+2021-02-28 06:41:21,592 Batch time: 0.282s, current epoch time: 15.872s
+2021-02-28 06:41:35,423 epoch 93. train 101/469, loss=0.0004, acc=100.0000
+2021-02-28 06:41:35,424 Batch time: 0.277s, current epoch time: 29.703s
+2021-02-28 06:41:49,213 epoch 93. train 151/469, loss=0.0022, acc=100.0000
+2021-02-28 06:41:49,214 Batch time: 0.263s, current epoch time: 43.493s
+2021-02-28 06:42:03,021 epoch 93. train 201/469, loss=0.0016, acc=100.0000
+2021-02-28 06:42:03,022 Batch time: 0.288s, current epoch time: 57.302s
+2021-02-28 06:42:16,519 epoch 93. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 06:42:16,519 Batch time: 0.291s, current epoch time: 70.799s
+2021-02-28 06:42:30,057 epoch 93. train 301/469, loss=0.0014, acc=100.0000
+2021-02-28 06:42:30,058 Batch time: 0.280s, current epoch time: 84.337s
+2021-02-28 06:42:43,930 epoch 93. train 351/469, loss=0.0004, acc=100.0000
+2021-02-28 06:42:43,930 Batch time: 0.280s, current epoch time: 98.210s
+2021-02-28 06:42:57,790 epoch 93. train 401/469, loss=0.0005, acc=100.0000
+2021-02-28 06:42:57,790 Batch time: 0.275s, current epoch time: 112.070s
+2021-02-28 06:43:11,568 epoch 93. train 451/469, loss=0.0002, acc=100.0000
+2021-02-28 06:43:11,569 Batch time: 0.284s, current epoch time: 125.849s
+2021-02-28 06:43:16,673 Epoch time: 130.952s
+2021-02-28 06:43:16,673 epoch 93, loss=0.0007, category acc=100.000000
+2021-02-28 06:43:57,985 epoch 93, val acc=100.0
+2021-02-28 06:43:57,987 best epoch 42, best val acc=100.0000, best val acc last10 epoch=93, val acc last10=100.0000
+2021-02-28 06:43:57,987 ETA:5.1h/5.4h
+2021-02-28 06:43:59,027 epoch 94. train 1/469, loss=0.0007, acc=100.0000
+2021-02-28 06:43:59,027 Batch time: 0.292s, current epoch time: 1.041s
+2021-02-28 06:44:13,784 epoch 94. train 51/469, loss=0.0004, acc=100.0000
+2021-02-28 06:44:13,785 Batch time: 0.289s, current epoch time: 15.798s
+2021-02-28 06:44:27,782 epoch 94. train 101/469, loss=0.0007, acc=100.0000
+2021-02-28 06:44:27,782 Batch time: 0.286s, current epoch time: 29.796s
+2021-02-28 06:44:41,518 epoch 94. train 151/469, loss=0.0008, acc=100.0000
+2021-02-28 06:44:41,518 Batch time: 0.278s, current epoch time: 43.531s
+2021-02-28 06:44:55,337 epoch 94. train 201/469, loss=0.0001, acc=100.0000
+2021-02-28 06:44:55,337 Batch time: 0.273s, current epoch time: 57.350s
+2021-02-28 06:45:08,643 epoch 94. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 06:45:08,644 Batch time: 0.194s, current epoch time: 70.657s
+2021-02-28 06:45:22,243 epoch 94. train 301/469, loss=0.0007, acc=100.0000
+2021-02-28 06:45:22,243 Batch time: 0.277s, current epoch time: 84.256s
+2021-02-28 06:45:36,059 epoch 94. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 06:45:36,060 Batch time: 0.284s, current epoch time: 98.073s
+2021-02-28 06:45:49,876 epoch 94. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:45:49,876 Batch time: 0.275s, current epoch time: 111.889s
+2021-02-28 06:46:03,154 epoch 94. train 451/469, loss=0.0008, acc=100.0000
+2021-02-28 06:46:03,154 Batch time: 0.289s, current epoch time: 125.168s
+2021-02-28 06:46:08,304 Epoch time: 130.317s
+2021-02-28 06:46:08,304 epoch 94, loss=0.0006, category acc=100.000000
+2021-02-28 06:46:49,835 epoch 94, val acc=100.0
+2021-02-28 06:46:49,835 best epoch 42, best val acc=100.0000, best val acc last10 epoch=94, val acc last10=100.0000
+2021-02-28 06:46:49,836 ETA:5.1h/5.4h
+2021-02-28 06:46:51,156 epoch 95. train 1/469, loss=0.0003, acc=100.0000
+2021-02-28 06:46:51,157 Batch time: 0.292s, current epoch time: 1.321s
+2021-02-28 06:47:05,650 epoch 95. train 51/469, loss=0.0006, acc=100.0000
+2021-02-28 06:47:05,650 Batch time: 0.289s, current epoch time: 15.814s
+2021-02-28 06:47:19,630 epoch 95. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:47:19,631 Batch time: 0.228s, current epoch time: 29.795s
+2021-02-28 06:47:33,339 epoch 95. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 06:47:33,339 Batch time: 0.279s, current epoch time: 43.504s
+2021-02-28 06:47:47,187 epoch 95. train 201/469, loss=0.0001, acc=100.0000
+2021-02-28 06:47:47,188 Batch time: 0.276s, current epoch time: 57.352s
+2021-02-28 06:48:00,868 epoch 95. train 251/469, loss=0.0017, acc=100.0000
+2021-02-28 06:48:00,869 Batch time: 0.192s, current epoch time: 71.033s
+2021-02-28 06:48:14,922 epoch 95. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 06:48:14,922 Batch time: 0.291s, current epoch time: 85.087s
+2021-02-28 06:48:28,301 epoch 95. train 351/469, loss=0.0007, acc=100.0000
+2021-02-28 06:48:28,301 Batch time: 0.275s, current epoch time: 98.465s
+2021-02-28 06:48:42,202 epoch 95. train 401/469, loss=0.0002, acc=100.0000
+2021-02-28 06:48:42,203 Batch time: 0.276s, current epoch time: 112.367s
+2021-02-28 06:48:55,982 epoch 95. train 451/469, loss=0.0002, acc=100.0000
+2021-02-28 06:48:55,982 Batch time: 0.277s, current epoch time: 126.147s
+2021-02-28 06:49:00,656 Epoch time: 130.821s
+2021-02-28 06:49:00,656 epoch 95, loss=0.0007, category acc=100.000000
+2021-02-28 06:49:42,318 epoch 95, val acc=100.0
+2021-02-28 06:49:42,319 best epoch 42, best val acc=100.0000, best val acc last10 epoch=95, val acc last10=100.0000
+2021-02-28 06:49:42,319 ETA:5.2h/5.4h
+2021-02-28 06:49:43,540 epoch 96. train 1/469, loss=0.0002, acc=100.0000
+2021-02-28 06:49:43,541 Batch time: 0.293s, current epoch time: 1.222s
+2021-02-28 06:49:58,231 epoch 96. train 51/469, loss=0.0013, acc=100.0000
+2021-02-28 06:49:58,232 Batch time: 0.297s, current epoch time: 15.913s
+2021-02-28 06:50:12,204 epoch 96. train 101/469, loss=0.0003, acc=100.0000
+2021-02-28 06:50:12,204 Batch time: 0.189s, current epoch time: 29.885s
+2021-02-28 06:50:26,003 epoch 96. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 06:50:26,003 Batch time: 0.284s, current epoch time: 43.684s
+2021-02-28 06:50:39,771 epoch 96. train 201/469, loss=0.0004, acc=100.0000
+2021-02-28 06:50:39,771 Batch time: 0.278s, current epoch time: 57.452s
+2021-02-28 06:50:53,512 epoch 96. train 251/469, loss=0.0002, acc=100.0000
+2021-02-28 06:50:53,512 Batch time: 0.207s, current epoch time: 71.193s
+2021-02-28 06:51:07,580 epoch 96. train 301/469, loss=0.0006, acc=100.0000
+2021-02-28 06:51:07,581 Batch time: 0.291s, current epoch time: 85.262s
+2021-02-28 06:51:21,368 epoch 96. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 06:51:21,369 Batch time: 0.282s, current epoch time: 99.049s
+2021-02-28 06:51:35,207 epoch 96. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:51:35,208 Batch time: 0.282s, current epoch time: 112.889s
+2021-02-28 06:51:49,106 epoch 96. train 451/469, loss=0.0003, acc=100.0000
+2021-02-28 06:51:49,107 Batch time: 0.275s, current epoch time: 126.788s
+2021-02-28 06:51:54,117 Epoch time: 131.798s
+2021-02-28 06:51:54,117 epoch 96, loss=0.0007, category acc=99.996667
+2021-02-28 06:52:34,983 epoch 96, val acc=100.0
+2021-02-28 06:52:34,984 best epoch 42, best val acc=100.0000, best val acc last10 epoch=96, val acc last10=100.0000
+2021-02-28 06:52:34,984 ETA:5.2h/5.4h
+2021-02-28 06:52:36,361 epoch 97. train 1/469, loss=0.0024, acc=100.0000
+2021-02-28 06:52:36,361 Batch time: 0.293s, current epoch time: 1.376s
+2021-02-28 06:52:50,804 epoch 97. train 51/469, loss=0.0003, acc=100.0000
+2021-02-28 06:52:50,805 Batch time: 0.289s, current epoch time: 15.820s
+2021-02-28 06:53:04,918 epoch 97. train 101/469, loss=0.0001, acc=100.0000
+2021-02-28 06:53:04,918 Batch time: 0.190s, current epoch time: 29.933s
+2021-02-28 06:53:18,547 epoch 97. train 151/469, loss=0.0009, acc=100.0000
+2021-02-28 06:53:18,548 Batch time: 0.275s, current epoch time: 43.563s
+2021-02-28 06:53:32,316 epoch 97. train 201/469, loss=0.0002, acc=100.0000
+2021-02-28 06:53:32,316 Batch time: 0.277s, current epoch time: 57.332s
+2021-02-28 06:53:46,110 epoch 97. train 251/469, loss=0.0003, acc=100.0000
+2021-02-28 06:53:46,110 Batch time: 0.281s, current epoch time: 71.125s
+2021-02-28 06:53:59,918 epoch 97. train 301/469, loss=0.0004, acc=100.0000
+2021-02-28 06:53:59,918 Batch time: 0.289s, current epoch time: 84.934s
+2021-02-28 06:54:14,393 epoch 97. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 06:54:14,393 Batch time: 0.293s, current epoch time: 99.409s
+2021-02-28 06:54:27,851 epoch 97. train 401/469, loss=0.0004, acc=100.0000
+2021-02-28 06:54:27,851 Batch time: 0.279s, current epoch time: 112.867s
+2021-02-28 06:54:41,750 epoch 97. train 451/469, loss=0.0011, acc=100.0000
+2021-02-28 06:54:41,750 Batch time: 0.272s, current epoch time: 126.766s
+2021-02-28 06:54:46,672 Epoch time: 131.688s
+2021-02-28 06:54:46,672 epoch 97, loss=0.0007, category acc=100.000000
+2021-02-28 06:55:27,325 epoch 97, val acc=100.0
+2021-02-28 06:55:27,326 best epoch 42, best val acc=100.0000, best val acc last10 epoch=97, val acc last10=100.0000
+2021-02-28 06:55:27,326 ETA:5.2h/5.4h
+2021-02-28 06:55:28,773 epoch 98. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:55:28,774 Batch time: 0.289s, current epoch time: 1.448s
+2021-02-28 06:55:43,358 epoch 98. train 51/469, loss=0.0006, acc=100.0000
+2021-02-28 06:55:43,358 Batch time: 0.289s, current epoch time: 16.033s
+2021-02-28 06:55:57,699 epoch 98. train 101/469, loss=0.0008, acc=100.0000
+2021-02-28 06:55:57,699 Batch time: 0.190s, current epoch time: 30.374s
+2021-02-28 06:56:11,207 epoch 98. train 151/469, loss=0.0005, acc=100.0000
+2021-02-28 06:56:11,207 Batch time: 0.269s, current epoch time: 43.881s
+2021-02-28 06:56:25,098 epoch 98. train 201/469, loss=0.0003, acc=100.0000
+2021-02-28 06:56:25,099 Batch time: 0.276s, current epoch time: 57.773s
+2021-02-28 06:56:39,011 epoch 98. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 06:56:39,012 Batch time: 0.280s, current epoch time: 71.686s
+2021-02-28 06:56:52,894 epoch 98. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 06:56:52,895 Batch time: 0.289s, current epoch time: 85.569s
+2021-02-28 06:57:07,400 epoch 98. train 351/469, loss=0.0002, acc=100.0000
+2021-02-28 06:57:07,401 Batch time: 0.284s, current epoch time: 100.075s
+2021-02-28 06:57:21,041 epoch 98. train 401/469, loss=0.0007, acc=100.0000
+2021-02-28 06:57:21,041 Batch time: 0.269s, current epoch time: 113.715s
+2021-02-28 06:57:34,855 epoch 98. train 451/469, loss=0.0004, acc=100.0000
+2021-02-28 06:57:34,855 Batch time: 0.274s, current epoch time: 127.529s
+2021-02-28 06:57:39,741 Epoch time: 132.415s
+2021-02-28 06:57:39,741 epoch 98, loss=0.0006, category acc=100.000000
+2021-02-28 06:58:20,077 epoch 98, val acc=100.0
+2021-02-28 06:58:20,078 best epoch 42, best val acc=100.0000, best val acc last10 epoch=98, val acc last10=100.0000
+2021-02-28 06:58:20,078 ETA:5.3h/5.4h
+2021-02-28 06:58:21,145 epoch 99. train 1/469, loss=0.0005, acc=100.0000
+2021-02-28 06:58:21,145 Batch time: 0.280s, current epoch time: 1.067s
+2021-02-28 06:58:35,948 epoch 99. train 51/469, loss=0.0002, acc=100.0000
+2021-02-28 06:58:35,949 Batch time: 0.290s, current epoch time: 15.870s
+2021-02-28 06:58:50,338 epoch 99. train 101/469, loss=0.0002, acc=100.0000
+2021-02-28 06:58:50,339 Batch time: 0.201s, current epoch time: 30.260s
+2021-02-28 06:59:03,717 epoch 99. train 151/469, loss=0.0002, acc=100.0000
+2021-02-28 06:59:03,718 Batch time: 0.277s, current epoch time: 43.639s
+2021-02-28 06:59:17,500 epoch 99. train 201/469, loss=0.0009, acc=100.0000
+2021-02-28 06:59:17,500 Batch time: 0.285s, current epoch time: 57.422s
+2021-02-28 06:59:31,368 epoch 99. train 251/469, loss=0.0004, acc=100.0000
+2021-02-28 06:59:31,368 Batch time: 0.276s, current epoch time: 71.289s
+2021-02-28 06:59:44,567 epoch 99. train 301/469, loss=0.0007, acc=100.0000
+2021-02-28 06:59:44,568 Batch time: 0.278s, current epoch time: 84.489s
+2021-02-28 06:59:58,309 epoch 99. train 351/469, loss=0.0003, acc=100.0000
+2021-02-28 06:59:58,309 Batch time: 0.269s, current epoch time: 98.230s
+2021-02-28 07:00:12,169 epoch 99. train 401/469, loss=0.0007, acc=100.0000
+2021-02-28 07:00:12,169 Batch time: 0.285s, current epoch time: 112.091s
+2021-02-28 07:00:21,367 epoch 99. train 451/469, loss=0.0018, acc=100.0000
+2021-02-28 07:00:21,367 Batch time: 0.180s, current epoch time: 121.289s
+2021-02-28 07:00:24,526 Epoch time: 124.447s
+2021-02-28 07:00:24,526 epoch 99, loss=0.0006, category acc=100.000000
+2021-02-28 07:00:49,990 epoch 99, val acc=100.0
+2021-02-28 07:00:49,991 best epoch 42, best val acc=100.0000, best val acc last10 epoch=99, val acc last10=100.0000
+2021-02-28 07:00:49,991 ETA:5.3h/5.4h
+2021-02-28 07:00:51,011 epoch 100. train 1/469, loss=0.0002, acc=100.0000
+2021-02-28 07:00:51,012 Batch time: 0.193s, current epoch time: 1.021s
+2021-02-28 07:01:01,016 epoch 100. train 51/469, loss=0.0007, acc=100.0000
+2021-02-28 07:01:01,016 Batch time: 0.195s, current epoch time: 11.025s
+2021-02-28 07:01:10,786 epoch 100. train 101/469, loss=0.0008, acc=100.0000
+2021-02-28 07:01:10,786 Batch time: 0.195s, current epoch time: 20.795s
+2021-02-28 07:01:20,542 epoch 100. train 151/469, loss=0.0007, acc=100.0000
+2021-02-28 07:01:20,542 Batch time: 0.195s, current epoch time: 30.551s
+2021-02-28 07:01:30,296 epoch 100. train 201/469, loss=0.0005, acc=100.0000
+2021-02-28 07:01:30,296 Batch time: 0.195s, current epoch time: 40.305s
+2021-02-28 07:01:40,071 epoch 100. train 251/469, loss=0.0007, acc=100.0000
+2021-02-28 07:01:40,071 Batch time: 0.197s, current epoch time: 50.080s
+2021-02-28 07:01:49,819 epoch 100. train 301/469, loss=0.0003, acc=100.0000
+2021-02-28 07:01:49,819 Batch time: 0.195s, current epoch time: 59.828s
+2021-02-28 07:01:59,585 epoch 100. train 351/469, loss=0.0006, acc=100.0000
+2021-02-28 07:01:59,586 Batch time: 0.195s, current epoch time: 69.595s
+2021-02-28 07:02:09,105 epoch 100. train 401/469, loss=0.0012, acc=100.0000
+2021-02-28 07:02:09,106 Batch time: 0.089s, current epoch time: 79.115s
+2021-02-28 07:02:17,004 epoch 100. train 451/469, loss=0.0009, acc=100.0000
+2021-02-28 07:02:17,004 Batch time: 0.181s, current epoch time: 87.013s
+2021-02-28 07:02:20,173 Epoch time: 90.181s
+2021-02-28 07:02:20,173 epoch 100, loss=0.0007, category acc=100.000000
+2021-02-28 07:02:45,557 epoch 100, val acc=100.0
+2021-02-28 07:02:45,558 best epoch 42, best val acc=100.0000, best val acc last10 epoch=100, val acc last10=100.0000
+2021-02-28 07:02:45,558 ETA:5.4h/5.4h
+2021-02-28 07:02:45,558 Total epoch training time: 14881.616s, average: 148.816s
+2021-02-28 07:02:45,558 ./exp_log/finger-classCategory-ConvNet-pretrain-None/0.01_64_100_2021-02-28 01:40:20
+2021-02-28 07:02:45,601 Best Epoch 42, best val acc=100.0000
+2021-02-28 07:03:13,234 Test acc=100.0000
