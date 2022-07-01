@@ -2,8 +2,7 @@
 
 ## Outline
 
-Recent advances on Out-of-Distribution (OoD) generalization reveal the robustness of deep learning models against different kinds of distribution shifts in real-world applications.
-In this work, we propose robust Neural Architecture Search for OoD generalization (NAS-OoD), which optimizes the architecture with respect to its performance on the generated OoD data by gradient descent.
+Recent advances on Out-of-Distribution (OoD) generalization reveal the robustness of deep learning models against different kinds of distribution shifts in real-world applications. In this work, we propose robust Neural Architecture Search for OoD generalization (NAS-OoD), which optimizes the architecture with respect to its performance on the generated OoD data by gradient descent.
 Extensive experimental results show that NAS-OoD achieves superior performance on various OoD generalization benchmarks with deep models having a much fewer number of parameters.
 
 ### Prerequisites
