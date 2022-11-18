@@ -8,6 +8,8 @@ cudnn.enabled = True
 import numpy as np
 import torch
 
+from tensorboardX import SummaryWriter
+
 sys.path.insert(0, osp.join(osp.dirname(osp.abspath(__file__)), '../'))
 
 from nas_ood_single import Trainer
@@ -90,14 +92,15 @@ def main():
     if torch.cuda.is_available():
         torch.backends.cudnn.enabled = True
         torch.backends.cudnn.benchmark = True
-        
+
+    writer = SummaryWriter(args.save_path)        
     
     torch.cuda.set_device(args.gpu)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.cuda.manual_seed(args.seed)
     
-    trainer = Trainer(args)
+    trainer = Trainer(args, logging, writer)
     trainer.train()
 
 
